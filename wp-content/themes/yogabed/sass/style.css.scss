@@ -177,7 +177,14 @@ header#masthead {
 }
 
 .site-info { display: none; }
-.footer-navigation { 
-  float: left; margin-left: 72px; margin-right: 0; font-size: 12px;
-  ul { text-align: left; }
+.site-footer {
+  background: $brand-secondary;
+  .footer-navigation { 
+    float: left; margin-left: 72px; margin-right: 0; font-size: 12px;
+    ul { 
+      text-align: left; 
+      a { color: white; }
+    }
+  }
+
 }

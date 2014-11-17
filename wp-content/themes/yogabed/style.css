@@ -739,13 +739,21 @@ header#masthead .site-logo {
 }
 
 /* line 180, ../sass/style.css.scss */
-.footer-navigation {
+.site-footer {
+  background: #4d4e53;
+}
+/* line 182, ../sass/style.css.scss */
+.site-footer .footer-navigation {
   float: left;
   margin-left: 72px;
   margin-right: 0;
   font-size: 12px;
 }
-/* line 182, ../sass/style.css.scss */
-.footer-navigation ul {
+/* line 184, ../sass/style.css.scss */
+.site-footer .footer-navigation ul {
   text-align: left;
+}
+/* line 186, ../sass/style.css.scss */
+.site-footer .footer-navigation ul a {
+  color: white;
 }

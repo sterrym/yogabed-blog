@@ -3385,27 +3385,7 @@ div#jp-relatedposts {
     padding-left: 0;
   }
 
-  /* line 2600, ../sass/_goran.scss */
-  body[class*="alternate-sidebar"].sidebar-left .content-area,
-  .sidebar-right .content-area,
-  body[class*="alternate-sidebar"].sidebar-right .widget-area,
-  .sidebar-left .widget-area {
-    float: left;
-    margin-right: 0;
-    margin-left: 72px;
-  }
-
-  /* line 2608, ../sass/_goran.scss */
-  body[class*="alternate-sidebar"].sidebar-left .widget-area,
-  .sidebar-right .widget-area,
-  body[class*="alternate-sidebar"].sidebar-right .content-area,
-  .sidebar-left .content-area {
-    float: right;
-    margin-right: 72px;
-    margin-left: 0;
-  }
-
-  /* line 2613, ../sass/_goran.scss */
+  /* line 2597, ../sass/_goran.scss */
   .hero-image .site-header {
     position: relative;
     z-index: 2;
@@ -3414,32 +3394,32 @@ div#jp-relatedposts {
     text-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
   }
 
-  /* line 2620, ../sass/_goran.scss */
+  /* line 2604, ../sass/_goran.scss */
   .site-logo {
     margin-right: 0;
     margin-left: 0;
     max-height: 168px;
   }
 
-  /* line 2626, ../sass/_goran.scss */
+  /* line 2610, ../sass/_goran.scss */
   .site-description,
   .site-title {
     text-align: left;
   }
 
   /* Widgets */
-  /* line 2631, ../sass/_goran.scss */
+  /* line 2615, ../sass/_goran.scss */
   .widget-area {
     border-top: 0;
   }
 
   /* Content */
-  /* line 2636, ../sass/_goran.scss */
+  /* line 2620, ../sass/_goran.scss */
   .hentry {
     margin-bottom: 48px;
   }
 
-  /* line 2642, ../sass/_goran.scss */
+  /* line 2626, ../sass/_goran.scss */
   .archive:not(.no-sidebar) .post-thumbnail,
   .blog:not(.no-sidebar) .post-thumbnail,
   .search:not(.no-sidebar) .post-thumbnail,
@@ -3448,7 +3428,7 @@ div#jp-relatedposts {
     margin-left: -72px;
   }
 
-  /* line 2649, ../sass/_goran.scss */
+  /* line 2633, ../sass/_goran.scss */
   .archive:not(.no-sidebar) .post-thumbnail img,
   .blog:not(.no-sidebar) .post-thumbnail img,
   .search:not(.no-sidebar) .post-thumbnail img,
@@ -3458,62 +3438,62 @@ div#jp-relatedposts {
     border-radius: 0 4px 4px 0;
   }
 
-  /* line 2654, ../sass/_goran.scss */
+  /* line 2638, ../sass/_goran.scss */
   .hero {
     padding-top: 72px;
     padding-bottom: 72px;
   }
 
-  /* line 2659, ../sass/_goran.scss */
+  /* line 2643, ../sass/_goran.scss */
   body.hero-image .hero.with-featured-image,
   body[class*="front-page"] .hero {
     padding: 144px 0;
   }
 
-  /* line 2662, ../sass/_goran.scss */
+  /* line 2646, ../sass/_goran.scss */
   body.hero-image .hero.without-featured-image {
     padding: 96px 0;
   }
 
-  /* line 2665, ../sass/_goran.scss */
+  /* line 2649, ../sass/_goran.scss */
   body.hero-image .hero.with-featured-image {
     padding-top: 240px;
   }
 
-  /* line 2668, ../sass/_goran.scss */
+  /* line 2652, ../sass/_goran.scss */
   body.hero-image .hero.without-featured-image {
     padding-top: 192px;
   }
 
-  /* line 2671, ../sass/_goran.scss */
+  /* line 2655, ../sass/_goran.scss */
   .error404 .page-content form {
     padding-bottom: 48px;
   }
 
   /* Comments */
-  /* line 2676, ../sass/_goran.scss */
+  /* line 2660, ../sass/_goran.scss */
   .comments-area {
     margin-bottom: 72px;
   }
 
   /* Media */
-  /* line 2681, ../sass/_goran.scss */
+  /* line 2665, ../sass/_goran.scss */
   .gallery-columns-7 .gallery-item {
     float: left;
     width: 14.28571%;
   }
 
-  /* line 2685, ../sass/_goran.scss */
+  /* line 2669, ../sass/_goran.scss */
   .gallery-columns-8 .gallery-item {
     width: 12.5%;
   }
 
-  /* line 2688, ../sass/_goran.scss */
+  /* line 2672, ../sass/_goran.scss */
   .gallery-columns-9 .gallery-item {
     width: 11.11111%;
   }
 
-  /* line 2694, ../sass/_goran.scss */
+  /* line 2678, ../sass/_goran.scss */
   .gallery-columns-8 .gallery-item:nth-of-type(2n-2),
   .gallery-columns-8 .gallery-item:nth-of-type(2n-1),
   .gallery-columns-9 .gallery-item:nth-of-type(3n-3),
@@ -3521,14 +3501,14 @@ div#jp-relatedposts {
     clear: none;
   }
 
-  /* line 2699, ../sass/_goran.scss */
+  /* line 2683, ../sass/_goran.scss */
   .gallery-columns-7 .gallery-item:nth-of-type(7n-7),
   .gallery-columns-8 .gallery-item:nth-of-type(8n-8),
   .gallery-columns-9 .gallery-item:nth-of-type(9n-9) {
     clear: right;
   }
 
-  /* line 2704, ../sass/_goran.scss */
+  /* line 2688, ../sass/_goran.scss */
   .gallery-columns-7 .gallery-item:nth-of-type(7n-6),
   .gallery-columns-8 .gallery-item:nth-of-type(8n-7),
   .gallery-columns-9 .gallery-item:nth-of-type(9n-8) {
@@ -3536,7 +3516,7 @@ div#jp-relatedposts {
   }
 
   /* Jetpack */
-  /* line 2710, ../sass/_goran.scss */
+  /* line 2694, ../sass/_goran.scss */
   #infinite-handle,
   .infinite-loader {
     margin: 0 0 72px;
@@ -3546,31 +3526,31 @@ div#jp-relatedposts {
 15.4 x >= 1230px
 --------------------------------------------------------------*/
 @media screen and (min-width: 1230px) {
-  /* line 2721, ../sass/_goran.scss */
+  /* line 2705, ../sass/_goran.scss */
   .hero .hentry,
   .hero-wrapper,
   .no-sidebar-full .content-area {
     width: 1086px;
   }
 
-  /* line 2725, ../sass/_goran.scss */
+  /* line 2709, ../sass/_goran.scss */
   .footer-navigation,
   .footer-navigation + .site-info {
     width: 507px;
   }
 
-  /* line 2729, ../sass/_goran.scss */
+  /* line 2713, ../sass/_goran.scss */
   .content-area,
   .main-navigation {
     width: 700px;
   }
 
-  /* line 2732, ../sass/_goran.scss */
+  /* line 2716, ../sass/_goran.scss */
   .site-branding {
     width: 314px;
   }
 
-  /* line 2739, ../sass/_goran.scss */
+  /* line 2723, ../sass/_goran.scss */
   .featured-page,
   .footer-widget,
   .front-page-widget,
@@ -3579,13 +3559,13 @@ div#jp-relatedposts {
     width: 314px;
   }
 
-  /* line 2742, ../sass/_goran.scss */
+  /* line 2726, ../sass/_goran.scss */
   .site-logo {
     max-height: 192px;
   }
 
   /* Content */
-  /* line 2750, ../sass/_goran.scss */
+  /* line 2734, ../sass/_goran.scss */
   .archive:not(.no-sidebar) .post-thumbnail,
   .blog:not(.no-sidebar) .post-thumbnail,
   .search:not(.no-sidebar) .post-thumbnail,
@@ -3593,23 +3573,23 @@ div#jp-relatedposts {
     width: 772px;
   }
 
-  /* line 2754, ../sass/_goran.scss */
+  /* line 2738, ../sass/_goran.scss */
   body.hero-image .hero.with-featured-image,
   body[class*="front-page"] .hero {
     padding: 216px 0;
   }
 
-  /* line 2757, ../sass/_goran.scss */
+  /* line 2741, ../sass/_goran.scss */
   body.hero-image .hero.without-featured-image {
     padding: 144px 0;
   }
 
-  /* line 2760, ../sass/_goran.scss */
+  /* line 2744, ../sass/_goran.scss */
   body.hero-image .hero.with-featured-image {
     padding-top: 312px;
   }
 
-  /* line 2763, ../sass/_goran.scss */
+  /* line 2747, ../sass/_goran.scss */
   body.hero-image .hero.without-featured-image {
     padding-top: 240px;
   }

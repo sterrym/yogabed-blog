@@ -2594,22 +2594,6 @@ div#jp-relatedposts {
     padding-right: 0;
     padding-left: 0;
   }
-  body[class*="alternate-sidebar"].sidebar-left .content-area,
-  .sidebar-right .content-area,
-  body[class*="alternate-sidebar"].sidebar-right .widget-area,
-  .sidebar-left .widget-area {
-    float: left;
-    margin-right: 0;
-    margin-left: 72px;
-  }
-  body[class*="alternate-sidebar"].sidebar-left .widget-area,
-  .sidebar-right .widget-area,
-  body[class*="alternate-sidebar"].sidebar-right .content-area,
-  .sidebar-left .content-area {
-    float: right;
-    margin-right: 72px;
-    margin-left: 0;
-  }
   .hero-image .site-header {
     position: relative;
     z-index: 2;

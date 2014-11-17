@@ -1,4 +1,265 @@
 /*
 Theme Name: Yogabed
 Template: edin
+
+To compile, navigate to the yogabed theme directory and run `compass watch`. To minify for production run `compass compile -e production`
 */
+/* line 34, sass/style.css.scss */
+body {
+  font-family: "HurmeGeometricSans4", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: black;
+  background-color: white;
+}
+
+/* line 42, sass/style.css.scss */
+header#masthead {
+  color: #FFF;
+  background: rgba(77, 78, 83, 0.6);
+  font-size: 13px;
+  box-shadow: 0px 16px 16px -16px rgba(0, 0, 0, 0.43);
+  position: relative !important;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+/* line 54, sass/style.css.scss */
+header#masthead nav#site-navigation {
+  margin: 24px 0 0 0;
+  float: right;
+}
+/* line 57, sass/style.css.scss */
+header#masthead nav#site-navigation ul {
+  text-align: left;
+}
+/* line 60, sass/style.css.scss */
+header#masthead nav#site-navigation ul > li a {
+  color: #FFF;
+  font-weight: 500;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 4px;
+  text-transform: uppercase;
+  border: 0;
+}
+/* line 63, sass/style.css.scss */
+header#masthead nav#site-navigation ul > li.current_page_item a,
+header#masthead nav#site-navigation ul > li a:hover,
+header#masthead nav#site-navigation ul > li a:active {
+  background: transparent;
+  border-bottom: 3px solid #f58d76;
+  color: #e6e7e8;
+  padding-bottom: 7px;
+}
+/* line 67, sass/style.css.scss */
+header#masthead .menu-toggle {
+  background: transparent;
+}
+/* line 68, sass/style.css.scss */
+header#masthead .site-branding {
+  width: 264px;
+  padding-right: 24px;
+  float: left;
+}
+/* line 69, sass/style.css.scss */
+header#masthead .site-logo {
+  margin: 0 !important;
+}
+
+@media screen and (min-width: 1020px) {
+  /* line 74, sass/style.css.scss */
+  header#masthead nav#site-navigation {
+    float: left;
+  }
+
+  /* line 78, sass/style.css.scss */
+  .main-navigation {
+    width: 680px;
+  }
+}
+/* ------------------
+   POSTS
+   -------------------- */
+/* line 86, sass/style.css.scss */
+.more-link {
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.428571429;
+  -webkit-user-select: none;
+  color: white;
+  background: #f1a693;
+  padding: 10px 16px;
+  width: 173px;
+  display: block;
+  margin: auto;
+}
+/* line 95, sass/style.css.scss */
+.more-link:after, .more-link span {
+  display: none;
+}
+/* line 96, sass/style.css.scss */
+.more-link:hover {
+  background: #f58d76;
+  color: white;
+}
+
+/* line 99, sass/style.css.scss */
+.home .post .entry-header {
+  text-align: center;
+}
+/* line 100, sass/style.css.scss */
+.home .post .entry-meta {
+  border: 0;
+  margin: 0;
+}
+/* line 101, sass/style.css.scss */
+.home .post h1.entry-title {
+  font-size: 22px;
+}
+
+/* line 106, sass/style.css.scss */
+#content .post .tags-links a {
+  color: #afafaf;
+  border: 1px solid;
+  display: inline-block;
+  padding: 5px;
+  font-weight: normal;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+/* line 108, sass/style.css.scss */
+#content .post .post-thumbnail {
+  width: 100%;
+  margin-left: 0;
+}
+/* line 110, sass/style.css.scss */
+#content .post .post-thumbnail img {
+  max-width: 100%;
+}
+
+/* line 114, sass/style.css.scss */
+#secondary aside.widget {
+  padding: 0;
+}
+/* line 116, sass/style.css.scss */
+#secondary aside.widget > iframe, #secondary aside.widget > div {
+  padding: 10px;
+  border: 1px solid;
+  border-top: 0;
+  margin: 0;
+}
+/* line 117, sass/style.css.scss */
+#secondary aside.widget h1.widget-title {
+  display: block;
+  background: url("https://yogabed.files.wordpress.com/2014/11/heading-background.png") no-repeat left top 100%;
+  line-height: 44px;
+  font-weight: normal;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+/* line 128, sass/style.css.scss */
+#twitter-widget-0 {
+  padding: 0 !important;
+  margin-bottom: 10px !important;
+}
+
+/* ----------------
+   Footer
+   ---------------- */
+/* line 136, sass/style.css.scss */
+#tertiary.footer-widget-area {
+  background-color: #e6e7e8;
+  color: #4d4e53;
+  font-size: 13px;
+}
+/* line 140, sass/style.css.scss */
+#tertiary.footer-widget-area .row {
+  margin-bottom: 0;
+}
+/* line 141, sass/style.css.scss */
+#tertiary.footer-widget-area a {
+  color: #4d4e53;
+  text-transform: none;
+  font-weight: normal;
+}
+/* line 142, sass/style.css.scss */
+#tertiary.footer-widget-area a:hover {
+  color: #000;
+  font-weight: 500;
+}
+/* line 143, sass/style.css.scss */
+#tertiary.footer-widget-area .brand {
+  margin-bottom: 32px;
+}
+/* line 144, sass/style.css.scss */
+#tertiary.footer-widget-area .menu > li {
+  padding: 0;
+  border: 0;
+}
+/* line 146, sass/style.css.scss */
+#tertiary.footer-widget-area .menu > li > a {
+  padding: 2px 0;
+}
+/* line 150, sass/style.css.scss */
+#tertiary.footer-widget-area .legal {
+  background: #4d4e53;
+  color: #FFF;
+  font-size: 12px;
+  margin-top: 16px;
+  padding-bottom: 18px;
+  padding-top: 18px;
+}
+/* line 157, sass/style.css.scss */
+#tertiary.footer-widget-area .legal a {
+  color: #FFF;
+}
+/* line 159, sass/style.css.scss */
+#tertiary.footer-widget-area .customer-service {
+  font-size: 20px;
+}
+/* line 160, sass/style.css.scss */
+#tertiary.footer-widget-area .link {
+  padding-top: 12px;
+}
+/* line 163, sass/style.css.scss */
+#tertiary.footer-widget-area .return-to-top {
+  border-radius: 3px;
+  border: 2px solid #FFF;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  padding-top: 8px;
+  text-align: center;
+}
+
+/* line 173, sass/style.css.scss */
+.site-info {
+  display: none;
+}
+
+/* line 174, sass/style.css.scss */
+.footer-navigation {
+  float: left;
+  margin-left: 72px;
+  margin-right: 0;
+  font-size: 12px;
+}
+/* line 176, sass/style.css.scss */
+.footer-navigation ul {
+  text-align: left;
+}

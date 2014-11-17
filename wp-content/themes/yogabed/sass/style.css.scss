@@ -5,7 +5,7 @@ Template: edin
 To compile, navigate to the yogabed theme directory and run `compass watch`. To minify for production run `compass compile -e production`
 Instructions taken from: http://www.aptivate.org/en/blog/2013/08/07/sass-bang-wallop/
 */
-@import "goran-style";
+@import "goran";
 
 $brand-primary: #f58d76;
 $brand-secondary: #4d4e53;

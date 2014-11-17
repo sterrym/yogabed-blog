@@ -1,78 +1,3910 @@
-/*
-Syntax error: File to import not found or unreadable: goran-style.
-              Load paths:
-                /Users/danielrobinson/workspace/projects/tagsolutions/yogabed/yogabed-blog/wp-content/themes/yogabed/sass
-                /Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-0.12.6/frameworks/blueprint/stylesheets
-                /Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets
-                Compass::SpriteImporter
-        on line 8 of /Users/danielrobinson/workspace/projects/tagsolutions/yogabed/yogabed-blog/wp-content/themes/yogabed/sass/style.css.scss
+/*!
+Theme Name: Yogabed
+Template: edin
 
-Backtrace:
-/Users/danielrobinson/workspace/projects/tagsolutions/yogabed/yogabed-blog/wp-content/themes/yogabed/sass/style.css.scss:8
-/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/tree/import_node.rb:67:in `rescue in import'
-/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/tree/import_node.rb:45:in `import'
-/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/tree/import_node.rb:28:in `imported_file'
-/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/tree/import_node.rb:37:in `css_import?'
-/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:217:in `visit_import'
-/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:100:in `visit'
-/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
-/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `map'
-/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `visit_children'
-/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
-/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
-/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
-/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `block in visit'
-/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:128:in `visit_root'
-/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:100:in `visit'
-/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:7:in `visit'
-/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/tree/root_node.rb:20:in `render'
-/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/engine.rb:315:in `_render'
-/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/engine.rb:262:in `render'
-/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-0.12.6/lib/compass/compiler.rb:139:in `block (2 levels) in compile'
-/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-0.12.6/lib/compass/compiler.rb:126:in `timed'
-/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-0.12.6/lib/compass/compiler.rb:138:in `block in compile'
-/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-0.12.6/lib/compass/logger.rb:45:in `red'
-/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-0.12.6/lib/compass/compiler.rb:137:in `compile'
-/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-0.12.6/lib/compass/compiler.rb:118:in `compile_if_required'
-/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-0.12.6/lib/compass/compiler.rb:103:in `block (2 levels) in run'
-/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-0.12.6/lib/compass/compiler.rb:101:in `each'
-/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-0.12.6/lib/compass/compiler.rb:101:in `block in run'
-/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-0.12.6/lib/compass/compiler.rb:126:in `timed'
-/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-0.12.6/lib/compass/compiler.rb:100:in `run'
-/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-0.12.6/lib/compass/commands/watch_project.rb:147:in `recompile'
-/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/fssm-0.2.10/lib/fssm/path.rb:73:in `call'
-/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/fssm-0.2.10/lib/fssm/path.rb:73:in `run_callback'
-/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/fssm-0.2.10/lib/fssm/path.rb:55:in `callback_action'
-/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/fssm-0.2.10/lib/fssm/path.rb:35:in `update'
-/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/fssm-0.2.10/lib/fssm/state/directory.rb:39:in `block in modified'
-/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/fssm-0.2.10/lib/fssm/state/directory.rb:37:in `each'
-/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/fssm-0.2.10/lib/fssm/state/directory.rb:37:in `modified'
-/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/fssm-0.2.10/lib/fssm/state/directory.rb:18:in `refresh'
-/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/fssm-0.2.10/lib/fssm/backends/rbfsevent.rb:30:in `block in temporary_multipath_handler'
-/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/fssm-0.2.10/lib/fssm/backends/rbfsevent.rb:27:in `each'
-/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/fssm-0.2.10/lib/fssm/backends/rbfsevent.rb:27:in `temporary_multipath_handler'
-/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/fssm-0.2.10/lib/fssm/backends/rbfsevent.rb:17:in `block (2 levels) in run'
-/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/fssm-0.2.10/lib/fssm/backends/rbfsevent.rb:16:in `each'
-/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/fssm-0.2.10/lib/fssm/backends/rbfsevent.rb:16:in `block in run'
-/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/rb-fsevent-0.9.4/lib/rb-fsevent/fsevent.rb:45:in `call'
-/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/rb-fsevent-0.9.4/lib/rb-fsevent/fsevent.rb:45:in `run'
-/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/fssm-0.2.10/lib/fssm/backends/rbfsevent.rb:20:in `run'
-/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/fssm-0.2.10/lib/fssm/monitor.rb:26:in `run'
-/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/fssm-0.2.10/lib/fssm.rb:70:in `monitor'
-/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-0.12.6/lib/compass/commands/watch_project.rb:87:in `perform'
-/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-0.12.6/lib/compass/commands/base.rb:18:in `execute'
-/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-0.12.6/lib/compass/commands/project_base.rb:19:in `execute'
-/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-0.12.6/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
-/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-0.12.6/lib/compass/exec/sub_command_ui.rb:15:in `run!'
-/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-0.12.6/bin/compass:30:in `block in <top (required)>'
-/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-0.12.6/bin/compass:44:in `call'
-/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-0.12.6/bin/compass:44:in `<top (required)>'
-/Users/danielrobinson/.rbenv/versions/2.1.2/bin/compass:23:in `load'
-/Users/danielrobinson/.rbenv/versions/2.1.2/bin/compass:23:in `<main>'
+To compile, navigate to the yogabed theme directory and run `compass watch`. To minify for production run `compass compile -e production`
+Instructions taken from: http://www.aptivate.org/en/blog/2013/08/07/sass-bang-wallop/
 */
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Syntax error: File to import not found or unreadable: goran-style.\A               Load paths:\A                 /Users/danielrobinson/workspace/projects/tagsolutions/yogabed/yogabed-blog/wp-content/themes/yogabed/sass\A                 /Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-0.12.6/frameworks/blueprint/stylesheets\A                 /Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets\A                 Compass::SpriteImporter\A         on line 8 of /Users/danielrobinson/workspace/projects/tagsolutions/yogabed/yogabed-blog/wp-content/themes/yogabed/sass/style.css.scss"; }
+/* Taken from Goran theme */
+/*--------------------------------------------------------------
+1.0 - Reset
+--------------------------------------------------------------*/
+/* line 12, ../sass/_goran.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  border: 0;
+  font-family: inherit;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+/* line 23, ../sass/_goran.scss */
+html {
+  overflow-y: scroll;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* line 30, ../sass/_goran.scss */
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 35, ../sass/_goran.scss */
+body {
+  background: #fff;
+}
+
+/* line 47, ../sass/_goran.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+nav,
+section {
+  display: block;
+}
+
+/* line 51, ../sass/_goran.scss */
+ol,
+ul {
+  list-style: none;
+}
+
+/* line 54, ../sass/_goran.scss */
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+/* line 60, ../sass/_goran.scss */
+caption,
+th,
+td {
+  font-weight: normal;
+  text-align: left;
+}
+
+/* line 65, ../sass/_goran.scss */
+blockquote,
+q {
+  quotes: "" "";
+}
+
+/* line 71, ../sass/_goran.scss */
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+}
+
+/* line 74, ../sass/_goran.scss */
+a:focus {
+  outline: thin dotted;
+}
+
+/* line 78, ../sass/_goran.scss */
+a:hover,
+a:active {
+  outline: 0;
+}
+
+/* line 81, ../sass/_goran.scss */
+a img {
+  border: 0;
+}
+
+/*--------------------------------------------------------------
+2.0 - Typography
+--------------------------------------------------------------*/
+/* line 88, ../sass/_goran.scss */
+html {
+  font-size: 100%;
+  line-height: 1.5em;
+}
+
+/* line 96, ../sass/_goran.scss */
+body,
+button,
+input,
+select,
+textarea {
+  color: #242424;
+  font-family: "Noto Sans", sans-serif;
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
+}
+
+/* line 107, ../sass/_goran.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  clear: both;
+  font-weight: bold;
+}
+
+/* line 111, ../sass/_goran.scss */
+h1 {
+  margin: 0 auto 12px;
+  font-size: 2.25em;
+  line-height: 1.33333em;
+}
+
+/* line 116, ../sass/_goran.scss */
+h2 {
+  margin: 0 auto 12px;
+  font-size: 1.875em;
+  line-height: 1.6em;
+}
+
+/* line 121, ../sass/_goran.scss */
+h3 {
+  margin: 0 auto 16px;
+  font-size: 1.5em;
+  line-height: 2em;
+}
+
+/* line 126, ../sass/_goran.scss */
+h4 {
+  margin: 0 auto 17px;
+  font-size: 1.375em;
+  line-height: 1.636364em;
+}
+
+/* line 131, ../sass/_goran.scss */
+h5 {
+  margin: 0 auto 21px;
+  font-size: 1.125em;
+  line-height: 1.33333em;
+}
+
+/* line 136, ../sass/_goran.scss */
+h6 {
+  margin: 0 auto 24px;
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+/* line 141, ../sass/_goran.scss */
+p {
+  margin-bottom: 24px;
+}
+
+/* line 145, ../sass/_goran.scss */
+b,
+strong {
+  font-weight: bold;
+}
+
+/* line 151, ../sass/_goran.scss */
+dfn,
+cite,
+em,
+i {
+  font-style: italic;
+}
+
+/* line 154, ../sass/_goran.scss */
+blockquote {
+  padding-left: 24px;
+  margin: 0 auto 24px;
+  border-left: 2px solid #e74f4e;
+  font-family: "Noto Serif", serif;
+}
+
+/* line 160, ../sass/_goran.scss */
+blockquote p {
+  margin-bottom: 0;
+}
+
+/* line 163, ../sass/_goran.scss */
+blockquote blockquote {
+  margin-top: 24px;
+}
+
+/* line 166, ../sass/_goran.scss */
+address {
+  margin: 0 0 24px;
+}
+
+/* line 173, ../sass/_goran.scss */
+pre,
+code,
+kbd,
+tt,
+var {
+  padding: 0 4px;
+  background: #f1f0f0;
+  font-family: "Droid Sans Mono", monospace;
+}
+
+/* line 178, ../sass/_goran.scss */
+pre {
+  position: relative;
+  overflow: auto;
+  padding: 24px;
+  padding-left: 48px;
+  margin-bottom: 24px;
+  max-width: 100%;
+  border: 1px solid #d2cfcf;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  -ms-word-wrap: normal;
+  word-wrap: normal;
+}
+
+/* line 192, ../sass/_goran.scss */
+pre:before {
+  content: '\f462';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 100%;
+  background: #e74f4e;
+  color: #fff;
+  font-family: "Genericons";
+  font-size: 16px;
+  text-align: center;
+}
+
+/* line 207, ../sass/_goran.scss */
+abbr,
+acronym {
+  border-bottom: 1px dotted #242424;
+  cursor: help;
+}
+
+/* line 212, ../sass/_goran.scss */
+mark,
+ins {
+  padding: 0 4px;
+  background: #e74f4e;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* line 219, ../sass/_goran.scss */
+sup,
+sub {
+  position: relative;
+  vertical-align: baseline;
+  height: 0;
+  font-size: 75%;
+  line-height: 0;
+}
+
+/* line 226, ../sass/_goran.scss */
+sup {
+  bottom: 1ex;
+}
+
+/* line 229, ../sass/_goran.scss */
+sub {
+  top: .5ex;
+}
+
+/* line 232, ../sass/_goran.scss */
+small {
+  font-size: 75%;
+}
+
+/* line 235, ../sass/_goran.scss */
+big {
+  font-size: 125%;
+}
+
+/* Footer Widget Area */
+/* line 244, ../sass/_goran.scss */
+.footer-widget-area pre,
+.footer-widget-area code,
+.footer-widget-area kbd,
+.footer-widget-area tt,
+.footer-widget-area var {
+  background: #e1dfdf;
+}
+
+/* Hero */
+/* line 249, ../sass/_goran.scss */
+.hero blockquote {
+  border-left-color: rgba(255, 255, 255, 0.7);
+}
+
+/* line 258, ../sass/_goran.scss */
+.hero pre,
+.hero code,
+.hero kbd,
+.hero tt,
+.hero var
+.hero mark,
+.hero ins {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/* line 261, ../sass/_goran.scss */
+.hero pre {
+  border-color: #fff;
+}
+
+/* line 265, ../sass/_goran.scss */
+.hero abbr,
+.hero acronym {
+  border-bottom-color: rgba(255, 255, 255, 0.7);
+}
+
+/* Site Footer & Site Top Content */
+/* line 271, ../sass/_goran.scss */
+.site-footer,
+.site-top-content {
+  color: #d2cfcf;
+}
+
+/* line 274, ../sass/_goran.scss */
+.site-top-content blockquote {
+  border-left-color: #f1f0f0;
+}
+
+/* line 279, ../sass/_goran.scss */
+.site-top-content pre,
+.site-top-content mark,
+.site-top-content ins {
+  background: #302f2f;
+}
+
+/* line 283, ../sass/_goran.scss */
+.site-top-content abbr,
+.site-top-content acronym {
+  border-bottom-color: #f1f0f0;
+}
+
+/*--------------------------------------------------------------
+3.0 - Elements
+--------------------------------------------------------------*/
+/* line 290, ../sass/_goran.scss */
+hr {
+  margin-bottom: 24px;
+  height: 1px;
+  border: 0;
+  background-color: #f1f0f0;
+}
+
+/* line 297, ../sass/_goran.scss */
+ul,
+ol {
+  margin: 0 0 24px 0;
+}
+
+/* line 300, ../sass/_goran.scss */
+ul {
+  list-style: square inside;
+}
+
+/* line 303, ../sass/_goran.scss */
+ol {
+  list-style: decimal inside;
+}
+
+/* line 307, ../sass/_goran.scss */
+li > ul,
+li > ol {
+  margin-bottom: 0;
+  margin-left: 5%;
+}
+
+/* line 311, ../sass/_goran.scss */
+dt {
+  font-weight: bold;
+}
+
+/* line 314, ../sass/_goran.scss */
+dd {
+  margin: 0 24px 24px;
+}
+
+/* line 317, ../sass/_goran.scss */
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+/* line 321, ../sass/_goran.scss */
+figure {
+  margin: 0;
+}
+
+/* line 324, ../sass/_goran.scss */
+table {
+  margin: 0 0 24px;
+  width: 100%;
+  border-top: 1px solid #d2cfcf;
+  border-right: 1px solid #d2cfcf;
+}
+
+/* line 331, ../sass/_goran.scss */
+caption,
+th {
+  font-weight: bold;
+}
+
+/* line 335, ../sass/_goran.scss */
+th,
+td {
+  padding: 12px;
+  border-bottom: 1px solid #d2cfcf;
+  border-left: 1px solid #d2cfcf;
+}
+
+/* Footer Widget Area */
+/* line 342, ../sass/_goran.scss */
+.footer-widget-area hr {
+  background-color: #e1dfdf;
+}
+
+/* Hero */
+/* line 347, ../sass/_goran.scss */
+.hero hr {
+  background-color: #fff;
+}
+
+/* line 351, ../sass/_goran.scss */
+.hero th,
+.hero td {
+  border-bottom-color: #fff;
+}
+
+/* Site Top Content */
+/* line 356, ../sass/_goran.scss */
+.site-top-content hr {
+  background-color: #302f2f;
+}
+
+/* line 360, ../sass/_goran.scss */
+.site-top-content th,
+.site-top-content td {
+  border-bottom-color: #302f2f;
+}
+
+/*--------------------------------------------------------------
+4.0 Forms
+--------------------------------------------------------------*/
+/* line 370, ../sass/_goran.scss */
+button,
+input,
+select,
+textarea {
+  margin: 0;
+  vertical-align: baseline;
+  font-size: 100%;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  -moz-transition: all 0.15s ease-in-out;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+/* line 384, ../sass/_goran.scss */
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  padding: 13px 26px;
+  background: #e74f4e;
+  border: 0;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  -webkit-appearance: button;
+}
+
+/* line 405, ../sass/_goran.scss */
+button:hover,
+button:focus,
+button:active,
+input[type="button"]:hover,
+input[type="button"]:focus,
+input[type="button"]:active,
+input[type="reset"]:hover,
+input[type="reset"]:focus,
+input[type="reset"]:active,
+input[type="submit"]:hover,
+input[type="submit"]:focus,
+input[type="submit"]:active {
+  outline: none;
+  background: #242424;
+  color: #fff;
+}
+
+/* line 411, ../sass/_goran.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  padding: 0;
+}
+
+/* line 414, ../sass/_goran.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+}
+
+/* line 417, ../sass/_goran.scss */
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* line 421, ../sass/_goran.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 430, ../sass/_goran.scss */
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+textarea {
+  position: relative;
+  padding: 12px;
+  width: 100%;
+  background: #f1f0f0;
+  border: 1px solid #d2cfcf;
+  color: #242424;
+  -webkit-appearance: none;
+}
+
+/* line 444, ../sass/_goran.scss */
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+textarea:focus {
+  outline: none;
+  background: #fff;
+  border-color: #e74f4e;
+}
+
+/* line 449, ../sass/_goran.scss */
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+/* line 453, ../sass/_goran.scss */
+select {
+  max-width: 100%;
+  background: #f1f0f0;
+  border: 1px solid #d2cfcf;
+}
+
+/* line 458, ../sass/_goran.scss */
+.required {
+  color: #D9321F;
+}
+
+/* Search */
+/* line 464, ../sass/_goran.scss */
+.search-field,
+.search-submit {
+  margin-bottom: 24px;
+}
+
+/* Password Protected */
+/* line 469, ../sass/_goran.scss */
+.post-password-form {
+  position: relative;
+}
+
+/* line 472, ../sass/_goran.scss */
+.post-password-form input[type="submit"] {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  -moz-border-radius: 0 4px 4px 0;
+  -webkit-border-radius: 0 4px 4px 0;
+  border-radius: 0 4px 4px 0;
+}
+
+/*--------------------------------------------------------------
+5.0 Navigation
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+5.1 Links
+--------------------------------------------------------------*/
+/* line 487, ../sass/_goran.scss */
+a {
+  color: #e74f4e;
+  font-weight: bold;
+  text-decoration: none;
+  -moz-transition: all 0.15s ease-in-out;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+/* line 495, ../sass/_goran.scss */
+a:visited {
+  font-weight: normal;
+}
+
+/* line 500, ../sass/_goran.scss */
+a:hover,
+a:focus,
+a:active {
+  color: #242424;
+  outline: none;
+}
+
+/* line 505, ../sass/_goran.scss */
+a.button,
+a.button-minimal {
+  display: inline-block;
+  padding: 10px 22px;
+  border: 2px solid #e74f4e;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* line 515, ../sass/_goran.scss */
+a.button {
+  background: #e74f4e;
+  color: #fff;
+  text-shadow: none;
+}
+
+/* line 522, ../sass/_goran.scss */
+a.button:hover,
+a.button:focus,
+a.button:active {
+  background: #242424;
+  border-color: #242424;
+  color: #fff;
+}
+
+/* line 527, ../sass/_goran.scss */
+a.button-minimal {
+  color: #e74f4e;
+}
+
+/* line 532, ../sass/_goran.scss */
+a.button-minimal:hover,
+a.button-minimal:focus,
+a.button-minimal:active {
+  background: #e74f4e;
+  border-color: #e74f4e;
+  color: #fff;
+}
+
+/* Hero */
+/* line 539, ../sass/_goran.scss */
+.hero .entry-header {
+  margin-bottom: 24px;
+}
+
+/* line 542, ../sass/_goran.scss */
+.hero .entry-content a {
+  color: #fff;
+}
+
+/* line 547, ../sass/_goran.scss */
+.hero .entry-content a:hover,
+.hero .entry-content a:focus,
+.hero .entry-content a:active {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* line 551, ../sass/_goran.scss */
+.hero a.button,
+.hero a.button-minimal {
+  border-color: #fff;
+}
+
+/* line 554, ../sass/_goran.scss */
+.hero a.button {
+  background: #fff;
+  color: #242424;
+}
+
+/* line 560, ../sass/_goran.scss */
+.hero a.button:hover,
+.hero a.button:focus,
+.hero a.button:active {
+  background: #242424;
+  border-color: #242424;
+  color: #fff;
+}
+
+/* line 565, ../sass/_goran.scss */
+.hero a.button-minimal {
+  color: #fff;
+}
+
+/* line 570, ../sass/_goran.scss */
+.hero a.button-minimal:hover,
+.hero a.button-minimal:focus,
+.hero a.button-minimal:active {
+  background: #fff;
+  color: #242424;
+}
+
+/* Site Footer & Site Top Content */
+/* line 577, ../sass/_goran.scss */
+.site-footer a,
+.site-top-content a {
+  color: #fff;
+}
+
+/* line 581, ../sass/_goran.scss */
+.site-info a,
+.site-top-content a {
+  font-weight: normal;
+}
+
+/* line 589, ../sass/_goran.scss */
+.site-footer a:hover,
+.site-footer a:focus,
+.site-footer a:active,
+.site-top-content a:hover,
+.site-top-content a:focus,
+.site-top-content a:active {
+  color: #d2cfcf;
+}
+
+/* line 593, ../sass/_goran.scss */
+.site-top-content a.button,
+.site-top-content a.button-minimal {
+  border-color: #fff;
+}
+
+/* line 601, ../sass/_goran.scss */
+.site-top-content a.button:hover,
+.site-top-content a.button:focus,
+.site-top-content a.button:active,
+.site-top-content a.button-minimal:hover,
+.site-top-content a.button-minimal:focus,
+.site-top-content a.button-minimal:active {
+  background: #d2cfcf;
+  border-color: #d2cfcf;
+  color: #242424;
+}
+
+/* line 606, ../sass/_goran.scss */
+.site-top-content a.button {
+  background: #fff;
+  color: #242424;
+}
+
+/* line 610, ../sass/_goran.scss */
+.site-top-content a.button-minimal {
+  color: #fff;
+}
+
+/*--------------------------------------------------------------
+5.2 Pagination
+--------------------------------------------------------------*/
+/* line 619, ../sass/_goran.scss */
+.site-main .comment-navigation,
+.site-main .paging-navigation,
+.site-main .post-navigation {
+  padding: 24px;
+  margin: 0 0 24px;
+  overflow: hidden;
+  border: 1px solid #f1f0f0;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+
+/* line 628, ../sass/_goran.scss */
+.site-main .post-navigation {
+  padding-right: 0;
+  padding-left: 0;
+  border-right: 0;
+  border-left: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  font-size: 0.875em;
+  line-height: 1.71429em;
+}
+
+/* line 639, ../sass/_goran.scss */
+.site-main .post-navigation .meta-nav {
+  display: block;
+  color: #757575;
+  text-transform: uppercase;
+}
+
+/* line 644, ../sass/_goran.scss */
+.site-main .post-navigation a + a {
+  display: block;
+  padding-top: 12px;
+  margin-top: 12px;
+  border-top: 1px solid #f1f0f0;
+}
+
+/*--------------------------------------------------------------
+5.3 Primary Navigation
+--------------------------------------------------------------*/
+/* Menu Toggle */
+/* line 655, ../sass/_goran.scss */
+.menu-toggle {
+  display: block;
+  width: 100%;
+  background: #403f3f;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+}
+
+/* line 666, ../sass/_goran.scss */
+.menu-toggle:hover,
+.menu-toggle:focus,
+.meu-toggle:active,
+.main-navigation.toggle-on .menu-toggle {
+  background: #302f2f;
+}
+
+/* line 669, ../sass/_goran.scss */
+.menu-toggle:before {
+  content: '\f419';
+  display: inline-block;
+  padding-right: 8px;
+  height: 1.5em;
+  line-height: 1.5em;
+  color: inherit;
+  font-family: "Genericons";
+  font-weight: normal;
+  font-style: normal;
+  vertical-align: bottom;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Menu Primary */
+/* line 685, ../sass/_goran.scss */
+.main-navigation {
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* line 693, ../sass/_goran.scss */
+.main-navigation a,
+.main-navigation a:hover,
+.main-navigation a:focus,
+.main-navigation a:active {
+  color: inherit;
+}
+
+/* line 696, ../sass/_goran.scss */
+.main-navigation.toggle-on .menu-primary {
+  display: block;
+}
+
+/* line 699, ../sass/_goran.scss */
+.menu-primary {
+  display: none;
+  padding: 24px;
+  background: #403f3f;
+}
+
+/* line 704, ../sass/_goran.scss */
+.menu-primary ul {
+  margin-bottom: 0;
+  list-style: none;
+}
+
+/* line 708, ../sass/_goran.scss */
+.menu-primary li {
+  padding: 12px 0;
+  border-top: 1px solid #302f2f;
+}
+
+/* line 712, ../sass/_goran.scss */
+.menu-primary li:first-child {
+  padding-top: 0;
+  border-top: 0;
+}
+
+/* line 716, ../sass/_goran.scss */
+.menu-primary li:last-child {
+  padding-bottom: 0;
+}
+
+/* line 719, ../sass/_goran.scss */
+.menu-primary a {
+  display: block;
+  position: relative;
+}
+
+/* line 723, ../sass/_goran.scss */
+.menu-primary .sub-menu {
+  display: none;
+  padding-top: 12px;
+  margin-top: 12px;
+  border-top: 1px solid #302f2f;
+}
+
+/* line 729, ../sass/_goran.scss */
+.menu-primary .sub-menu.toggle-on {
+  display: block;
+}
+
+/*--------------------------------------------------------------
+5.4 Dropdown Toggle
+--------------------------------------------------------------*/
+/* line 736, ../sass/_goran.scss */
+.menu-item .dropdown-toggle {
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  padding: 0;
+  margin-top: -16px;
+  width: 32px;
+  height: 32px;
+  background: #302f2f;
+  border: 1px solid #212020;
+  outline: none;
+}
+
+/* line 749, ../sass/_goran.scss */
+.menu-item .dropdown-toggle:focus {
+  background: #302f2f;
+}
+
+/* line 752, ../sass/_goran.scss */
+.menu-item .dropdown-toggle:hover {
+  background: #fff;
+}
+
+/* line 755, ../sass/_goran.scss */
+.menu-item .dropdown-toggle:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -2px;
+  margin-left: -4px;
+  border-top: 4px solid #fff;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+}
+
+/* line 767, ../sass/_goran.scss */
+.menu-item .dropdown-toggle:hover:before {
+  border-top-color: #403f3f;
+}
+
+/* line 770, ../sass/_goran.scss */
+.menu-item .dropdown-toggle.toggle-on:before {
+  border-top: 0;
+  border-bottom: 4px solid #fff;
+}
+
+/* line 774, ../sass/_goran.scss */
+.menu-item .dropdown-toggle.toggle-on:hover:before {
+  border-bottom-color: #403f3f;
+}
+
+/* line 778, ../sass/_goran.scss */
+.footer-widget-area .menu-item .dropdown-toggle,
+.site-content .menu-item .dropdown-toggle {
+  background: #f1f0f0;
+  border-color: #d2cfcf;
+}
+
+/* line 783, ../sass/_goran.scss */
+.footer-widget-area .menu-item .dropdown-toggle:focus,
+.site-content .menu-item .dropdown-toggle:focus {
+  background: #f1f0f0;
+}
+
+/* line 787, ../sass/_goran.scss */
+.footer-widget-area .menu-item .dropdown-toggle:hover,
+.site-content .menu-item .dropdown-toggle:hover {
+  background: #e74f4e;
+  border-color: #a13736;
+}
+
+/* line 792, ../sass/_goran.scss */
+.footer-widget-area .menu-item .dropdown-toggle:before,
+.site-content .menu-item .dropdown-toggle:before {
+  border-top-color: #242424;
+}
+
+/* line 796, ../sass/_goran.scss */
+.footer-widget-area .menu-item .dropdown-toggle:hover:before,
+.site-content .menu-item .dropdown-toggle:hover:before {
+  border-top-color: #fff;
+}
+
+/* line 800, ../sass/_goran.scss */
+.footer-widget-area .menu-item .dropdown-toggle.toggle-on:before,
+.site-content .menu-item .dropdown-toggle.toggle-on:before {
+  border-bottom-color: #242424;
+}
+
+/* line 804, ../sass/_goran.scss */
+.footer-widget-area .menu-item .dropdown-toggle.toggle-on:hover:before,
+.site-content .menu-item .dropdown-toggle.toggle-on:hover:before {
+  border-bottom-color: #fff;
+}
+
+/* line 808, ../sass/_goran.scss */
+.page_item_has_children > a,
+.menu-item-has-children > a {
+  padding-right: 48px;
+}
+
+/* line 812, ../sass/_goran.scss */
+.footer-navigation .page_item_has_children > a,
+.footer-navigation .menu-item-has-children > a {
+  padding-right: 0;
+}
+
+/*--------------------------------------------------------------
+5.5 Footer Navigation
+--------------------------------------------------------------*/
+/* line 819, ../sass/_goran.scss */
+.footer-navigation {
+  padding: 24px 0;
+  margin-bottom: 6px;
+  border-bottom: 2px solid #242424;
+}
+
+/* line 824, ../sass/_goran.scss */
+.footer-navigation ul {
+  display: block;
+  list-style: none;
+  margin: 0;
+}
+
+/* line 829, ../sass/_goran.scss */
+.footer-navigation li {
+  display: inline-block;
+  margin: 0 8px 0 0;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* line 835, ../sass/_goran.scss */
+.footer-navigation li:first-of-type {
+  margin-left: 0;
+}
+
+/* line 839, ../sass/_goran.scss */
+.footer-navigation li.current-menu-item a,
+.footer-navigation li.current_page_item a {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/*--------------------------------------------------------------
+5.6 Social Navigation
+--------------------------------------------------------------*/
+/* line 846, ../sass/_goran.scss */
+ul[id^="menu-social"] {
+  display: block;
+  list-style: none;
+  margin: 0;
+}
+
+/* line 851, ../sass/_goran.scss */
+ul[id^="menu-social"] li {
+  vertical-align: top;
+}
+
+/* line 854, ../sass/_goran.scss */
+ul[id^="menu-social"] a {
+  color: transparent;
+}
+
+/* line 857, ../sass/_goran.scss */
+ul[id^="menu-social"] a:before {
+  color: #e74f4e;
+}
+
+/* line 860, ../sass/_goran.scss */
+ul[id^="menu-social"] a:hover:before {
+  color: #242424;
+}
+
+/* line 885, ../sass/_goran.scss */
+ul[id^="menu-social"] a[href$="/feed/"],
+ul[id^="menu-social"] a[href*="codepen.io"],
+ul[id^="menu-social"] a[href*="digg.com"],
+ul[id^="menu-social"] a[href*="dribbble.com"],
+ul[id^="menu-social"] a[href*="dropbox.com"],
+ul[id^="menu-social"] a[href*="mailto:"],
+ul[id^="menu-social"] a[href*="facebook.com"],
+ul[id^="menu-social"] a[href*="flickr.com"],
+ul[id^="menu-social"] a[href*="github.com"],
+ul[id^="menu-social"] a[href*="plus.google.com"],
+ul[id^="menu-social"] a[href*="instagram.com"],
+ul[id^="menu-social"] a[href*="linkedin.com"],
+ul[id^="menu-social"] a[href*="pinterest.com"],
+ul[id^="menu-social"] a[href*="getpocket.com"],
+ul[id^="menu-social"] a[href*="polldaddy.com"],
+ul[id^="menu-social"] a[href*="reddit.com"],
+ul[id^="menu-social"] a[href*="stumbleupon.com"],
+ul[id^="menu-social"] a[href*="tumblr.com"],
+ul[id^="menu-social"] a[href*="twitter.com"],
+ul[id^="menu-social"] a[href*="vimeo.com"],
+ul[id^="menu-social"] a[href*="wordpress.com"],
+ul[id^="menu-social"] a[href*="wordpress.org"],
+ul[id^="menu-social"] a[href*="youtube.com"] {
+  display: block;
+  overflow: hidden;
+  width: 1em;
+  height: 1.5em;
+  font-size: 2em;
+}
+
+/* line 914, ../sass/_goran.scss */
+ul[id^="menu-social"] a[href$="/feed/"]:before,
+ul[id^="menu-social"] a[href*="codepen.io"]:before,
+ul[id^="menu-social"] a[href*="digg.com"]:before,
+ul[id^="menu-social"] a[href*="dribbble.com"]:before,
+ul[id^="menu-social"] a[href*="dropbox.com"]:before,
+ul[id^="menu-social"] a[href*="mailto:"]:before,
+ul[id^="menu-social"] a[href*="facebook.com"]:before,
+ul[id^="menu-social"] a[href*="flickr.com"]:before,
+ul[id^="menu-social"] a[href*="github.com"]:before,
+ul[id^="menu-social"] a[href*="plus.google.com"]:before,
+ul[id^="menu-social"] a[href*="instagram.com"]:before,
+ul[id^="menu-social"] a[href*="linkedin.com"]:before,
+ul[id^="menu-social"] a[href*="pinterest.com"]:before,
+ul[id^="menu-social"] a[href*="getpocket.com"]:before,
+ul[id^="menu-social"] a[href*="polldaddy.com"]:before,
+ul[id^="menu-social"] a[href*="reddit.com"]:before,
+ul[id^="menu-social"] a[href*="stumbleupon.com"]:before,
+ul[id^="menu-social"] a[href*="tumblr.com"]:before,
+ul[id^="menu-social"] a[href*="twitter.com"]:before,
+ul[id^="menu-social"] a[href*="vimeo.com"]:before,
+ul[id^="menu-social"] a[href*="wordpress.com"]:before,
+ul[id^="menu-social"] a[href*="wordpress.org"]:before,
+ul[id^="menu-social"] a[href*="youtube.com"]:before {
+  content: "\f413";
+  display: inline-block;
+  width: 1em;
+  height: 1.5em;
+  font-family: "Genericons";
+  font-size: 1em;
+  line-height: 1.5;
+  text-decoration: inherit;
+  font-weight: normal;
+  font-style: normal;
+  vertical-align: top;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 929, ../sass/_goran.scss */
+ul[id^="menu-social"] a[href*="codepen.io"]:before {
+  content: '\f216';
+}
+
+/* line 932, ../sass/_goran.scss */
+ul[id^="menu-social"] a[href*="digg.com"]:before {
+  content: '\f221';
+}
+
+/* line 935, ../sass/_goran.scss */
+ul[id^="menu-social"] a[href*="dribbble.com"]:before {
+  content: '\f201';
+}
+
+/* line 938, ../sass/_goran.scss */
+ul[id^="menu-social"] a[href*="dropbox.com"]:before {
+  content: '\f225';
+}
+
+/* line 941, ../sass/_goran.scss */
+ul[id^="menu-social"] a[href*="mailto:"]:before {
+  content: '\f410';
+}
+
+/* line 944, ../sass/_goran.scss */
+ul[id^="menu-social"] a[href*="facebook.com"]:before {
+  content: '\f203';
+}
+
+/* line 947, ../sass/_goran.scss */
+ul[id^="menu-social"] a[href*="flickr.com"]:before {
+  content: '\f211';
+}
+
+/* line 950, ../sass/_goran.scss */
+ul[id^="menu-social"] a[href*="github.com"]:before {
+  content: '\f200';
+}
+
+/* line 953, ../sass/_goran.scss */
+ul[id^="menu-social"] a[href*="plus.google.com"]:before {
+  content: '\f206';
+}
+
+/* line 956, ../sass/_goran.scss */
+ul[id^="menu-social"] a[href*="instagram.com"]:before {
+  content: '\f215';
+}
+
+/* line 959, ../sass/_goran.scss */
+ul[id^="menu-social"] a[href*="linkedin.com"]:before {
+  content: '\f208';
+}
+
+/* line 962, ../sass/_goran.scss */
+ul[id^="menu-social"] a[href*="pinterest.com"]:before {
+  content: '\f210';
+}
+
+/* line 965, ../sass/_goran.scss */
+ul[id^="menu-social"] a[href*="getpocket.com"]:before {
+  content: '\f224';
+}
+
+/* line 968, ../sass/_goran.scss */
+ul[id^="menu-social"] a[href*="polldaddy.com"]:before {
+  content: '\f217';
+}
+
+/* line 971, ../sass/_goran.scss */
+ul[id^="menu-social"] a[href*="reddit.com"]:before {
+  content: '\f222';
+}
+
+/* line 974, ../sass/_goran.scss */
+ul[id^="menu-social"] a[href*="stumbleupon.com"]:before {
+  content: '\f223';
+}
+
+/* line 977, ../sass/_goran.scss */
+ul[id^="menu-social"] a[href*="tumblr.com"]:before {
+  content: '\f214';
+}
+
+/* line 980, ../sass/_goran.scss */
+ul[id^="menu-social"] a[href*="twitter.com"]:before {
+  content: '\f202';
+}
+
+/* line 983, ../sass/_goran.scss */
+ul[id^="menu-social"] a[href*="vimeo.com"]:before {
+  content: '\f212';
+}
+
+/* line 987, ../sass/_goran.scss */
+ul[id^="menu-social"] a[href*="wordpress.com"]:before,
+ul[id^="menu-social"] a[href*="wordpress.org"]:before {
+  content: '\f205';
+}
+
+/* line 990, ../sass/_goran.scss */
+ul[id^="menu-social"] a[href*="youtube.com"]:before {
+  content: '\f213';
+}
+
+/* line 993, ../sass/_goran.scss */
+ul[id^="menu-social"] .dropdown-toggle {
+  display: none;
+}
+
+/* line 997, ../sass/_goran.scss */
+.site-content ul[id^="menu-social"] .page_item_has_children > a,
+.site-content ul[id^="menu-social"] .menu-item-has-children > a {
+  padding-right: 0;
+}
+
+/*--------------------------------------------------------------
+6.0 Accessibility
+--------------------------------------------------------------*/
+/* line 1004, ../sass/_goran.scss */
+.screen-reader-text {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+/* line 1013, ../sass/_goran.scss */
+.screen-reader-text:hover,
+.screen-reader-text:focus,
+.screen-reader-text:active {
+  background-color: #f1f1f1;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  clip: auto !important;
+  color: #21759b;
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000;
+}
+
+/*--------------------------------------------------------------
+7.0 Alignments
+--------------------------------------------------------------*/
+/* line 1037, ../sass/_goran.scss */
+.alignleft {
+  display: inline;
+  float: left;
+  margin-right: 24px;
+}
+
+/* line 1042, ../sass/_goran.scss */
+.alignright {
+  display: inline;
+  float: right;
+  margin-left: 24px;
+}
+
+/* line 1047, ../sass/_goran.scss */
+.aligncenter {
+  clear: both;
+  display: block;
+  margin: 0 auto;
+}
+
+/* line 1052, ../sass/_goran.scss */
+.alignnone {
+  vertical-align: bottom;
+}
+
+/*--------------------------------------------------------------
+8.0 Clearings
+--------------------------------------------------------------*/
+/* line 1080, ../sass/_goran.scss */
+.clear:before,
+.clear:after,
+.comment-content:before,
+.comment-content:after,
+.comment-meta:before,
+.comment-meta:after,
+.entry-content:before,
+.entry-content:after,
+.gallery:before,
+.gallery:after,
+.nav-links:before,
+.nav-links:after,
+.site-content:before,
+.site-content:after,
+.site-footer:before,
+.site-footer:after,
+.site-header:before,
+.site-header:after,
+.sd-block:before,
+.sd-block:after,
+.sharedaddy:before,
+.sharedaddy:after {
+  content: '';
+  display: table;
+}
+
+/* line 1094, ../sass/_goran.scss */
+.clear:after,
+.comment-content:after,
+.comment-meta:after,
+.entry-content:after,
+.gallery:after,
+.nav-links:after,
+.site-content:after,
+.site-footer:after,
+.site-header:after,
+.sd-block:after,
+.sharedaddy:after {
+  clear: both;
+}
+
+/*--------------------------------------------------------------
+9.0 Layout
+--------------------------------------------------------------*/
+/* line 1101, ../sass/_goran.scss */
+body {
+  background: #e1dfdf;
+}
+
+/* line 1104, ../sass/_goran.scss */
+.site {
+  background: #fff;
+}
+
+/* Grid */
+/* line 1113, ../sass/_goran.scss */
+.hero .hentry,
+.hero-wrapper,
+.no-sidebar .content-area,
+.no-sidebar-full .content-area,
+.site {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 1127, ../sass/_goran.scss */
+.content-area,
+.featured-page,
+.footer-navigation,
+.footer-widget,
+.front-page-widget,
+.grid,
+.hero .hentry,
+.site,
+.site-branding
+.widget-area {
+  width: 100%;
+}
+
+/* line 1137, ../sass/_goran.scss */
+.content-area,
+.featured-page-area,
+.footer-widget-area,
+.front-page-widget-area,
+.grid-area,
+.site-branding,
+.site-footer,
+.widget-area {
+  padding-right: 24px;
+  padding-left: 24px;
+}
+
+/* line 1146, ../sass/_goran.scss */
+.content-area,
+.featured-page-area,
+.footer-widget-area,
+.front-page-widget-area,
+.grid-wrapper,
+.widget-area {
+  padding-top: 24px;
+}
+
+/* Header */
+/* line 1151, ../sass/_goran.scss */
+.site-top-content {
+  padding: 6px 24px;
+  background: #403f3f;
+  font-size: 0.875em;
+  line-height: 1.71429em;
+  text-align: right;
+}
+
+/* line 1158, ../sass/_goran.scss */
+.site-header {
+  background: #b23d3c;
+  color: #fff;
+}
+
+/* line 1162, ../sass/_goran.scss */
+.site-logo {
+  display: block;
+  margin: 24px auto;
+  width: auto;
+  max-height: 96px;
+}
+
+/* line 1169, ../sass/_goran.scss */
+.site-description,
+.site-title {
+  text-align: center;
+}
+
+/* line 1172, ../sass/_goran.scss */
+.site-description {
+  display: none;
+  margin-top: -14px;
+  margin-bottom: 24px;
+  color: #757575;
+  font-weight: normal;
+  font-size: 0.875em;
+  line-height: 1.71429em;
+}
+
+/* line 1181, ../sass/_goran.scss */
+.site-title {
+  margin-top: 24px;
+  padding-bottom: 13px;
+  color: inherit;
+}
+
+/* line 1189, ../sass/_goran.scss */
+.site-title a,
+.site-title a:hover,
+.site-title a:focus,
+.site-title a:active {
+  color: inherit;
+}
+
+/* line 1192, ../sass/_goran.scss */
+.header-image {
+  display: block;
+}
+
+/* line 1195, ../sass/_goran.scss */
+.header-image img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* Content */
+/* line 1202, ../sass/_goran.scss */
+.site-content {
+  position: relative;
+  background: #fff;
+}
+
+/* Featured Page Area */
+/* line 1208, ../sass/_goran.scss */
+.has-quinary .featured-page-area {
+  position: relative;
+  border-bottom: 2px solid #d2cfcf;
+}
+
+/* Grid Area */
+/* line 1214, ../sass/_goran.scss */
+.content-wrapper + .grid-area {
+  border-top: 2px solid #d2cfcf;
+}
+
+/* Footer Widget Area */
+/* line 1219, ../sass/_goran.scss */
+.footer-widget-area {
+  background: #f1f0f0;
+}
+
+/* Footer */
+/* line 1224, ../sass/_goran.scss */
+.site-footer {
+  background: #403f3f;
+  font-size: 0.875em;
+  line-height: 1.71429em;
+}
+
+/* line 1229, ../sass/_goran.scss */
+.site-info {
+  padding: 24px 0;
+}
+
+/*--------------------------------------------------------------
+10.0 Widgets
+--------------------------------------------------------------*/
+/* line 1236, ../sass/_goran.scss */
+.widget {
+  margin: 0;
+}
+
+/* line 1239, ../sass/_goran.scss */
+.widget img {
+  vertical-align: bottom;
+}
+
+/* line 1243, ../sass/_goran.scss */
+.widget-title,
+.widgettitle {
+  margin: 0 auto 24px;
+  text-transform: uppercase;
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+/* line 1250, ../sass/_goran.scss */
+.widget-title:empty,
+.widgettitle:empty {
+  display: none;
+}
+
+/* line 1253, ../sass/_goran.scss */
+.widget {
+  padding-top: 24px;
+  border-top: 2px solid #f1f0f0;
+}
+
+/* line 1257, ../sass/_goran.scss */
+.footer-widget .widget {
+  border-top-color: #e1dfdf;
+}
+
+/* line 1262, ../sass/_goran.scss */
+.footer-widget:first-of-type .widget:first-of-type,
+.front-page-widget:first-of-type .widget:first-of-type,
+.widget-area .widget:first-of-type {
+  padding-top: 0;
+  border-top: 0;
+}
+
+/* line 1266, ../sass/_goran.scss */
+.widget-area {
+  border-top: 2px solid #d2cfcf;
+}
+
+/* line 1269, ../sass/_goran.scss */
+.widget select {
+  margin-bottom: 24px;
+}
+
+/* Calendar */
+/* line 1276, ../sass/_goran.scss */
+.widget_calendar caption,
+.widget_calendar th,
+.widget_calendar td {
+  text-align: center;
+}
+
+/* line 1279, ../sass/_goran.scss */
+.widget_calendar caption {
+  text-transform: uppercase;
+}
+
+/* line 1283, ../sass/_goran.scss */
+.widget_calendar thead,
+.widget_calendar tfoot {
+  background: #f1f0f0;
+}
+
+/* line 1287, ../sass/_goran.scss */
+.footer-widget-area .widget_calendar thead,
+.footer-widget-area .widget_calendar tfoot {
+  background: #e1dfdf;
+}
+
+/* Custom Menu */
+/* line 1292, ../sass/_goran.scss */
+.widget_nav_menu ul[id^="menu-social"] {
+  margin-bottom: 12px;
+}
+
+/* line 1295, ../sass/_goran.scss */
+.widget_nav_menu ul[id^="menu-social"] li {
+  display: inline-block;
+  padding: 0;
+  margin: 0 8px 12px 0;
+  border-top: 0;
+}
+
+/* line 1301, ../sass/_goran.scss */
+.widget_nav_menu ul ul {
+  display: none;
+}
+
+/* line 1304, ../sass/_goran.scss */
+.widget_nav_menu ul ul.toggle-on {
+  display: block;
+}
+
+/* line 1307, ../sass/_goran.scss */
+.widget_nav_menu li {
+  text-transform: uppercase;
+}
+
+/* line 1310, ../sass/_goran.scss */
+.widget_nav_menu a {
+  display: block;
+  position: relative;
+}
+
+/* Lists */
+/* line 1323, ../sass/_goran.scss */
+.widget_archive ul,
+.widget_categories ul,
+.widget_nav_menu ul,
+.widget_meta ul,
+.widget_pages ul,
+.widget_recent_comments ul,
+.widget_recent_entries ul,
+.widget_rss ul {
+  list-style: none;
+}
+
+/* line 1333, ../sass/_goran.scss */
+.widget_archive li,
+.widget_categories li,
+.widget_nav_menu li,
+.widget_meta li,
+.widget_pages li,
+.widget_recent_comments li,
+.widget_recent_entries li,
+.widget_rss li {
+  padding: 12px 0;
+  border-top: 1px solid #f1f0f0;
+}
+
+/* line 1344, ../sass/_goran.scss */
+.widget_archive li:first-child,
+.widget_categories li:first-child,
+.widget_nav_menu li:first-child,
+.widget_meta li:first-child,
+.widget_pages li:first-child,
+.widget_recent_comments li:first-child,
+.widget_recent_entries li:first-child,
+.widget_rss li:first-child {
+  padding-top: 0;
+  border-top: 0;
+}
+
+/* line 1355, ../sass/_goran.scss */
+.widget_archive li:last-child,
+.widget_categories li:last-child,
+.widget_nav_menu li:last-child,
+.widget_meta li:last-child,
+.widget_pages li:last-child,
+.widget_recent_comments li:last-child,
+.widget_recent_entries li:last-child,
+.widget_rss li:last-child {
+  padding-bottom: 0;
+}
+
+/* line 1360, ../sass/_goran.scss */
+.widget_categories .children,
+.widget_nav_menu .sub-menu,
+.widget_pages .children {
+  position: relative;
+  padding-top: 12px;
+  margin-top: 12px;
+  border-top: 1px solid #f1f0f0;
+}
+
+/* line 1376, ../sass/_goran.scss */
+.footer-widget-area .widget_archive li,
+.footer-widget-area .widget_categories li,
+.footer-widget-area .widget_nav_menu li,
+.footer-widget-area .widget_meta li,
+.footer-widget-area .widget_pages li,
+.footer-widget-area .widget_recent_comments li,
+.footer-widget-area .widget_recent_entries li,
+.footer-widget-area .widget_rss li,
+.footer-widget-area .widget_categories .children,
+.footer-widget-area .widget_nav_menu .sub-menu,
+.footer-widget-area .widget_pages .children {
+  border-top-color: #e1dfdf;
+}
+
+/* Recent Posts */
+/* line 1381, ../sass/_goran.scss */
+.widget_recent_entries .post-date {
+  display: block;
+  color: #757575;
+  font-size: 0.875em;
+  line-height: 1.71429em;
+}
+
+/* Search */
+/* line 1389, ../sass/_goran.scss */
+.widget_search .search-submit {
+  display: none;
+}
+
+/* Tag Cloud */
+/* line 1394, ../sass/_goran.scss */
+.widget_tag_cloud > div {
+  margin-bottom: 24px;
+}
+
+/*--------------------------------------------------------------
+11.0 Content
+--------------------------------------------------------------*/
+/* line 1401, ../sass/_goran.scss */
+.error404 .page-content {
+  margin: 0 0 24px;
+}
+
+/* line 1405, ../sass/_goran.scss */
+.byline,
+.updated {
+  display: none;
+}
+
+/* line 1409, ../sass/_goran.scss */
+.single .byline,
+.group-blog .byline {
+  display: inline;
+}
+
+/* Sticky */
+/* line 1415, ../sass/_goran.scss */
+.sticky .posted-on,
+.sticky .entry-meta {
+  display: none;
+}
+
+/* line 1418, ../sass/_goran.scss */
+.group-blog .sticky .entry-meta {
+  display: block;
+}
+
+/* Hentry */
+/* line 1424, ../sass/_goran.scss */
+.hentry,
+.no-results {
+  margin: 0;
+}
+
+/* line 1429, ../sass/_goran.scss */
+.archive .hentry,
+.blog .hentry,
+.search .hentry {
+  padding-top: 24px;
+  border-top: 2px solid #f1f0f0;
+}
+
+/* line 1435, ../sass/_goran.scss */
+.archive .site-main > .hentry:first-of-type,
+.blog .site-main > .hentry:first-of-type,
+.search .site-main > .hentry:first-of-type {
+  padding-top: 0;
+  border-top: 0;
+}
+
+/* Post Formats */
+/* line 1442, ../sass/_goran.scss */
+.format-aside .entry-title,
+.format-status .entry-title {
+  display: none;
+}
+
+/* line 1445, ../sass/_goran.scss */
+.format-link .entry-title a:after {
+  color: #757575;
+  content: "\f442";
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  font-family: "Genericons";
+  font-size: 1em;
+  line-height: inherit;
+  text-decoration: inherit;
+  font-weight: normal;
+  font-style: normal;
+  vertical-align: top;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 1463, ../sass/_goran.scss */
+.format-link .entry-title a:hover:after,
+.format-link .entry-title a:focus:after,
+.format-link .entry-title a:active:after {
+  color: #e74f4e;
+}
+
+/* Post Thumbnail */
+/* line 1468, ../sass/_goran.scss */
+.post-thumbnail {
+  position: relative;
+  display: inline-block;
+  margin: 0 auto 24px auto;
+}
+
+/* line 1473, ../sass/_goran.scss */
+.post-thumbnail img {
+  display: block;
+  margin: 0;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+
+/* Entry Title */
+/* line 1483, ../sass/_goran.scss */
+.entry-title,
+.page-title {
+  text-transform: uppercase;
+}
+
+/* line 1486, ../sass/_goran.scss */
+.entry-title a {
+  color: #242424;
+}
+
+/* line 1491, ../sass/_goran.scss */
+.entry-title a:hover,
+.entry-title a:focus,
+.entry-title a:active {
+  color: #e74f4e;
+}
+
+/* Entry Footer & Entry Meta */
+/* line 1497, ../sass/_goran.scss */
+.entry-footer,
+.entry-meta {
+  padding-bottom: 24px;
+  color: #757575;
+  font-size: 0.875em;
+  line-height: 1.71429em;
+}
+
+/* line 1503, ../sass/_goran.scss */
+.entry-meta {
+  margin-bottom: 24px;
+  border-bottom: 1px solid #f1f0f0;
+}
+
+/* line 1507, ../sass/_goran.scss */
+.entry-footer span {
+  padding-right: 12px;
+}
+
+/* line 1510, ../sass/_goran.scss */
+.entry-footer span:last-of-type {
+  padding-right: 0;
+}
+
+/* line 1513, ../sass/_goran.scss */
+.post-format-link .genericon {
+  font-size: 1.14286em;
+  line-height: 1.5;
+}
+
+/* More Link */
+/* line 1519, ../sass/_goran.scss */
+.more-link {
+  display: inline-block;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* line 1524, ../sass/_goran.scss */
+.more-link:after {
+  content: '';
+  display: inline-block;
+  margin-bottom: 2px;
+  margin-left: 4px;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  border-left: 4px solid #e74f4e;
+  vertical-align: baseline;
+  -moz-transition: all 0.15s ease-in-out;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+/* line 1539, ../sass/_goran.scss */
+.more-link:hover:after,
+.more-link:focus:after,
+.more-link:active:after {
+  border-left-color: #242424;
+}
+
+/* line 1542, ../sass/_goran.scss */
+.more-link .meta-nav {
+  display: none;
+}
+
+/* Page Links */
+/* line 1547, ../sass/_goran.scss */
+.page-links {
+  clear: both;
+  padding: 24px 24px 18px 24px;
+  margin: 0 0 24px;
+  background: #f1f0f0;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+
+/* line 1557, ../sass/_goran.scss */
+.page-links > a,
+.page-links > span {
+  display: inline-block;
+  margin: 0 0 6px 8px;
+}
+
+/* Genericons */
+/* line 1564, ../sass/_goran.scss */
+.site-top-content .genericon,
+.entry-content .genericon {
+  line-height: 1.5;
+}
+
+/* line 1567, ../sass/_goran.scss */
+.site-top-content .genericon {
+  color: #fff;
+}
+
+/* Hero */
+/* line 1572, ../sass/_goran.scss */
+.hero {
+  padding: 24px;
+  background-color: #e74f4e;
+}
+
+/* line 1576, ../sass/_goran.scss */
+.hero-image .hero {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  text-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+}
+
+/* line 1586, ../sass/_goran.scss */
+.hero .page-title,
+.hero .hentry {
+  position: relative;
+  color: #fff;
+}
+
+/* line 1591, ../sass/_goran.scss */
+.hero .page-title,
+.hero .taxonomy-description {
+  text-align: center;
+}
+
+/* line 1595, ../sass/_goran.scss */
+.hero .page-title,
+.hero .taxonomy-description * {
+  margin-bottom: 0;
+}
+
+/* line 1598, ../sass/_goran.scss */
+.hero .page-title {
+  padding-bottom: 1px;
+}
+
+/* line 1601, ../sass/_goran.scss */
+.hero .hentry {
+  margin-bottom: -24px;
+}
+
+/* line 1604, ../sass/_goran.scss */
+.hero .entry-footer a {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* line 1609, ../sass/_goran.scss */
+.hero .entry-footer a:hover,
+.hero .entry-footer a:focus,
+.hero .entry-footer a:active {
+  color: #fff;
+}
+
+/* line 1612, ../sass/_goran.scss */
+body[class*="front-page"] .hero .page-title {
+  text-align: inherit;
+}
+
+/* Grid Page & Featured Page */
+/* line 1618, ../sass/_goran.scss */
+.featured-page,
+.grid {
+  padding-top: 24px;
+  border-top: 2px solid #f1f0f0;
+}
+
+/* line 1623, ../sass/_goran.scss */
+.featured-page:first-of-type,
+.grid:first-of-type {
+  padding-top: 0;
+  border-top: 0;
+}
+
+/* line 1628, ../sass/_goran.scss */
+.featured-page .hentry,
+.grid .hentry {
+  margin-bottom: 0;
+  text-align: center;
+}
+
+/* line 1635, ../sass/_goran.scss */
+.featured-page .entry-footer,
+.featured-page .entry-summary,
+.grid .entry-footer,
+.grid .entry-summary {
+  text-align: left;
+}
+
+/* line 1639, ../sass/_goran.scss */
+.featured-page .post-thumbnail img,
+.grid .post-thumbnail img {
+  border: 2px solid transparent;
+  -moz-transition: all 0.15s ease-in-out;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+/* line 1646, ../sass/_goran.scss */
+.featured-page .post-thumbnail:hover img,
+.grid .post-thumbnail:hover img {
+  border-color: #e74f4e;
+}
+
+/* line 1650, ../sass/_goran.scss */
+.featured-page .entry-title,
+.grid .entry-title {
+  margin: 0 auto 24px;
+  text-transform: uppercase;
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+/* line 1657, ../sass/_goran.scss */
+.featured-page .entry-summary p:last-of-type,
+.grid .entry-summary p:last-of-type {
+  text-align: center;
+}
+
+/* line 1661, ../sass/_goran.scss */
+.featured-page .more-link,
+.grid .more-link {
+  padding: 12px 24px;
+  background: #e74f4e;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  color: #fff;
+}
+
+/* line 1674, ../sass/_goran.scss */
+.featured-page .more-link:hover,
+.featured-page .more-link:focus,
+.featured-page .more-link:active,
+.grid .more-link:hover,
+.grid .more-link:focus,
+.grid .more-link:active {
+  background: #242424;
+  color: #fff;
+}
+
+/* line 1679, ../sass/_goran.scss */
+.featured-page .more-link:after,
+.grid .more-link:after {
+  display: none;
+}
+
+/*--------------------------------------------------------------
+12.0 Comments
+--------------------------------------------------------------*/
+/* line 1686, ../sass/_goran.scss */
+.comments-area {
+  margin: 0 0 24px;
+}
+
+/* line 1689, ../sass/_goran.scss */
+.comment-list {
+  list-style: none;
+  margin: 0;
+}
+
+/* line 1695, ../sass/_goran.scss */
+.comment-list .comment,
+.comment-list .pingback,
+.comment-list .trackback {
+  padding-top: 24px;
+  border-top: 1px solid #f1f0f0;
+}
+
+/* line 1699, ../sass/_goran.scss */
+.comment-list > .depth-1:first-of-type {
+  border-top: 0;
+}
+
+/* line 1702, ../sass/_goran.scss */
+.comment-list .children {
+  list-style: none;
+}
+
+/* line 1706, ../sass/_goran.scss */
+.pingback .comment-body,
+.trackback .comment-body {
+  padding-bottom: 24px;
+}
+
+/* line 1709, ../sass/_goran.scss */
+.bypostauthor > .comment-body {
+  background: #f1f0f0;
+  padding: 24px 24px 0 24px;
+  margin-bottom: 24px;
+}
+
+/* line 1714, ../sass/_goran.scss */
+.comment .comment-reply-link {
+  margin-bottom: 24px;
+  display: inline-block;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* line 1720, ../sass/_goran.scss */
+.comment .comment-reply-link:after {
+  content: '';
+  display: inline-block;
+  margin-bottom: 2px;
+  margin-left: 4px;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  border-left: 4px solid #e74f4e;
+  vertical-align: baseline;
+  -moz-transition: all 0.15s ease-in-out;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+/* line 1735, ../sass/_goran.scss */
+.comment .comment-reply-link:hover:after,
+.comment .comment-reply-link:focus:after,
+.comment .comment-reply-link:active:after {
+  border-left-color: #242424;
+}
+
+/* line 1738, ../sass/_goran.scss */
+.comment .reply:empty {
+  display: none;
+}
+
+/* line 1741, ../sass/_goran.scss */
+.comment-meta {
+  margin-bottom: 24px;
+}
+
+/* line 1744, ../sass/_goran.scss */
+.comment-author .avatar {
+  float: left;
+  margin-right: 12px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+
+/* line 1751, ../sass/_goran.scss */
+.no-comments {
+  margin: 0 auto 16px;
+  font-weight: bold;
+  font-size: 1.5em;
+  line-height: 2em;
+}
+
+/*--------------------------------------------------------------
+13.0 Media
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+13.1 Images
+--------------------------------------------------------------*/
+/* line 1766, ../sass/_goran.scss */
+.comment-content img.wp-smiley,
+.entry-content img.wp-smiley,
+.page-content img.wp-smiley {
+  border: none;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 0;
+}
+
+/* Captions */
+/* line 1774, ../sass/_goran.scss */
+.wp-caption {
+  border: 0;
+  margin-bottom: 24px;
+  max-width: 100%;
+}
+
+/* line 1779, ../sass/_goran.scss */
+.wp-caption img[class*="wp-image-"] {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+/*--------------------------------------------------------------
+13.2 Galleries
+--------------------------------------------------------------*/
+/* line 1788, ../sass/_goran.scss */
+.gallery {
+  padding: 12px;
+  margin: 0 0 24px;
+  background: #f1f0f0;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+
+/* line 1796, ../sass/_goran.scss */
+.gallery .gallery-item {
+  float: left;
+  padding: 12px;
+  width: 100%;
+}
+
+/* line 1801, ../sass/_goran.scss */
+.gallery .gallery-item .gallery-icon a {
+  display: block;
+}
+
+/* line 1804, ../sass/_goran.scss */
+.gallery .gallery-item .gallery-icon img {
+  display: block;
+  margin: 0 auto;
+  height: auto;
+  border: none;
+}
+
+/* line 1810, ../sass/_goran.scss */
+.gallery .gallery-item + br {
+  display: none;
+}
+
+/* Columns */
+/* line 1817, ../sass/_goran.scss */
+.gallery-columns-1 .gallery-item,
+.gallery-columns-5 .gallery-item,
+.gallery-columns-7 .gallery-item {
+  float: none;
+  width: 100%;
+}
+
+/* line 1823, ../sass/_goran.scss */
+.gallery-columns-2 .gallery-item,
+.gallery-columns-4 .gallery-item,
+.gallery-columns-8 .gallery-item {
+  width: 50%;
+}
+
+/* line 1828, ../sass/_goran.scss */
+.gallery-columns-3 .gallery-item,
+.gallery-columns-6 .gallery-item,
+.gallery-columns-9 .gallery-item {
+  width: 33.33333%;
+}
+
+/* line 1836, ../sass/_goran.scss */
+.gallery-columns-2 .gallery-item:nth-of-type(2n-2),
+.gallery-columns-3 .gallery-item:nth-of-type(3n-3),
+.gallery-columns-4 .gallery-item:nth-of-type(2n-2),
+.gallery-columns-6 .gallery-item:nth-of-type(3n-3),
+.gallery-columns-8 .gallery-item:nth-of-type(2n-2),
+.gallery-columns-9 .gallery-item:nth-of-type(3n-3) {
+  clear: right;
+}
+
+/* line 1844, ../sass/_goran.scss */
+.gallery-columns-2 .gallery-item:nth-of-type(2n-1),
+.gallery-columns-3 .gallery-item:nth-of-type(3n-2),
+.gallery-columns-4 .gallery-item:nth-of-type(2n-1),
+.gallery-columns-6 .gallery-item:nth-of-type(3n-2),
+.gallery-columns-8 .gallery-item:nth-of-type(2n-1),
+.gallery-columns-9 .gallery-item:nth-of-type(3n-2) {
+  clear: left;
+}
+
+/* Captions */
+/* line 1850, ../sass/_goran.scss */
+.gallery-caption,
+.wp-caption-text {
+  padding: 12px;
+  background: #f1f0f0;
+  text-align: center;
+  font-size: 0.875em;
+  line-height: 1.71429em;
+}
+
+/*--------------------------------------------------------------
+13.3 Iframes
+--------------------------------------------------------------*/
+/* line 1866, ../sass/_goran.scss */
+audio,
+embed,
+iframe,
+object,
+video,
+.wp-audio-shortcode {
+  display: block;
+  margin-bottom: 24px;
+  max-width: 100%;
+}
+
+/* VideoPress */
+/* line 1873, ../sass/_goran.scss */
+.video-player {
+  margin: -5px 0 !important;
+  height: auto !important;
+}
+
+/* line 1877, ../sass/_goran.scss */
+.video-player object {
+  margin-bottom: 0;
+}
+
+/* Playlists */
+/* line 1882, ../sass/_goran.scss */
+.site-content .wp-playlist {
+  padding: 12px;
+  margin: 0 0 24px;
+  border-color: #d2cfcf;
+  font-size: inherit;
+}
+
+/* Google Maps */
+/* line 1890, ../sass/_goran.scss */
+.googlemaps {
+  margin-bottom: 24px;
+}
+
+/* line 1893, ../sass/_goran.scss */
+.googlemaps br {
+  display: none;
+}
+
+/* line 1896, ../sass/_goran.scss */
+.googlemaps iframe {
+  margin-bottom: 0;
+}
+
+/*--------------------------------------------------------------
+14.0 Jetpack
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+14.1 Contact Form
+--------------------------------------------------------------*/
+/* line 1906, ../sass/_goran.scss */
+.hentry .contact-form label {
+  margin-bottom: 0;
+  font-weight: inherit;
+}
+
+/* line 1911, ../sass/_goran.scss */
+.hentry .contact-form label.checkbox,
+.hentry .contact-form label.radio {
+  margin-bottom: 0;
+  font-weight: inherit;
+}
+
+/* line 1915, ../sass/_goran.scss */
+.hentry .contact-form label span {
+  color: #d9321f;
+}
+
+/* line 1920, ../sass/_goran.scss */
+.hentry .contact-form input[type="text"],
+.hentry .contact-form input[type="email"],
+.hentry .contact-form textarea {
+  margin-bottom: 24px;
+  width: 100%;
+  max-width: 100%;
+}
+
+/* line 1925, ../sass/_goran.scss */
+.hentry .contact-form div .clear-form:last-of-type {
+  margin-bottom: 24px;
+}
+
+/*--------------------------------------------------------------
+14.2 Galleries
+--------------------------------------------------------------*/
+/* line 1933, ../sass/_goran.scss */
+.hentry .slideshow-window,
+.hentry .tiled-gallery {
+  margin: 0 0 24px;
+}
+
+/* line 1936, ../sass/_goran.scss */
+.hentry .slideshow-window {
+  background: #f1f0f0;
+  border: 24px solid #f1f0f0;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+
+/* line 1943, ../sass/_goran.scss */
+.hentry .slideshow-slide img {
+  vertical-align: top;
+}
+
+/* line 1946, ../sass/_goran.scss */
+.hentry .slideshow-slide-caption {
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  text-shadow: none;
+}
+
+/*--------------------------------------------------------------
+14.3 Infinite Scroll
+--------------------------------------------------------------*/
+/* line 1957, ../sass/_goran.scss */
+.infinite-scroll .paging-navigation,
+.infinite-scroll.neverending .site-footer {
+  display: none;
+}
+
+/* line 1960, ../sass/_goran.scss */
+.infinity-end.neverending .site-footer {
+  display: block;
+}
+
+/* line 1963, ../sass/_goran.scss */
+#infinite-footer {
+  z-index: 9999;
+}
+
+/* line 1966, ../sass/_goran.scss */
+#infinite-footer .container {
+  padding: 0;
+  background: #403f3f;
+  border: 0;
+  color: #d2cfcf;
+}
+
+/* line 1973, ../sass/_goran.scss */
+#infinite-footer .blog-credits,
+#infinite-footer .blog-info {
+  padding: 6px 24px;
+  color: inherit;
+  font-size: 0.875em;
+  line-height: 1.71429em;
+}
+
+/* line 1980, ../sass/_goran.scss */
+#infinite-footer .blog-credits a,
+#infinite-footer .blog-info a {
+  color: #fff;
+  font-size: inherit;
+}
+
+/* line 1989, ../sass/_goran.scss */
+#infinite-footer .blog-credits a:hover,
+#infinite-footer .blog-credits a:focus,
+#infinite-footer .blog-credits a:active,
+#infinite-footer .blog-info a:hover,
+#infinite-footer .blog-info a:focus,
+#infinite-footer .blog-info a:active {
+  color: #d2cfcf;
+  text-decoration: none;
+}
+
+/* line 1993, ../sass/_goran.scss */
+#infinite-footer .blog-info a {
+  text-transform: uppercase;
+}
+
+/* line 1996, ../sass/_goran.scss */
+#infinite-handle {
+  margin: 0 0 24px;
+}
+
+/* line 1999, ../sass/_goran.scss */
+#infinite-handle span {
+  display: inline-block;
+  padding: 12px 24px;
+  margin: 0;
+  background: #e74f4e;
+  color: #fff;
+  font-size: inherit;
+  font-weight: bold;
+  text-transform: uppercase;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+
+/* line 2014, ../sass/_goran.scss */
+#infinite-handle span:hover,
+#infinite-handle span:focus,
+#infinite-handle span:active {
+  background: #242424;
+  border-color: #242424;
+  color: #fff;
+}
+
+/* line 2019, ../sass/_goran.scss */
+.infinite-loader {
+  margin: 0 0 24px;
+  height: 48px;
+}
+
+/* line 2023, ../sass/_goran.scss */
+.spinner {
+  top: 50% !important;
+}
+
+/*--------------------------------------------------------------
+14.4 Sharedaddy
+--------------------------------------------------------------*/
+/* line 2030, ../sass/_goran.scss */
+.hentry #jp-post-flair {
+  padding: 0;
+}
+
+/* line 2037, ../sass/_goran.scss */
+.sd-sharing-enabled:not(#jp-post-flair),
+.jetpack-likes-widget-wrapper,
+.sharedaddy.sd-block.sd-gplus,
+.sd-rating,
+div#jp-relatedposts {
+  padding: 24px 24px 0 24px;
+  margin-bottom: 24px;
+  border: 1px solid #f1f0f0;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+
+/* line 2045, ../sass/_goran.scss */
+.hentry div.sharedaddy h3.sd-title {
+  margin-bottom: 24px;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+/* line 2053, ../sass/_goran.scss */
+.comment .pd-rating,
+.hentry .pd-rating,
+.hentry div.sharedaddy .sd-content ul,
+.sharedaddy.sd-block.sd-gplus .sd-content {
+  margin-bottom: 24px !important;
+}
+
+/* line 2056, ../sass/_goran.scss */
+.hentry .post-likes-widget {
+  margin-bottom: 24px;
+  position: inherit !important;
+  top: auto !important;
+}
+
+/* line 2061, ../sass/_goran.scss */
+.hentry div#jp-relatedposts h3.jp-relatedposts-headline {
+  margin-bottom: 24px;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+/* line 2068, ../sass/_goran.scss */
+.hentry .pd-rating + br,
+.hentry div.sharedaddy h3.sd-title:before,
+.hentry div#jp-relatedposts h3.jp-relatedposts-headline em:before {
+  display: none;
+}
+
+/* line 2071, ../sass/_goran.scss */
+.hentry div#jp-relatedposts div.jp-relatedposts-items p {
+  font-size: 0.875em;
+  line-height: 1.71429em;
+}
+
+/* line 2076, ../sass/_goran.scss */
+.hentry div#jp-relatedposts div.jp-relatedposts-items .jp-relatedposts-post,
+.hentry div#jp-relatedposts div.jp-relatedposts-items .jp-relatedposts-post-context {
+  opacity: 1;
+}
+
+/* line 2079, ../sass/_goran.scss */
+.hentry div#jp-relatedposts div.jp-relatedposts-items .jp-relatedposts-post {
+  margin-bottom: 24px;
+}
+
+/* line 2082, ../sass/_goran.scss */
+.hentry div#jp-relatedposts div.jp-relatedposts-items .jp-relatedposts-post-context {
+  color: #757575;
+}
+
+/* line 2085, ../sass/_goran.scss */
+.hentry div#jp-relatedposts div.jp-relatedposts-items .jp-relatedposts-post-title {
+  font-weight: bold;
+  font-size: 0.875em;
+  line-height: 1.71429em;
+}
+
+/* line 2090, ../sass/_goran.scss */
+.hentry div#jp-relatedposts div.jp-relatedposts-items .jp-relatedposts-post-title a {
+  font-weight: inherit;
+  text-decoration: none !important;
+}
+
+/* line 2094, ../sass/_goran.scss */
+.hentry div#jp-relatedposts div.jp-relatedposts-items span.jp-relatedposts-post-title {
+  font-size: inherit;
+  line-height: inherit;
+}
+
+/* line 2098, ../sass/_goran.scss */
+.hentry .pd-rating {
+  line-height: 1;
+}
+
+/* line 2103, ../sass/_goran.scss */
+.hero .sd-sharing-enabled:not(#jp-post-flair),
+.hero .jetpack-likes-widget-wrapper,
+.hero .sd-rating {
+  background: rgba(0, 0, 0, 0.3);
+  border-color: rgba(0, 0, 0, 0.3);
+}
+
+/*--------------------------------------------------------------
+14.5 Responsive Videos
+--------------------------------------------------------------*/
+/* line 2111, ../sass/_goran.scss */
+.jetpack-video-wrapper {
+  margin: 0 0 24px;
+}
+
+/*--------------------------------------------------------------
+14.6 Widgets
+--------------------------------------------------------------*/
+/* Display WordPress Posts */
+/* line 2120, ../sass/_goran.scss */
+.widget_jetpack_display_posts_widget .jetpack-display-remote-posts h4,
+.widget_jetpack_display_posts_widget .jetpack-display-remote-posts p {
+  margin: 0 0 24px !important;
+  font-size: inherit !important;
+  line-height: inherit !important;
+}
+
+/* Gravatar Profile */
+/* line 2127, ../sass/_goran.scss */
+.widget-grofile > img {
+  display: block;
+  margin: 0 0 24px;
+}
+
+/* line 2131, ../sass/_goran.scss */
+.widget.widget-grofile h4 {
+  margin: 0 auto 17px;
+}
+
+/* line 2134, ../sass/_goran.scss */
+.widget.widget-grofile > h4 {
+  margin-bottom: 24px;
+  font-size: inherit;
+  font-weight: normal;
+}
+
+/* RSS Links */
+/* line 2141, ../sass/_goran.scss */
+.widget_rss_links ul {
+  list-style: none;
+}
+
+/* line 2144, ../sass/_goran.scss */
+.widget_rss_links li {
+  padding: 12px 0;
+  border-top: 1px solid #f1f0f0;
+}
+
+/* line 2148, ../sass/_goran.scss */
+.widget_rss_links li:first-child {
+  padding-top: 0;
+  border-top: 0;
+}
+
+/* line 2152, ../sass/_goran.scss */
+.widget_rss_links li:last-child {
+  padding-bottom: 0;
+}
+
+/* line 2155, ../sass/_goran.scss */
+.widget_rss_links p a {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* line 2161, ../sass/_goran.scss */
+.widget_rss_links p a:hover img,
+.widget_rss_links p a:focus img,
+.widget_rss_links p a:active img {
+  opacity: 0.7;
+}
+
+/* line 2164, ../sass/_goran.scss */
+.widget_rss_links p img {
+  display: block;
+}
+
+/*--------------------------------------------------------------
+15.0 Responsive
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+15.1 x >= 600px
+--------------------------------------------------------------*/
+@media screen and (min-width: 600px) {
+  /* Elements */
+  /* line 2177, ../sass/_goran.scss */
+  li > ul,
+  li > ol {
+    margin-left: 24px;
+  }
+
+  /* Layout */
+  /* line 2182, ../sass/_goran.scss */
+  .site {
+    width: 600px;
+  }
+
+  /* line 2186, ../sass/_goran.scss */
+  body.hero-image .hero,
+  body[class*="front-page"] .hero {
+    padding: 48px 24px;
+  }
+
+  /* Content */
+  /* line 2194, ../sass/_goran.scss */
+  .archive:not(.no-sidebar) .post-thumbnail,
+  .blog:not(.no-sidebar) .post-thumbnail,
+  .search:not(.no-sidebar) .post-thumbnail,
+  .single:not(.no-sidebar) .post-thumbnail {
+    width: 600px;
+    margin-left: -24px;
+  }
+
+  /* line 2201, ../sass/_goran.scss */
+  .archive:not(.no-sidebar) .post-thumbnail img,
+  .blog:not(.no-sidebar) .post-thumbnail img,
+  .search:not(.no-sidebar) .post-thumbnail img,
+  .single:not(.no-sidebar) .post-thumbnail img {
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+  }
+}
+/*--------------------------------------------------------------
+15.2 x >= 768px
+--------------------------------------------------------------*/
+@media screen and (min-width: 768px) {
+  /* Pagination */
+  /* line 2215, ../sass/_goran.scss */
+  .site-main .comment-navigation,
+  .site-main .paging-navigation,
+  .site-main .post-navigation {
+    margin-bottom: 48px;
+  }
+
+  /* line 2219, ../sass/_goran.scss */
+  .comment-navigation .nav-previous,
+  .paging-navigation .nav-previous {
+    float: left;
+    width: 50%;
+  }
+
+  /* line 2224, ../sass/_goran.scss */
+  .comment-navigation .nav-next,
+  .paging-navigation .nav-next {
+    float: right;
+    text-align: right;
+    width: 50%;
+  }
+
+  /* Layout */
+  /* line 2231, ../sass/_goran.scss */
+  .site {
+    width: 768px;
+  }
+
+  /* line 2235, ../sass/_goran.scss */
+  .no-sidebar .content-area,
+  .no-sidebar-full .content-area {
+    float: none;
+  }
+
+  /* line 2240, ../sass/_goran.scss */
+  .hero .hentry,
+  .hero-wrapper,
+  .no-sidebar-full .content-area {
+    width: 672px;
+  }
+
+  /* line 2254, ../sass/_goran.scss */
+  .archive .hentry,
+  .blog .hentry,
+  .search .hentry,
+  .content-area,
+  .featured-page,
+  .featured-page-area,
+  .footer-widget-area,
+  .front-page-widget-area,
+  .grid,
+  .grid-wrapper,
+  .widget,
+  .widget-area {
+    padding-top: 48px;
+  }
+
+  /* line 2264, ../sass/_goran.scss */
+  .content-area,
+  .featured-page-area,
+  .footer-widget-area,
+  .front-page-widget-area,
+  .grid-area,
+  .site-branding,
+  .site-footer,
+  .widget-area {
+    padding-right: 48px;
+    padding-left: 48px;
+  }
+
+  /* line 2271, ../sass/_goran.scss */
+  .comment-list,
+  .featured-page,
+  .grid,
+  .widget {
+    padding-bottom: 24px;
+  }
+
+  /* line 2274, ../sass/_goran.scss */
+  .site-logo {
+    max-height: 144px;
+  }
+
+  /* Content */
+  /* line 2279, ../sass/_goran.scss */
+  .hentry {
+    margin-bottom: 24px;
+  }
+
+  /* line 2285, ../sass/_goran.scss */
+  .archive:not(.no-sidebar) .post-thumbnail,
+  .blog:not(.no-sidebar) .post-thumbnail,
+  .search:not(.no-sidebar) .post-thumbnail,
+  .single:not(.no-sidebar) .post-thumbnail {
+    width: 768px;
+    margin-left: -48px;
+  }
+
+  /* line 2289, ../sass/_goran.scss */
+  .hero {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+
+  /* line 2294, ../sass/_goran.scss */
+  body.hero-image .hero,
+  body[class*="front-page"] .hero {
+    padding: 96px 0;
+  }
+
+  /* line 2297, ../sass/_goran.scss */
+  .error404 .page-content form {
+    padding-bottom: 24px;
+  }
+
+  /* Comments */
+  /* line 2302, ../sass/_goran.scss */
+  .comments-area {
+    margin-bottom: 48px;
+  }
+
+  /* Media */
+  /* line 2307, ../sass/_goran.scss */
+  .gallery-columns-4 .gallery-item {
+    width: 25%;
+  }
+
+  /* line 2310, ../sass/_goran.scss */
+  .gallery-columns-5 .gallery-item {
+    float: left;
+    width: 20%;
+  }
+
+  /* line 2314, ../sass/_goran.scss */
+  .gallery-columns-6 .gallery-item {
+    width: 16.66667%;
+  }
+
+  /* line 2320, ../sass/_goran.scss */
+  .gallery-columns-4 .gallery-item:nth-of-type(2n-2),
+  .gallery-columns-4 .gallery-item:nth-of-type(2n-1),
+  .gallery-columns-6 .gallery-item:nth-of-type(3n-3),
+  .gallery-columns-6 .gallery-item:nth-of-type(3n-2) {
+    clear: none;
+  }
+
+  /* line 2325, ../sass/_goran.scss */
+  .gallery-columns-4 .gallery-item:nth-of-type(4n-4),
+  .gallery-columns-5 .gallery-item:nth-of-type(5n-5),
+  .gallery-columns-6 .gallery-item:nth-of-type(6n-6) {
+    clear: right;
+  }
+
+  /* line 2330, ../sass/_goran.scss */
+  .gallery-columns-4 .gallery-item:nth-of-type(4n-3),
+  .gallery-columns-5 .gallery-item:nth-of-type(5n-4),
+  .gallery-columns-6 .gallery-item:nth-of-type(6n-5) {
+    clear: left;
+  }
+
+  /* Jetpack */
+  /* line 2336, ../sass/_goran.scss */
+  #infinite-handle,
+  .infinite-loader {
+    margin: 0 0 48px;
+  }
+}
+/*--------------------------------------------------------------
+15.3 x >= 1020px
+--------------------------------------------------------------*/
+@media screen and (min-width: 1020px) {
+  /* Pagination */
+  /* line 2348, ../sass/_goran.scss */
+  .site-main .comment-navigation,
+  .site-main .paging-navigation,
+  .site-main .post-navigation {
+    margin-bottom: 72px;
+  }
+
+  /* Main Navigation */
+  /* line 2353, ../sass/_goran.scss */
+  .menu-toggle {
+    display: none;
+  }
+
+  /* line 2356, ../sass/_goran.scss */
+  .menu-primary {
+    display: block;
+    padding: 0;
+    background: transparent;
+  }
+
+  /* line 2361, ../sass/_goran.scss */
+  .main-navigation {
+    margin-top: 24px;
+    margin-right: 36px;
+    margin-bottom: 24px;
+  }
+
+  /* line 2366, ../sass/_goran.scss */
+  .main-navigation ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    text-align: right;
+  }
+
+  /* line 2372, ../sass/_goran.scss */
+  .main-navigation li {
+    display: inline-block;
+    position: relative;
+    padding: 0;
+    margin-right: 32px;
+    border-top: 0;
+    text-align: left;
+  }
+
+  /* line 2380, ../sass/_goran.scss */
+  .main-navigation a {
+    display: block;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid transparent;
+  }
+
+  /* line 2390, ../sass/_goran.scss */
+  .main-navigation a:hover,
+  .main-navigation a:focus,
+  .main-navigation a:active,
+  .main-navigation .current_page_item > a,
+  .main-navigation .current-menu-item > a {
+    border-bottom-color: #fff;
+  }
+
+  /* line 2393, ../sass/_goran.scss */
+  .main-navigation ul ul {
+    float: left;
+    position: absolute;
+    top: 100%;
+    left: -999em;
+    z-index: 99999;
+    text-shadow: none;
+  }
+
+  /* line 2401, ../sass/_goran.scss */
+  .main-navigation ul ul ul {
+    left: -999em;
+    top: -1px;
+    margin-left: 8px;
+  }
+
+  /* line 2406, ../sass/_goran.scss */
+  .main-navigation ul ul a {
+    padding: 10px 8px;
+    width: 244px;
+    background: #e74f4e;
+    border: 0;
+  }
+
+  /* line 2412, ../sass/_goran.scss */
+  .main-navigation ul ul a:hover {
+    background: #c34242;
+    color: #fff;
+  }
+
+  /* line 2416, ../sass/_goran.scss */
+  .main-navigation ul ul li {
+    margin-right: 0;
+    border-bottom: 1px solid #a13736;
+  }
+
+  /* line 2420, ../sass/_goran.scss */
+  .main-navigation ul ul.toggle-on {
+    left: auto;
+  }
+
+  /* line 2423, ../sass/_goran.scss */
+  .main-navigation ul ul ul.toggle-on {
+    left: 100%;
+    border-top: 1px solid #a13736;
+  }
+
+  /* line 2427, ../sass/_goran.scss */
+  .menu-primary .sub-menu {
+    padding-top: 0;
+    margin-top: 0;
+    border: 1px solid #a13736;
+    border-bottom: 0;
+  }
+
+  /* Dropdown Toggle */
+  /* line 2436, ../sass/_goran.scss */
+  .main-navigation .menu-item .dropdown-toggle,
+  .main-navigation .menu-item .dropdown-toggle:focus {
+    background: #e74f4e;
+    border-color: #a13736;
+  }
+
+  /* line 2441, ../sass/_goran.scss */
+  .hero-image .main-navigation .menu-item .dropdown-toggle,
+  .hero-image .main-navigation .menu-item .dropdown-toggle:focus {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: rgba(0, 0, 0, 0.5);
+  }
+
+  /* line 2446, ../sass/_goran.scss */
+  .main-navigation .menu-item .dropdown-toggle:hover,
+  .hero-image .main-navigation .menu-item .dropdown-toggle:hover {
+    background: #c34242;
+  }
+
+  /* line 2449, ../sass/_goran.scss */
+  .main-navigation .menu-item .dropdown-toggle:hover:before {
+    border-top-color: #fff;
+  }
+
+  /* line 2452, ../sass/_goran.scss */
+  .main-navigation .menu-item .dropdown-toggle.toggle-on:hover:before {
+    border-bottom-color: #fff;
+  }
+
+  /* line 2456, ../sass/_goran.scss */
+  .main-navigation ul ul .menu-item .dropdown-toggle:before,
+  .main-navigation ul ul .menu-item .dropdown-toggle:hover:before {
+    margin-top: -4px;
+    margin-left: -2px;
+    border-top-color: transparent;
+    border-right: 0;
+    border-bottom: 4px solid transparent;
+    border-left-color: #fff;
+  }
+
+  /* line 2465, ../sass/_goran.scss */
+  .main-navigation ul ul .menu-item .dropdown-toggle.toggle-on:before,
+  .main-navigation ul ul .menu-item .dropdown-toggle.toggle-on:hover:before {
+    border-top: 4px solid transparent;
+    border-right: 4px solid #fff;
+    border-bottom: 4px solid transparent;
+    border-left: 0;
+  }
+
+  /* line 2472, ../sass/_goran.scss */
+  .main-navigation ul ul .page_item_has_children > a,
+  .main-navigation ul ul .menu-item-has-children > a {
+    padding-right: 56px;
+  }
+
+  /* line 2482, ../sass/_goran.scss */
+  .main-navigation ul ul .page_item_has_children > a .dropdown-toggle,
+  .main-navigation ul ul .menu-item-has-children > a .dropdown-toggle,
+  .hero-image .main-navigation ul ul .page_item_has_children > a .dropdown-toggle,
+  .hero-image .main-navigation ul ul .menu-item-has-children > a .dropdown-toggle,
+  .main-navigation ul ul .page_item_has_children > a .dropdown-toggle:focus,
+  .main-navigation ul ul .menu-item-has-children > a .dropdown-toggle:focus,
+  .hero-image .main-navigation ul ul .page_item_has_children > a .dropdown-toggle:focus,
+  .hero-image .main-navigation ul ul .menu-item-has-children > a .dropdown-toggle:focus {
+    right: 8px;
+    background: #e96868;
+    border-color: #b23d3c;
+  }
+
+  /* line 2490, ../sass/_goran.scss */
+  .main-navigation ul ul .page_item_has_children > a .dropdown-toggle:hover,
+  .main-navigation ul ul .menu-item-has-children > a .dropdown-toggle:hover,
+  .hero-image .main-navigation ul ul .page_item_has_children > a .dropdown-toggle:hover,
+  .hero-image .main-navigation ul ul .menu-item-has-children > a .dropdown-toggle:hover {
+    background: #e74f4e;
+  }
+
+  /* Footer Navigation */
+  /* line 2495, ../sass/_goran.scss */
+  .footer-navigation {
+    margin-bottom: 0;
+    border-bottom: 0;
+  }
+
+  /* line 2499, ../sass/_goran.scss */
+  .footer-navigation ul {
+    text-align: right;
+  }
+
+  /* line 2502, ../sass/_goran.scss */
+  .footer-navigation li {
+    margin: 0 0 0 8px;
+  }
+
+  /* Layout */
+  /* line 2507, ../sass/_goran.scss */
+  .site {
+    width: 1020px;
+  }
+
+  /* line 2512, ../sass/_goran.scss */
+  .hero .hentry,
+  .hero-wrapper,
+  .no-sidebar-full .content-area {
+    width: 876px;
+  }
+
+  /* line 2517, ../sass/_goran.scss */
+  .content-area,
+  .site-branding,
+  .site-info {
+    float: left;
+    margin-left: 72px;
+  }
+
+  /* line 2523, ../sass/_goran.scss */
+  .footer-navigation,
+  .main-navigation,
+  .widget-area {
+    float: right;
+  }
+
+  /* line 2527, ../sass/_goran.scss */
+  .footer-navigation,
+  .footer-navigation + .site-info {
+    width: 402px;
+  }
+
+  /* line 2531, ../sass/_goran.scss */
+  .content-area,
+  .main-navigation {
+    width: 560px;
+  }
+
+  /* line 2534, ../sass/_goran.scss */
+  .site-branding {
+    width: 244px;
+  }
+
+  /* line 2541, ../sass/_goran.scss */
+  .featured-page-area,
+  .footer-widget-wrapper,
+  .front-page-widget-wrapper,
+  .grid-area,
+  .site-top-content {
+    padding-right: 72px;
+    padding-left: 72px;
+  }
+
+  /* line 2550, ../sass/_goran.scss */
+  .featured-page,
+  .footer-navigation,
+  .footer-widget,
+  .front-page-widget,
+  .grid,
+  .widget-area {
+    margin-right: 72px;
+    width: 244px;
+  }
+
+  /* line 2557, ../sass/_goran.scss */
+  .featured-page,
+  .footer-widget,
+  .front-page-widget,
+  .grid {
+    float: left;
+  }
+
+  /* line 2563, ../sass/_goran.scss */
+  .featured-page:nth-of-type(3n+3),
+  .footer-widget:nth-of-type(3n+3),
+  .front-page-widget:nth-of-type(3n+3),
+  .grid:nth-of-type(3n+3) {
+    margin-right: 0;
+  }
+
+  /* line 2569, ../sass/_goran.scss */
+  .featured-page:nth-of-type(3n+1),
+  .footer-widget:nth-of-type(3n+1),
+  .front-page-widget:nth-of-type(3n+1),
+  .grid:nth-of-type(3n+1) {
+    clear: left;
+  }
+
+  /* line 2583, ../sass/_goran.scss */
+  .archive .hentry,
+  .blog .hentry,
+  .search .hentry,
+  .content-area,
+  .featured-page,
+  .featured-page-area,
+  .footer-widget-area,
+  .front-page-widget-area,
+  .grid,
+  .grid-wrapper,
+  .widget,
+  .widget-area {
+    padding-top: 72px;
+  }
+
+  /* line 2590, ../sass/_goran.scss */
+  .featured-page,
+  .footer-widget .widget:first-of-type,
+  .front-page-widget .widget:first-of-type,
+  .grid:nth-of-type(2),
+  .grid:nth-of-type(3) {
+    padding-top: 0;
+    border-top: 0;
+  }
+
+  /* line 2597, ../sass/_goran.scss */
+  .comment-list,
+  .featured-page,
+  .grid,
+  .widget {
+    padding-bottom: 48px;
+  }
+
+  /* line 2605, ../sass/_goran.scss */
+  .content-area,
+  .footer-widget-area,
+  .front-page-widget-area,
+  .site-branding,
+  .site-footer,
+  .widget-area {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  /* line 2612, ../sass/_goran.scss */
+  body[class*="alternate-sidebar"].sidebar-left .content-area,
+  .sidebar-right .content-area,
+  body[class*="alternate-sidebar"].sidebar-right .widget-area,
+  .sidebar-left .widget-area {
+    float: left;
+    margin-right: 0;
+    margin-left: 72px;
+  }
+
+  /* line 2620, ../sass/_goran.scss */
+  body[class*="alternate-sidebar"].sidebar-left .widget-area,
+  .sidebar-right .widget-area,
+  body[class*="alternate-sidebar"].sidebar-right .content-area,
+  .sidebar-left .content-area {
+    float: right;
+    margin-right: 72px;
+    margin-left: 0;
+  }
+
+  /* line 2625, ../sass/_goran.scss */
+  .hero-image .site-header {
+    position: relative;
+    z-index: 2;
+    margin-bottom: -96px;
+    background: rgba(0, 0, 0, 0.225);
+    text-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+  }
+
+  /* line 2632, ../sass/_goran.scss */
+  .site-logo {
+    margin-right: 0;
+    margin-left: 0;
+    max-height: 168px;
+  }
+
+  /* line 2638, ../sass/_goran.scss */
+  .site-description,
+  .site-title {
+    text-align: left;
+  }
+
+  /* Widgets */
+  /* line 2643, ../sass/_goran.scss */
+  .widget-area {
+    border-top: 0;
+  }
+
+  /* Content */
+  /* line 2648, ../sass/_goran.scss */
+  .hentry {
+    margin-bottom: 48px;
+  }
+
+  /* line 2654, ../sass/_goran.scss */
+  .archive:not(.no-sidebar) .post-thumbnail,
+  .blog:not(.no-sidebar) .post-thumbnail,
+  .search:not(.no-sidebar) .post-thumbnail,
+  .single:not(.no-sidebar) .post-thumbnail {
+    width: 632px;
+    margin-left: -72px;
+  }
+
+  /* line 2661, ../sass/_goran.scss */
+  .archive:not(.no-sidebar) .post-thumbnail img,
+  .blog:not(.no-sidebar) .post-thumbnail img,
+  .search:not(.no-sidebar) .post-thumbnail img,
+  .single:not(.no-sidebar) .post-thumbnail img {
+    -moz-border-radius: 0 4px 4px 0;
+    -webkit-border-radius: 0 4px 4px 0;
+    border-radius: 0 4px 4px 0;
+  }
+
+  /* line 2666, ../sass/_goran.scss */
+  .hero {
+    padding-top: 72px;
+    padding-bottom: 72px;
+  }
+
+  /* line 2671, ../sass/_goran.scss */
+  body.hero-image .hero.with-featured-image,
+  body[class*="front-page"] .hero {
+    padding: 144px 0;
+  }
+
+  /* line 2674, ../sass/_goran.scss */
+  body.hero-image .hero.without-featured-image {
+    padding: 96px 0;
+  }
+
+  /* line 2677, ../sass/_goran.scss */
+  body.hero-image .hero.with-featured-image {
+    padding-top: 240px;
+  }
+
+  /* line 2680, ../sass/_goran.scss */
+  body.hero-image .hero.without-featured-image {
+    padding-top: 192px;
+  }
+
+  /* line 2683, ../sass/_goran.scss */
+  .error404 .page-content form {
+    padding-bottom: 48px;
+  }
+
+  /* Comments */
+  /* line 2688, ../sass/_goran.scss */
+  .comments-area {
+    margin-bottom: 72px;
+  }
+
+  /* Media */
+  /* line 2693, ../sass/_goran.scss */
+  .gallery-columns-7 .gallery-item {
+    float: left;
+    width: 14.28571%;
+  }
+
+  /* line 2697, ../sass/_goran.scss */
+  .gallery-columns-8 .gallery-item {
+    width: 12.5%;
+  }
+
+  /* line 2700, ../sass/_goran.scss */
+  .gallery-columns-9 .gallery-item {
+    width: 11.11111%;
+  }
+
+  /* line 2706, ../sass/_goran.scss */
+  .gallery-columns-8 .gallery-item:nth-of-type(2n-2),
+  .gallery-columns-8 .gallery-item:nth-of-type(2n-1),
+  .gallery-columns-9 .gallery-item:nth-of-type(3n-3),
+  .gallery-columns-9 .gallery-item:nth-of-type(3n-2) {
+    clear: none;
+  }
+
+  /* line 2711, ../sass/_goran.scss */
+  .gallery-columns-7 .gallery-item:nth-of-type(7n-7),
+  .gallery-columns-8 .gallery-item:nth-of-type(8n-8),
+  .gallery-columns-9 .gallery-item:nth-of-type(9n-9) {
+    clear: right;
+  }
+
+  /* line 2716, ../sass/_goran.scss */
+  .gallery-columns-7 .gallery-item:nth-of-type(7n-6),
+  .gallery-columns-8 .gallery-item:nth-of-type(8n-7),
+  .gallery-columns-9 .gallery-item:nth-of-type(9n-8) {
+    clear: left;
+  }
+
+  /* Jetpack */
+  /* line 2722, ../sass/_goran.scss */
+  #infinite-handle,
+  .infinite-loader {
+    margin: 0 0 72px;
+  }
+}
+/*--------------------------------------------------------------
+15.4 x >= 1230px
+--------------------------------------------------------------*/
+@media screen and (min-width: 1230px) {
+  /* Layout */
+  /* line 2732, ../sass/_goran.scss */
+  .site {
+    width: 1230px;
+  }
+
+  /* line 2737, ../sass/_goran.scss */
+  .hero .hentry,
+  .hero-wrapper,
+  .no-sidebar-full .content-area {
+    width: 1086px;
+  }
+
+  /* line 2741, ../sass/_goran.scss */
+  .footer-navigation,
+  .footer-navigation + .site-info {
+    width: 507px;
+  }
+
+  /* line 2745, ../sass/_goran.scss */
+  .content-area,
+  .main-navigation {
+    width: 700px;
+  }
+
+  /* line 2748, ../sass/_goran.scss */
+  .site-branding {
+    width: 314px;
+  }
+
+  /* line 2755, ../sass/_goran.scss */
+  .featured-page,
+  .footer-widget,
+  .front-page-widget,
+  .grid,
+  .widget-area {
+    width: 314px;
+  }
+
+  /* line 2758, ../sass/_goran.scss */
+  .site-logo {
+    max-height: 192px;
+  }
+
+  /* Content */
+  /* line 2766, ../sass/_goran.scss */
+  .archive:not(.no-sidebar) .post-thumbnail,
+  .blog:not(.no-sidebar) .post-thumbnail,
+  .search:not(.no-sidebar) .post-thumbnail,
+  .single:not(.no-sidebar) .post-thumbnail {
+    width: 772px;
+  }
+
+  /* line 2770, ../sass/_goran.scss */
+  body.hero-image .hero.with-featured-image,
+  body[class*="front-page"] .hero {
+    padding: 216px 0;
+  }
+
+  /* line 2773, ../sass/_goran.scss */
+  body.hero-image .hero.without-featured-image {
+    padding: 144px 0;
+  }
+
+  /* line 2776, ../sass/_goran.scss */
+  body.hero-image .hero.with-featured-image {
+    padding-top: 312px;
+  }
+
+  /* line 2779, ../sass/_goran.scss */
+  body.hero-image .hero.without-featured-image {
+    padding-top: 240px;
+  }
+}
+/* line 36, ../sass/style.css.scss */
+body {
+  font-family: "HurmeGeometricSans4", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: black;
+  background-color: white;
+}
+
+/* line 44, ../sass/style.css.scss */
+header#masthead {
+  color: #FFF;
+  background: rgba(77, 78, 83, 0.6);
+  font-size: 13px;
+  box-shadow: 0px 16px 16px -16px rgba(0, 0, 0, 0.43);
+  position: relative !important;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+/* line 56, ../sass/style.css.scss */
+header#masthead .site-title, header#masthead .site-description {
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+/* line 58, ../sass/style.css.scss */
+header#masthead nav#site-navigation {
+  margin: 24px 0 0 0;
+  float: right;
+}
+/* line 61, ../sass/style.css.scss */
+header#masthead nav#site-navigation ul {
+  text-align: left;
+}
+/* line 63, ../sass/style.css.scss */
+header#masthead nav#site-navigation ul > li {
+  display: inline-block;
+  margin-right: 32px;
+  list-style: none;
+}
+/* line 65, ../sass/style.css.scss */
+header#masthead nav#site-navigation ul > li a {
+  color: #FFF;
+  font-weight: 500;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 4px;
+  text-transform: uppercase;
+  border: 0;
+}
+/* line 68, ../sass/style.css.scss */
+header#masthead nav#site-navigation ul > li.current_page_item a,
+header#masthead nav#site-navigation ul > li a:hover,
+header#masthead nav#site-navigation ul > li a:active {
+  background: transparent;
+  border-bottom: 3px solid #f58d76;
+  color: #e6e7e8;
+  padding-bottom: 7px;
+}
+/* line 72, ../sass/style.css.scss */
+header#masthead .menu-toggle {
+  background: transparent;
+}
+/* line 73, ../sass/style.css.scss */
+header#masthead .site-branding {
+  width: 264px;
+  padding-right: 24px;
+  float: left;
+}
+/* line 74, ../sass/style.css.scss */
+header#masthead .site-logo {
+  margin: 0 !important;
+}
+
+@media screen and (min-width: 1020px) {
+  /* line 79, ../sass/style.css.scss */
+  header#masthead nav#site-navigation {
+    float: left;
+  }
+
+  /* line 83, ../sass/style.css.scss */
+  .main-navigation {
+    width: 680px;
+  }
+}
+/* ------------------
+   POSTS
+   -------------------- */
+/* line 91, ../sass/style.css.scss */
+.more-link {
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.428571429;
+  -webkit-user-select: none;
+  color: white;
+  background: #f1a693;
+  padding: 10px 16px;
+  width: 173px;
+  display: block;
+  margin: auto;
+}
+/* line 100, ../sass/style.css.scss */
+.more-link:after, .more-link span {
+  display: none;
+}
+/* line 101, ../sass/style.css.scss */
+.more-link:hover {
+  background: #f58d76;
+  color: white;
+}
+
+/* line 104, ../sass/style.css.scss */
+.home .post .entry-header {
+  text-align: center;
+}
+/* line 105, ../sass/style.css.scss */
+.home .post .entry-meta {
+  border: 0;
+  margin: 0;
+}
+/* line 106, ../sass/style.css.scss */
+.home .post h1.entry-title {
+  font-size: 22px;
+}
+
+/* line 111, ../sass/style.css.scss */
+#content .post .tags-links a {
+  color: #afafaf;
+  border: 1px solid;
+  display: inline-block;
+  padding: 5px;
+  font-weight: normal;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+/* line 113, ../sass/style.css.scss */
+#content .post .post-thumbnail {
+  width: 100%;
+  margin-left: 0;
+}
+/* line 115, ../sass/style.css.scss */
+#content .post .post-thumbnail img {
+  max-width: 100%;
+}
+
+/* line 119, ../sass/style.css.scss */
+#secondary aside.widget {
+  padding: 0;
+}
+/* line 121, ../sass/style.css.scss */
+#secondary aside.widget > iframe, #secondary aside.widget > div {
+  padding: 10px;
+  border: 1px solid;
+  border-top: 0;
+  margin: 0;
+}
+/* line 122, ../sass/style.css.scss */
+#secondary aside.widget h1.widget-title {
+  display: block;
+  background: url("https://yogabed.files.wordpress.com/2014/11/heading-background.png") no-repeat left top 100%;
+  line-height: 44px;
+  font-weight: normal;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+/* line 133, ../sass/style.css.scss */
+#twitter-widget-0 {
+  padding: 0 !important;
+  margin-bottom: 10px !important;
+}
+
+/* ----------------
+   Footer
+   ---------------- */
+/* line 141, ../sass/style.css.scss */
+#tertiary.footer-widget-area {
+  background-color: #e6e7e8;
+  color: #4d4e53;
+  font-size: 13px;
+}
+/* line 145, ../sass/style.css.scss */
+#tertiary.footer-widget-area .row {
+  margin-bottom: 0;
+}
+/* line 146, ../sass/style.css.scss */
+#tertiary.footer-widget-area a {
+  color: #4d4e53;
+  text-transform: none;
+  font-weight: normal;
+}
+/* line 147, ../sass/style.css.scss */
+#tertiary.footer-widget-area a:hover {
+  color: #000;
+  font-weight: 500;
+}
+/* line 148, ../sass/style.css.scss */
+#tertiary.footer-widget-area .brand {
+  margin-bottom: 32px;
+}
+/* line 149, ../sass/style.css.scss */
+#tertiary.footer-widget-area .menu > li {
+  padding: 0;
+  border: 0;
+}
+/* line 151, ../sass/style.css.scss */
+#tertiary.footer-widget-area .menu > li > a {
+  padding: 2px 0;
+}
+/* line 155, ../sass/style.css.scss */
+#tertiary.footer-widget-area .legal {
+  background: #4d4e53;
+  color: #FFF;
+  font-size: 12px;
+  margin-top: 16px;
+  padding-bottom: 18px;
+  padding-top: 18px;
+}
+/* line 162, ../sass/style.css.scss */
+#tertiary.footer-widget-area .legal a {
+  color: #FFF;
+}
+/* line 164, ../sass/style.css.scss */
+#tertiary.footer-widget-area .customer-service {
+  font-size: 20px;
+}
+/* line 165, ../sass/style.css.scss */
+#tertiary.footer-widget-area .link {
+  padding-top: 12px;
+}
+/* line 168, ../sass/style.css.scss */
+#tertiary.footer-widget-area .return-to-top {
+  border-radius: 3px;
+  border: 2px solid #FFF;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  padding-top: 8px;
+  text-align: center;
+}
+
+/* line 178, ../sass/style.css.scss */
+.site-info {
+  display: none;
+}
+
+/* line 179, ../sass/style.css.scss */
+.footer-navigation {
+  float: left;
+  margin-left: 72px;
+  margin-right: 0;
+  font-size: 12px;
+}
+/* line 181, ../sass/style.css.scss */
+.footer-navigation ul {
+  text-align: left;
+}

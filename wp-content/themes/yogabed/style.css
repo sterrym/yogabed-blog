@@ -1,272 +1,78 @@
-/*!
-Theme Name: Yogabed
-Template: edin
+/*
+Syntax error: File to import not found or unreadable: goran-style.
+              Load paths:
+                /Users/danielrobinson/workspace/projects/tagsolutions/yogabed/yogabed-blog/wp-content/themes/yogabed/sass
+                /Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-0.12.6/frameworks/blueprint/stylesheets
+                /Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets
+                Compass::SpriteImporter
+        on line 8 of /Users/danielrobinson/workspace/projects/tagsolutions/yogabed/yogabed-blog/wp-content/themes/yogabed/sass/style.css.scss
 
-To compile, navigate to the yogabed theme directory and run `compass watch`. To minify for production run `compass compile -e production`
-Instructions taken from: http://www.aptivate.org/en/blog/2013/08/07/sass-bang-wallop/
+Backtrace:
+/Users/danielrobinson/workspace/projects/tagsolutions/yogabed/yogabed-blog/wp-content/themes/yogabed/sass/style.css.scss:8
+/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/tree/import_node.rb:67:in `rescue in import'
+/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/tree/import_node.rb:45:in `import'
+/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/tree/import_node.rb:28:in `imported_file'
+/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/tree/import_node.rb:37:in `css_import?'
+/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:217:in `visit_import'
+/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `map'
+/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
+/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:128:in `visit_root'
+/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:7:in `visit'
+/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/tree/root_node.rb:20:in `render'
+/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/engine.rb:315:in `_render'
+/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/engine.rb:262:in `render'
+/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-0.12.6/lib/compass/compiler.rb:139:in `block (2 levels) in compile'
+/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-0.12.6/lib/compass/compiler.rb:126:in `timed'
+/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-0.12.6/lib/compass/compiler.rb:138:in `block in compile'
+/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-0.12.6/lib/compass/logger.rb:45:in `red'
+/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-0.12.6/lib/compass/compiler.rb:137:in `compile'
+/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-0.12.6/lib/compass/compiler.rb:118:in `compile_if_required'
+/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-0.12.6/lib/compass/compiler.rb:103:in `block (2 levels) in run'
+/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-0.12.6/lib/compass/compiler.rb:101:in `each'
+/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-0.12.6/lib/compass/compiler.rb:101:in `block in run'
+/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-0.12.6/lib/compass/compiler.rb:126:in `timed'
+/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-0.12.6/lib/compass/compiler.rb:100:in `run'
+/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-0.12.6/lib/compass/commands/watch_project.rb:147:in `recompile'
+/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/fssm-0.2.10/lib/fssm/path.rb:73:in `call'
+/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/fssm-0.2.10/lib/fssm/path.rb:73:in `run_callback'
+/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/fssm-0.2.10/lib/fssm/path.rb:55:in `callback_action'
+/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/fssm-0.2.10/lib/fssm/path.rb:35:in `update'
+/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/fssm-0.2.10/lib/fssm/state/directory.rb:39:in `block in modified'
+/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/fssm-0.2.10/lib/fssm/state/directory.rb:37:in `each'
+/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/fssm-0.2.10/lib/fssm/state/directory.rb:37:in `modified'
+/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/fssm-0.2.10/lib/fssm/state/directory.rb:18:in `refresh'
+/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/fssm-0.2.10/lib/fssm/backends/rbfsevent.rb:30:in `block in temporary_multipath_handler'
+/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/fssm-0.2.10/lib/fssm/backends/rbfsevent.rb:27:in `each'
+/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/fssm-0.2.10/lib/fssm/backends/rbfsevent.rb:27:in `temporary_multipath_handler'
+/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/fssm-0.2.10/lib/fssm/backends/rbfsevent.rb:17:in `block (2 levels) in run'
+/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/fssm-0.2.10/lib/fssm/backends/rbfsevent.rb:16:in `each'
+/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/fssm-0.2.10/lib/fssm/backends/rbfsevent.rb:16:in `block in run'
+/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/rb-fsevent-0.9.4/lib/rb-fsevent/fsevent.rb:45:in `call'
+/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/rb-fsevent-0.9.4/lib/rb-fsevent/fsevent.rb:45:in `run'
+/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/fssm-0.2.10/lib/fssm/backends/rbfsevent.rb:20:in `run'
+/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/fssm-0.2.10/lib/fssm/monitor.rb:26:in `run'
+/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/fssm-0.2.10/lib/fssm.rb:70:in `monitor'
+/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-0.12.6/lib/compass/commands/watch_project.rb:87:in `perform'
+/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-0.12.6/lib/compass/commands/base.rb:18:in `execute'
+/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-0.12.6/lib/compass/commands/project_base.rb:19:in `execute'
+/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-0.12.6/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-0.12.6/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-0.12.6/bin/compass:30:in `block in <top (required)>'
+/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-0.12.6/bin/compass:44:in `call'
+/Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-0.12.6/bin/compass:44:in `<top (required)>'
+/Users/danielrobinson/.rbenv/versions/2.1.2/bin/compass:23:in `load'
+/Users/danielrobinson/.rbenv/versions/2.1.2/bin/compass:23:in `<main>'
 */
-/* line 35, sass/style.css.scss */
-body {
-  font-family: "HurmeGeometricSans4", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  line-height: 1.428571429;
-  color: black;
-  background-color: white;
-}
-
-/* line 43, sass/style.css.scss */
-header#masthead {
-  color: #FFF;
-  background: rgba(77, 78, 83, 0.6);
-  font-size: 13px;
-  box-shadow: 0px 16px 16px -16px rgba(0, 0, 0, 0.43);
-  position: relative !important;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 1030;
-  -webkit-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
-}
-/* line 55, sass/style.css.scss */
-header#masthead nav#site-navigation {
-  margin: 24px 0 0 0;
-  float: right;
-}
-/* line 58, sass/style.css.scss */
-header#masthead nav#site-navigation ul {
-  text-align: left;
-}
-/* line 60, sass/style.css.scss */
-header#masthead nav#site-navigation ul > li {
-  display: inline-block;
-  margin-right: 32px;
-  list-style: none;
-}
-/* line 62, sass/style.css.scss */
-header#masthead nav#site-navigation ul > li a {
-  color: #FFF;
-  font-weight: 500;
-  text-decoration: none;
-  display: inline-block;
-  padding: 10px 4px;
-  text-transform: uppercase;
-  border: 0;
-}
-/* line 65, sass/style.css.scss */
-header#masthead nav#site-navigation ul > li.current_page_item a,
-header#masthead nav#site-navigation ul > li a:hover,
-header#masthead nav#site-navigation ul > li a:active {
-  background: transparent;
-  border-bottom: 3px solid #f58d76;
-  color: #e6e7e8;
-  padding-bottom: 7px;
-}
-/* line 69, sass/style.css.scss */
-header#masthead .menu-toggle {
-  background: transparent;
-}
-/* line 70, sass/style.css.scss */
-header#masthead .site-branding {
-  width: 264px;
-  padding-right: 24px;
-  float: left;
-}
-/* line 71, sass/style.css.scss */
-header#masthead .site-logo {
-  margin: 0 !important;
-}
-
-@media screen and (min-width: 1020px) {
-  /* line 76, sass/style.css.scss */
-  header#masthead nav#site-navigation {
-    float: left;
-  }
-
-  /* line 80, sass/style.css.scss */
-  .main-navigation {
-    width: 680px;
-  }
-}
-/* ------------------
-   POSTS
-   -------------------- */
-/* line 88, sass/style.css.scss */
-.more-link {
-  margin-bottom: 0;
-  font-weight: normal;
-  text-align: center;
-  vertical-align: middle;
-  cursor: pointer;
-  background-image: none;
-  border: 1px solid transparent;
-  white-space: nowrap;
-  padding: 6px 12px;
-  font-size: 14px;
-  line-height: 1.428571429;
-  -webkit-user-select: none;
-  color: white;
-  background: #f1a693;
-  padding: 10px 16px;
-  width: 173px;
-  display: block;
-  margin: auto;
-}
-/* line 97, sass/style.css.scss */
-.more-link:after, .more-link span {
-  display: none;
-}
-/* line 98, sass/style.css.scss */
-.more-link:hover {
-  background: #f58d76;
-  color: white;
-}
-
-/* line 101, sass/style.css.scss */
-.home .post .entry-header {
-  text-align: center;
-}
-/* line 102, sass/style.css.scss */
-.home .post .entry-meta {
-  border: 0;
-  margin: 0;
-}
-/* line 103, sass/style.css.scss */
-.home .post h1.entry-title {
-  font-size: 22px;
-}
-
-/* line 108, sass/style.css.scss */
-#content .post .tags-links a {
-  color: #afafaf;
-  border: 1px solid;
-  display: inline-block;
-  padding: 5px;
-  font-weight: normal;
-  font-size: 13px;
-  text-transform: uppercase;
-}
-/* line 110, sass/style.css.scss */
-#content .post .post-thumbnail {
-  width: 100%;
-  margin-left: 0;
-}
-/* line 112, sass/style.css.scss */
-#content .post .post-thumbnail img {
-  max-width: 100%;
-}
-
-/* line 116, sass/style.css.scss */
-#secondary aside.widget {
-  padding: 0;
-}
-/* line 118, sass/style.css.scss */
-#secondary aside.widget > iframe, #secondary aside.widget > div {
-  padding: 10px;
-  border: 1px solid;
-  border-top: 0;
-  margin: 0;
-}
-/* line 119, sass/style.css.scss */
-#secondary aside.widget h1.widget-title {
-  display: block;
-  background: url("https://yogabed.files.wordpress.com/2014/11/heading-background.png") no-repeat left top 100%;
-  line-height: 44px;
-  font-weight: normal;
-  text-align: center;
-  color: white;
-  font-size: 16px;
-  margin-bottom: 0;
-}
-
-/* line 130, sass/style.css.scss */
-#twitter-widget-0 {
-  padding: 0 !important;
-  margin-bottom: 10px !important;
-}
-
-/* ----------------
-   Footer
-   ---------------- */
-/* line 138, sass/style.css.scss */
-#tertiary.footer-widget-area {
-  background-color: #e6e7e8;
-  color: #4d4e53;
-  font-size: 13px;
-}
-/* line 142, sass/style.css.scss */
-#tertiary.footer-widget-area .row {
-  margin-bottom: 0;
-}
-/* line 143, sass/style.css.scss */
-#tertiary.footer-widget-area a {
-  color: #4d4e53;
-  text-transform: none;
-  font-weight: normal;
-}
-/* line 144, sass/style.css.scss */
-#tertiary.footer-widget-area a:hover {
-  color: #000;
-  font-weight: 500;
-}
-/* line 145, sass/style.css.scss */
-#tertiary.footer-widget-area .brand {
-  margin-bottom: 32px;
-}
-/* line 146, sass/style.css.scss */
-#tertiary.footer-widget-area .menu > li {
-  padding: 0;
-  border: 0;
-}
-/* line 148, sass/style.css.scss */
-#tertiary.footer-widget-area .menu > li > a {
-  padding: 2px 0;
-}
-/* line 152, sass/style.css.scss */
-#tertiary.footer-widget-area .legal {
-  background: #4d4e53;
-  color: #FFF;
-  font-size: 12px;
-  margin-top: 16px;
-  padding-bottom: 18px;
-  padding-top: 18px;
-}
-/* line 159, sass/style.css.scss */
-#tertiary.footer-widget-area .legal a {
-  color: #FFF;
-}
-/* line 161, sass/style.css.scss */
-#tertiary.footer-widget-area .customer-service {
-  font-size: 20px;
-}
-/* line 162, sass/style.css.scss */
-#tertiary.footer-widget-area .link {
-  padding-top: 12px;
-}
-/* line 165, sass/style.css.scss */
-#tertiary.footer-widget-area .return-to-top {
-  border-radius: 3px;
-  border: 2px solid #FFF;
-  display: inline-block;
-  width: 40px;
-  height: 40px;
-  padding-top: 8px;
-  text-align: center;
-}
-
-/* line 175, sass/style.css.scss */
-.site-info {
-  display: none;
-}
-
-/* line 176, sass/style.css.scss */
-.footer-navigation {
-  float: left;
-  margin-left: 72px;
-  margin-right: 0;
-  font-size: 12px;
-}
-/* line 178, sass/style.css.scss */
-.footer-navigation ul {
-  text-align: left;
-}
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: File to import not found or unreadable: goran-style.\A               Load paths:\A                 /Users/danielrobinson/workspace/projects/tagsolutions/yogabed/yogabed-blog/wp-content/themes/yogabed/sass\A                 /Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-0.12.6/frameworks/blueprint/stylesheets\A                 /Users/danielrobinson/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets\A                 Compass::SpriteImporter\A         on line 8 of /Users/danielrobinson/workspace/projects/tagsolutions/yogabed/yogabed-blog/wp-content/themes/yogabed/sass/style.css.scss"; }

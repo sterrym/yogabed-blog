@@ -58,6 +58,7 @@ header#masthead {
     ul { 
       text-align: left;
       > li {
+        display:inline-block; margin-right:32px; list-style:none;
         a { color:#FFF; font-weight:500; text-decoration:none; display:inline-block; padding:10px 4px; text-transform:uppercase; border:0; }
         &.current_page_item a,
         a:hover,

@@ -37,7 +37,13 @@ header#masthead nav#site-navigation {
 header#masthead nav#site-navigation ul {
   text-align: left;
 }
-/* line 61, sass/style.css.scss */
+/* line 60, sass/style.css.scss */
+header#masthead nav#site-navigation ul > li {
+  display: inline-block;
+  margin-right: 32px;
+  list-style: none;
+}
+/* line 62, sass/style.css.scss */
 header#masthead nav#site-navigation ul > li a {
   color: #FFF;
   font-weight: 500;
@@ -47,7 +53,7 @@ header#masthead nav#site-navigation ul > li a {
   text-transform: uppercase;
   border: 0;
 }
-/* line 64, sass/style.css.scss */
+/* line 65, sass/style.css.scss */
 header#masthead nav#site-navigation ul > li.current_page_item a,
 header#masthead nav#site-navigation ul > li a:hover,
 header#masthead nav#site-navigation ul > li a:active {
@@ -56,28 +62,28 @@ header#masthead nav#site-navigation ul > li a:active {
   color: #e6e7e8;
   padding-bottom: 7px;
 }
-/* line 68, sass/style.css.scss */
+/* line 69, sass/style.css.scss */
 header#masthead .menu-toggle {
   background: transparent;
 }
-/* line 69, sass/style.css.scss */
+/* line 70, sass/style.css.scss */
 header#masthead .site-branding {
   width: 264px;
   padding-right: 24px;
   float: left;
 }
-/* line 70, sass/style.css.scss */
+/* line 71, sass/style.css.scss */
 header#masthead .site-logo {
   margin: 0 !important;
 }
 
 @media screen and (min-width: 1020px) {
-  /* line 75, sass/style.css.scss */
+  /* line 76, sass/style.css.scss */
   header#masthead nav#site-navigation {
     float: left;
   }
 
-  /* line 79, sass/style.css.scss */
+  /* line 80, sass/style.css.scss */
   .main-navigation {
     width: 680px;
   }
@@ -85,7 +91,7 @@ header#masthead .site-logo {
 /* ------------------
    POSTS
    -------------------- */
-/* line 87, sass/style.css.scss */
+/* line 88, sass/style.css.scss */
 .more-link {
   margin-bottom: 0;
   font-weight: normal;
@@ -106,31 +112,31 @@ header#masthead .site-logo {
   display: block;
   margin: auto;
 }
-/* line 96, sass/style.css.scss */
+/* line 97, sass/style.css.scss */
 .more-link:after, .more-link span {
   display: none;
 }
-/* line 97, sass/style.css.scss */
+/* line 98, sass/style.css.scss */
 .more-link:hover {
   background: #f58d76;
   color: white;
 }
 
-/* line 100, sass/style.css.scss */
+/* line 101, sass/style.css.scss */
 .home .post .entry-header {
   text-align: center;
 }
-/* line 101, sass/style.css.scss */
+/* line 102, sass/style.css.scss */
 .home .post .entry-meta {
   border: 0;
   margin: 0;
 }
-/* line 102, sass/style.css.scss */
+/* line 103, sass/style.css.scss */
 .home .post h1.entry-title {
   font-size: 22px;
 }
 
-/* line 107, sass/style.css.scss */
+/* line 108, sass/style.css.scss */
 #content .post .tags-links a {
   color: #afafaf;
   border: 1px solid;
@@ -140,28 +146,28 @@ header#masthead .site-logo {
   font-size: 13px;
   text-transform: uppercase;
 }
-/* line 109, sass/style.css.scss */
+/* line 110, sass/style.css.scss */
 #content .post .post-thumbnail {
   width: 100%;
   margin-left: 0;
 }
-/* line 111, sass/style.css.scss */
+/* line 112, sass/style.css.scss */
 #content .post .post-thumbnail img {
   max-width: 100%;
 }
 
-/* line 115, sass/style.css.scss */
+/* line 116, sass/style.css.scss */
 #secondary aside.widget {
   padding: 0;
 }
-/* line 117, sass/style.css.scss */
+/* line 118, sass/style.css.scss */
 #secondary aside.widget > iframe, #secondary aside.widget > div {
   padding: 10px;
   border: 1px solid;
   border-top: 0;
   margin: 0;
 }
-/* line 118, sass/style.css.scss */
+/* line 119, sass/style.css.scss */
 #secondary aside.widget h1.widget-title {
   display: block;
   background: url("https://yogabed.files.wordpress.com/2014/11/heading-background.png") no-repeat left top 100%;
@@ -173,7 +179,7 @@ header#masthead .site-logo {
   margin-bottom: 0;
 }
 
-/* line 129, sass/style.css.scss */
+/* line 130, sass/style.css.scss */
 #twitter-widget-0 {
   padding: 0 !important;
   margin-bottom: 10px !important;
@@ -182,41 +188,41 @@ header#masthead .site-logo {
 /* ----------------
    Footer
    ---------------- */
-/* line 137, sass/style.css.scss */
+/* line 138, sass/style.css.scss */
 #tertiary.footer-widget-area {
   background-color: #e6e7e8;
   color: #4d4e53;
   font-size: 13px;
 }
-/* line 141, sass/style.css.scss */
+/* line 142, sass/style.css.scss */
 #tertiary.footer-widget-area .row {
   margin-bottom: 0;
 }
-/* line 142, sass/style.css.scss */
+/* line 143, sass/style.css.scss */
 #tertiary.footer-widget-area a {
   color: #4d4e53;
   text-transform: none;
   font-weight: normal;
 }
-/* line 143, sass/style.css.scss */
+/* line 144, sass/style.css.scss */
 #tertiary.footer-widget-area a:hover {
   color: #000;
   font-weight: 500;
 }
-/* line 144, sass/style.css.scss */
+/* line 145, sass/style.css.scss */
 #tertiary.footer-widget-area .brand {
   margin-bottom: 32px;
 }
-/* line 145, sass/style.css.scss */
+/* line 146, sass/style.css.scss */
 #tertiary.footer-widget-area .menu > li {
   padding: 0;
   border: 0;
 }
-/* line 147, sass/style.css.scss */
+/* line 148, sass/style.css.scss */
 #tertiary.footer-widget-area .menu > li > a {
   padding: 2px 0;
 }
-/* line 151, sass/style.css.scss */
+/* line 152, sass/style.css.scss */
 #tertiary.footer-widget-area .legal {
   background: #4d4e53;
   color: #FFF;
@@ -225,19 +231,19 @@ header#masthead .site-logo {
   padding-bottom: 18px;
   padding-top: 18px;
 }
-/* line 158, sass/style.css.scss */
+/* line 159, sass/style.css.scss */
 #tertiary.footer-widget-area .legal a {
   color: #FFF;
 }
-/* line 160, sass/style.css.scss */
+/* line 161, sass/style.css.scss */
 #tertiary.footer-widget-area .customer-service {
   font-size: 20px;
 }
-/* line 161, sass/style.css.scss */
+/* line 162, sass/style.css.scss */
 #tertiary.footer-widget-area .link {
   padding-top: 12px;
 }
-/* line 164, sass/style.css.scss */
+/* line 165, sass/style.css.scss */
 #tertiary.footer-widget-area .return-to-top {
   border-radius: 3px;
   border: 2px solid #FFF;
@@ -248,19 +254,19 @@ header#masthead .site-logo {
   text-align: center;
 }
 
-/* line 174, sass/style.css.scss */
+/* line 175, sass/style.css.scss */
 .site-info {
   display: none;
 }
 
-/* line 175, sass/style.css.scss */
+/* line 176, sass/style.css.scss */
 .footer-navigation {
   float: left;
   margin-left: 72px;
   margin-right: 0;
   font-size: 12px;
 }
-/* line 177, sass/style.css.scss */
+/* line 178, sass/style.css.scss */
 .footer-navigation ul {
   text-align: left;
 }

@@ -34,7 +34,7 @@
       <?php endif; ?>
 
       <div class="site-branding">
-        <a href="<?php site_url(); ?>" class="site-logo-link" ><img src="<?php bloginfo('stylesheet_directory_uri'); ?>/images/logo.png" alt="Yogabed" /></a>
+        <a href="<?php site_url(); ?>" class="site-logo-link" ><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo.png" alt="Yogabed" /></a>
         <h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
         <h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
       </div><!-- .site-branding -->

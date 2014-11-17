@@ -52,6 +52,7 @@ header#masthead {
   z-index: 1030; 
   -webkit-transform: translate3d(0, 0, 0); 
   transform: translate3d(0, 0, 0);
+  border: 0;
   
   .site-title, .site-description { position: absolute; clip: rect(1px, 1px, 1px, 1px); }
 
@@ -180,3 +181,5 @@ header#masthead {
   float: left; margin-left: 72px; margin-right: 0; font-size: 12px;
   ul { text-align: left; }
 }
+
+.site { width: 100% !important; }

@@ -3660,28 +3660,29 @@ header#masthead {
   z-index: 1030;
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
+  border: 0;
 }
-/* line 56, ../sass/style.css.scss */
+/* line 57, ../sass/style.css.scss */
 header#masthead .site-title, header#masthead .site-description {
   position: absolute;
   clip: rect(1px, 1px, 1px, 1px);
 }
-/* line 58, ../sass/style.css.scss */
+/* line 59, ../sass/style.css.scss */
 header#masthead nav#site-navigation {
   margin: 24px 0 0 0;
   float: right;
 }
-/* line 61, ../sass/style.css.scss */
+/* line 62, ../sass/style.css.scss */
 header#masthead nav#site-navigation ul {
   text-align: left;
 }
-/* line 63, ../sass/style.css.scss */
+/* line 64, ../sass/style.css.scss */
 header#masthead nav#site-navigation ul > li {
   display: inline-block;
   margin-right: 32px;
   list-style: none;
 }
-/* line 65, ../sass/style.css.scss */
+/* line 66, ../sass/style.css.scss */
 header#masthead nav#site-navigation ul > li a {
   color: #FFF;
   font-weight: 500;
@@ -3691,7 +3692,7 @@ header#masthead nav#site-navigation ul > li a {
   text-transform: uppercase;
   border: 0;
 }
-/* line 68, ../sass/style.css.scss */
+/* line 69, ../sass/style.css.scss */
 header#masthead nav#site-navigation ul > li.current_page_item a,
 header#masthead nav#site-navigation ul > li a:hover,
 header#masthead nav#site-navigation ul > li a:active {
@@ -3700,28 +3701,28 @@ header#masthead nav#site-navigation ul > li a:active {
   color: #e6e7e8;
   padding-bottom: 7px;
 }
-/* line 72, ../sass/style.css.scss */
+/* line 73, ../sass/style.css.scss */
 header#masthead .menu-toggle {
   background: transparent;
 }
-/* line 73, ../sass/style.css.scss */
+/* line 74, ../sass/style.css.scss */
 header#masthead .site-branding {
   width: 264px;
   padding-right: 24px;
   float: left;
 }
-/* line 74, ../sass/style.css.scss */
+/* line 75, ../sass/style.css.scss */
 header#masthead .site-logo {
   margin: 0 !important;
 }
 
 @media screen and (min-width: 1020px) {
-  /* line 79, ../sass/style.css.scss */
+  /* line 80, ../sass/style.css.scss */
   header#masthead nav#site-navigation {
     float: left;
   }
 
-  /* line 83, ../sass/style.css.scss */
+  /* line 84, ../sass/style.css.scss */
   .main-navigation {
     width: 680px;
   }
@@ -3729,7 +3730,7 @@ header#masthead .site-logo {
 /* ------------------
    POSTS
    -------------------- */
-/* line 91, ../sass/style.css.scss */
+/* line 92, ../sass/style.css.scss */
 .more-link {
   margin-bottom: 0;
   font-weight: normal;
@@ -3750,31 +3751,31 @@ header#masthead .site-logo {
   display: block;
   margin: auto;
 }
-/* line 100, ../sass/style.css.scss */
+/* line 101, ../sass/style.css.scss */
 .more-link:after, .more-link span {
   display: none;
 }
-/* line 101, ../sass/style.css.scss */
+/* line 102, ../sass/style.css.scss */
 .more-link:hover {
   background: #f58d76;
   color: white;
 }
 
-/* line 104, ../sass/style.css.scss */
+/* line 105, ../sass/style.css.scss */
 .home .post .entry-header {
   text-align: center;
 }
-/* line 105, ../sass/style.css.scss */
+/* line 106, ../sass/style.css.scss */
 .home .post .entry-meta {
   border: 0;
   margin: 0;
 }
-/* line 106, ../sass/style.css.scss */
+/* line 107, ../sass/style.css.scss */
 .home .post h1.entry-title {
   font-size: 22px;
 }
 
-/* line 111, ../sass/style.css.scss */
+/* line 112, ../sass/style.css.scss */
 #content .post .tags-links a {
   color: #afafaf;
   border: 1px solid;
@@ -3784,28 +3785,28 @@ header#masthead .site-logo {
   font-size: 13px;
   text-transform: uppercase;
 }
-/* line 113, ../sass/style.css.scss */
+/* line 114, ../sass/style.css.scss */
 #content .post .post-thumbnail {
   width: 100%;
   margin-left: 0;
 }
-/* line 115, ../sass/style.css.scss */
+/* line 116, ../sass/style.css.scss */
 #content .post .post-thumbnail img {
   max-width: 100%;
 }
 
-/* line 119, ../sass/style.css.scss */
+/* line 120, ../sass/style.css.scss */
 #secondary aside.widget {
   padding: 0;
 }
-/* line 121, ../sass/style.css.scss */
+/* line 122, ../sass/style.css.scss */
 #secondary aside.widget > iframe, #secondary aside.widget > div {
   padding: 10px;
   border: 1px solid;
   border-top: 0;
   margin: 0;
 }
-/* line 122, ../sass/style.css.scss */
+/* line 123, ../sass/style.css.scss */
 #secondary aside.widget h1.widget-title {
   display: block;
   background: url("https://yogabed.files.wordpress.com/2014/11/heading-background.png") no-repeat left top 100%;
@@ -3817,7 +3818,7 @@ header#masthead .site-logo {
   margin-bottom: 0;
 }
 
-/* line 133, ../sass/style.css.scss */
+/* line 134, ../sass/style.css.scss */
 #twitter-widget-0 {
   padding: 0 !important;
   margin-bottom: 10px !important;
@@ -3826,41 +3827,41 @@ header#masthead .site-logo {
 /* ----------------
    Footer
    ---------------- */
-/* line 141, ../sass/style.css.scss */
+/* line 142, ../sass/style.css.scss */
 #tertiary.footer-widget-area {
   background-color: #e6e7e8;
   color: #4d4e53;
   font-size: 13px;
 }
-/* line 145, ../sass/style.css.scss */
+/* line 146, ../sass/style.css.scss */
 #tertiary.footer-widget-area .row {
   margin-bottom: 0;
 }
-/* line 146, ../sass/style.css.scss */
+/* line 147, ../sass/style.css.scss */
 #tertiary.footer-widget-area a {
   color: #4d4e53;
   text-transform: none;
   font-weight: normal;
 }
-/* line 147, ../sass/style.css.scss */
+/* line 148, ../sass/style.css.scss */
 #tertiary.footer-widget-area a:hover {
   color: #000;
   font-weight: 500;
 }
-/* line 148, ../sass/style.css.scss */
+/* line 149, ../sass/style.css.scss */
 #tertiary.footer-widget-area .brand {
   margin-bottom: 32px;
 }
-/* line 149, ../sass/style.css.scss */
+/* line 150, ../sass/style.css.scss */
 #tertiary.footer-widget-area .menu > li {
   padding: 0;
   border: 0;
 }
-/* line 151, ../sass/style.css.scss */
+/* line 152, ../sass/style.css.scss */
 #tertiary.footer-widget-area .menu > li > a {
   padding: 2px 0;
 }
-/* line 155, ../sass/style.css.scss */
+/* line 156, ../sass/style.css.scss */
 #tertiary.footer-widget-area .legal {
   background: #4d4e53;
   color: #FFF;
@@ -3869,19 +3870,19 @@ header#masthead .site-logo {
   padding-bottom: 18px;
   padding-top: 18px;
 }
-/* line 162, ../sass/style.css.scss */
+/* line 163, ../sass/style.css.scss */
 #tertiary.footer-widget-area .legal a {
   color: #FFF;
 }
-/* line 164, ../sass/style.css.scss */
+/* line 165, ../sass/style.css.scss */
 #tertiary.footer-widget-area .customer-service {
   font-size: 20px;
 }
-/* line 165, ../sass/style.css.scss */
+/* line 166, ../sass/style.css.scss */
 #tertiary.footer-widget-area .link {
   padding-top: 12px;
 }
-/* line 168, ../sass/style.css.scss */
+/* line 169, ../sass/style.css.scss */
 #tertiary.footer-widget-area .return-to-top {
   border-radius: 3px;
   border: 2px solid #FFF;
@@ -3892,19 +3893,24 @@ header#masthead .site-logo {
   text-align: center;
 }
 
-/* line 178, ../sass/style.css.scss */
+/* line 179, ../sass/style.css.scss */
 .site-info {
   display: none;
 }
 
-/* line 179, ../sass/style.css.scss */
+/* line 180, ../sass/style.css.scss */
 .footer-navigation {
   float: left;
   margin-left: 72px;
   margin-right: 0;
   font-size: 12px;
 }
-/* line 181, ../sass/style.css.scss */
+/* line 182, ../sass/style.css.scss */
 .footer-navigation ul {
   text-align: left;
+}
+
+/* line 185, ../sass/style.css.scss */
+.site {
+  width: 100% !important;
 }

@@ -2,7 +2,8 @@
 Theme Name: Yogabed
 Template: edin
 
-To compile, navigate to the yogabed theme directory and run `compass watch`. To minify for production run `compass compile -e production`
+To compile, navigate to the yogabed theme directory and run `compass watch`. 
+To minify for production run `compass compile -e production`
 Instructions taken from: http://www.aptivate.org/en/blog/2013/08/07/sass-bang-wallop/
 */
 @import "bootstrap-compass";
@@ -10,7 +11,6 @@ Instructions taken from: http://www.aptivate.org/en/blog/2013/08/07/sass-bang-wa
 @import "fonts";
 @import "font-awesome";
 @import "bootstrap";
-// @import "goran";
 
 body {
   font-family: $font-family-base;

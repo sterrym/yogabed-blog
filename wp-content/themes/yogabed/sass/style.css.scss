@@ -367,4 +367,8 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
   @extend .btn;
   @extend .btn-primary;
   @extend .btn-lg;
+  border-radius: 0;
 }
+
+.entry-title a:hover, .entry-title a:focus, .entry-title a:active { color: $brand-primary; text-decoration: none; }
+.entry-content a:not([class^="button"]):hover, .entry-content a:not([class^="button"]):focus, .entry-content a:not([class^="button"]):active, .page-content a:not([class^="button"]):hover, .page-content a:not([class^="button"]):focus, .page-content a:not([class^="button"]):active { border-bottom: 0; }

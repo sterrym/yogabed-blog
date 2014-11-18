@@ -12115,3 +12115,19 @@ body[class*="alternate-sidebar"].sidebar-left .widget-area,
 .legal a {
   color: #FFF;
 }
+
+/* line 366, ../sass/style.css.scss */
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+  border-radius: 0;
+}
+
+/* line 373, ../sass/style.css.scss */
+.entry-title a:hover, .entry-title a:focus, .entry-title a:active {
+  color: #f58d76;
+  text-decoration: none;
+}
+
+/* line 374, ../sass/style.css.scss */
+.entry-content a:not([class^="button"]):hover, .entry-content a:not([class^="button"]):focus, .entry-content a:not([class^="button"]):active, .page-content a:not([class^="button"]):hover, .page-content a:not([class^="button"]):focus, .page-content a:not([class^="button"]):active {
+  border-bottom: 0;
+}

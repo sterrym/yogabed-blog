@@ -8836,36 +8836,37 @@ header#masthead .site-logo {
   background-color: #e6e7e8;
   color: #4d4e53;
   font-size: 13px;
+  padding: 0;
 }
-/* line 152, ../sass/style.css.scss */
+/* line 153, ../sass/style.css.scss */
 #tertiary.footer-widget-area .row {
   margin-bottom: 0;
 }
-/* line 153, ../sass/style.css.scss */
+/* line 154, ../sass/style.css.scss */
 #tertiary.footer-widget-area a {
   color: #4d4e53;
   text-transform: none;
   font-weight: normal;
 }
-/* line 154, ../sass/style.css.scss */
+/* line 155, ../sass/style.css.scss */
 #tertiary.footer-widget-area a:hover {
   color: #000;
   font-weight: 500;
 }
-/* line 155, ../sass/style.css.scss */
+/* line 156, ../sass/style.css.scss */
 #tertiary.footer-widget-area .brand {
   margin-bottom: 32px;
 }
-/* line 156, ../sass/style.css.scss */
+/* line 157, ../sass/style.css.scss */
 #tertiary.footer-widget-area .menu > li {
   padding: 0;
   border: 0;
 }
-/* line 158, ../sass/style.css.scss */
+/* line 159, ../sass/style.css.scss */
 #tertiary.footer-widget-area .menu > li > a {
   padding: 2px 0;
 }
-/* line 162, ../sass/style.css.scss */
+/* line 163, ../sass/style.css.scss */
 #tertiary.footer-widget-area .legal {
   background: #4d4e53;
   color: #FFF;
@@ -8874,19 +8875,19 @@ header#masthead .site-logo {
   padding-bottom: 18px;
   padding-top: 18px;
 }
-/* line 169, ../sass/style.css.scss */
+/* line 170, ../sass/style.css.scss */
 #tertiary.footer-widget-area .legal a {
   color: #FFF;
 }
-/* line 171, ../sass/style.css.scss */
+/* line 172, ../sass/style.css.scss */
 #tertiary.footer-widget-area .customer-service {
   font-size: 20px;
 }
-/* line 172, ../sass/style.css.scss */
+/* line 173, ../sass/style.css.scss */
 #tertiary.footer-widget-area .link {
   padding-top: 12px;
 }
-/* line 175, ../sass/style.css.scss */
+/* line 176, ../sass/style.css.scss */
 #tertiary.footer-widget-area .return-to-top {
   border-radius: 3px;
   border: 2px solid #FFF;
@@ -8897,31 +8898,36 @@ header#masthead .site-logo {
   text-align: center;
 }
 
-/* line 185, ../sass/style.css.scss */
+/* line 186, ../sass/style.css.scss */
 .site-info {
   display: none;
 }
 
-/* line 186, ../sass/style.css.scss */
+/* line 187, ../sass/style.css.scss */
 .site-footer {
   background: #4d4e53;
 }
-/* line 188, ../sass/style.css.scss */
+/* line 189, ../sass/style.css.scss */
 .site-footer .footer-navigation {
   float: left;
   margin-right: 0;
   font-size: 12px;
+  background: #4d4e53;
+  color: #FFF;
+  font-size: 12px;
+  padding-bottom: 18px;
+  padding-top: 18px;
 }
-/* line 190, ../sass/style.css.scss */
+/* line 192, ../sass/style.css.scss */
 .site-footer .footer-navigation ul {
   text-align: left;
 }
-/* line 192, ../sass/style.css.scss */
+/* line 194, ../sass/style.css.scss */
 .site-footer .footer-navigation ul a {
   color: white;
 }
 
-/* line 198, ../sass/style.css.scss */
+/* line 200, ../sass/style.css.scss */
 .widget-area .instagram-pics {
   list-style: none;
 }
@@ -8929,7 +8935,7 @@ header#masthead .site-logo {
 /*----------
   Widths
   ----------*/
-/* line 217, ../sass/style.css.scss */
+/* line 219, ../sass/style.css.scss */
 .content-wrapper,
 .featured-page-wrapper,
 .footer-widget-wrapper,
@@ -8949,7 +8955,7 @@ header#masthead .site-logo {
   padding-right: 10px;
 }
 @media (min-width: 768px) {
-  /* line 217, ../sass/style.css.scss */
+  /* line 219, ../sass/style.css.scss */
   .content-wrapper,
   .featured-page-wrapper,
   .footer-widget-wrapper,
@@ -8967,7 +8973,7 @@ header#masthead .site-logo {
   }
 }
 @media (min-width: 992px) {
-  /* line 217, ../sass/style.css.scss */
+  /* line 219, ../sass/style.css.scss */
   .content-wrapper,
   .featured-page-wrapper,
   .footer-widget-wrapper,
@@ -8985,7 +8991,7 @@ header#masthead .site-logo {
   }
 }
 @media (min-width: 1200px) {
-  /* line 217, ../sass/style.css.scss */
+  /* line 219, ../sass/style.css.scss */
   .content-wrapper,
   .featured-page-wrapper,
   .footer-widget-wrapper,
@@ -9003,10 +9009,12 @@ header#masthead .site-logo {
   }
 }
 
-/* line 237, ../sass/style.css.scss */
+/* line 241, ../sass/style.css.scss */
 .site-branding,
 .has-footer-navigation .site-info,
 body[class*="alternate-sidebar"].sidebar-left .content-area,
-.sidebar-right .content-area {
+.sidebar-right .content-area,
+body[class*="alternate-sidebar"].sidebar-left .widget-area,
+.sidebar-right .widget-area {
   margin: 0;
 }

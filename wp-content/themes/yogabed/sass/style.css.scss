@@ -149,6 +149,7 @@ header#masthead {
   background-color:$gray-lighter;
   color:$brand-secondary;
   font-size:$font-size-small;
+  padding:0;
   .row { margin-bottom:0; }
   a { color:$brand-secondary; text-transform: none; font-weight: normal; }
   a:hover { color:#000; font-weight:500; }
@@ -186,7 +187,8 @@ header#masthead {
 .site-footer {
   background: $brand-secondary;
   .footer-navigation { 
-    float: left; margin-right: 0; font-size: 12px;
+    float: left; margin-right: 0; font-size: 12px;background: #4d4e53; color: #FFF; font-size: 12px; padding-bottom: 18px; padding-top: 18px;
+
     ul { 
       text-align: left; 
       a { color: white; }
@@ -234,6 +236,8 @@ header#masthead {
 .site-branding,
 .has-footer-navigation .site-info,
 body[class*="alternate-sidebar"].sidebar-left .content-area,
-.sidebar-right .content-area{
+.sidebar-right .content-area,
+body[class*="alternate-sidebar"].sidebar-left .widget-area,
+.sidebar-right .widget-area{
   margin: 0;
 }

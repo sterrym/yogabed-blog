@@ -57,10 +57,11 @@ header#masthead {
   .site-branding { height: 69px; }
   .site-title, .site-description { position: absolute; clip: rect(1px, 1px, 1px, 1px); }
 
-  nav#site-navigation { 
+  nav#nav-main { 
     margin: 24px 0 0 0;
     float: right;
-    ul { 
+    ul#menu-navigation {
+      @extend .nav;
       text-align: left;
       > li {
         display:inline-block; margin-right:32px; list-style:none;
@@ -75,7 +76,7 @@ header#masthead {
   .site-branding { width: 264px; padding-right:24px; float:left; }
   .site-logo { margin: 0 !important; }
 
-  
+
   .tag {
     color:$brand-primary;
     text-transform:uppercase;

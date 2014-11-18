@@ -8682,6 +8682,8 @@ a {
 /* line 65, ../sass/style.css.scss */
 #masthead #menu-navigation > li {
   display: block;
+  padding: 0;
+  border: 0;
 }
 /* line 67, ../sass/style.css.scss */
 #masthead #menu-navigation > li a {
@@ -8928,6 +8930,7 @@ a {
 /* line 199, ../sass/style.css.scss */
 .site-footer .footer-navigation ul a {
   color: white;
+  border: 0;
 }
 
 /* line 205, ../sass/style.css.scss */

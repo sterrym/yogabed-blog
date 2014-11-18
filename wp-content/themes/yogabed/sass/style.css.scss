@@ -201,35 +201,35 @@ a { color: $brand-primary; }
 /*----------
   Widths
   ----------*/
-// .content-wrapper,
-// .featured-page-wrapper,
-// .footer-widget-wrapper,
-// .footer-wrapper,
-// .front-page-widget-wrapper,
-// .grid-wrapper,
-// .header-wrapper,
-// .navigation-default
-// .menu-primary,
-// .navigation-default
-// .secondary-navigation,
-// .search-wrapper
-// .search-form
-// {
-//   margin-right: auto;
-//   margin-left: auto;
-//   padding-left: 10px;
-//   padding-right: 10px;
+.content-wrapper,
+.featured-page-wrapper,
+.footer-widget-wrapper,
+.footer-wrapper,
+.front-page-widget-wrapper,
+.grid-wrapper,
+.header-wrapper,
+.navigation-default
+.menu-primary,
+.navigation-default
+.secondary-navigation,
+.search-wrapper
+.search-form
+{
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 10px;
+  padding-right: 10px;
 
-//   @media (min-width: 768px) {
-//     width: 740px;
-//   }
-//   @media (min-width: 992px) {
-//     width: 960px;
-//   }
-//   @media (min-width: 1200px) {
-//     width: 1200px;
-//   }
-// }
+  @media (min-width: 768px) {
+    width: 740px;
+  }
+  @media (min-width: 992px) {
+    width: 960px;
+  }
+  @media (min-width: 1200px) {
+    width: 1200px;
+  }
+}
 
 .site-branding,
 .has-footer-navigation .site-info,

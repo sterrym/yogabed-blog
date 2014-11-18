@@ -31,9 +31,8 @@ $font-family-base:        $font-family-sans-serif;
 
 $border-radius-small: 3px;
 
-@import "variables";
 @import "bootstrap-compass";
-@import "bootstrap-variables";
+@import "variables";
 @import "bootstrap";
 @import "goran";
 

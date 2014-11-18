@@ -316,7 +316,10 @@ body[class*="alternate-sidebar"].sidebar-left .widget-area,
   }
 }
 @media (min-width: $screen-lg-min) {
-  #brand { width:22%; }
+  #brand { 
+    width:22%; 
+    a { float: left; }
+  }
   #navigation { width:78%; }
   
   #nav-main { width:65%; }

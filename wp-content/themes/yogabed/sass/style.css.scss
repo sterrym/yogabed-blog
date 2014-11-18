@@ -40,6 +40,7 @@ body {
   color: black;
   background-color: white;
 }
+a { color: $brand-primary; }
 
 header#masthead { 
   color:#FFF;
@@ -54,6 +55,7 @@ header#masthead {
   transform: translate3d(0, 0, 0);
   border: 0;
   
+  .site-branding { height: 69px; }
   .site-title, .site-description { position: absolute; clip: rect(1px, 1px, 1px, 1px); }
 
   nav#site-navigation { 
@@ -190,3 +192,44 @@ header#masthead {
 }
 
 .widget-area .instagram-pics { list-style: none; }
+
+
+/*----------
+  Widths
+  ----------*/
+.content-wrapper,
+.featured-page-wrapper,
+.footer-widget-wrapper,
+.footer-wrapper,
+.front-page-widget-wrapper,
+.grid-wrapper,
+.header-wrapper,
+.navigation-default
+.menu-primary,
+.navigation-default
+.secondary-navigation,
+.search-wrapper
+.search-form
+{
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  
+  @media (min-width: 1200px) {
+    width: 1200px;
+  }
+  @media (min-width: 992px) {
+    width: 960px;
+  }
+  @media (min-width: 768px) {
+    width: 740px;
+  }
+}
+
+.site-branding,
+.has-footer-navigation .site-info,
+body[class*="alternate-sidebar"].sidebar-left .content-area,
+.sidebar-right .content-area{
+  margin: 0;
+}

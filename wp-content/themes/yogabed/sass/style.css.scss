@@ -360,6 +360,9 @@ body[class*="alternate-sidebar"].sidebar-left .widget-area,
   font-size:$font-size-xs;
   padding-bottom:18px;
   padding-top:18px;
+  .link {
+    padding-top:12px;
+  }
   a { color:#FFF; }
 }
 

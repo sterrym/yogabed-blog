@@ -59,12 +59,13 @@ a { color: $brand-primary; }
 
   .site-branding { height: 69px; }
   .site-title, .site-description { position: absolute; clip: rect(1px, 1px, 1px, 1px); }
-  #nav-main .menu-primary { display: block; /* override edin menu toggle style */ }
+  #nav-main .menu-primary { display: block; /* override edin menu toggle style */ background: transparent; padding: 0; }
 
   #menu-navigation {
     @extend .nav;
     text-align: left;
     margin-top:4px;
+    #brand { text-align:center; }
     > li {
       display:block; padding:0; border: 0;
       a { color:#FFF; font-weight:500; text-decoration:none; display:inline-block; padding:10px 4px; text-transform:uppercase; }

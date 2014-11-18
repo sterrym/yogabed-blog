@@ -21,36 +21,34 @@
 <body <?php body_class(); ?>>
 <div id="page" class="hfeed site">
   <a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'goran' ); ?></a>
-
+  
   <header id="masthead" class="site-header" role="banner">
-    <div class="header-wrapper clear">
-      <?php
-        $top_area_content = get_theme_mod( 'goran_top_area_content' );
-        if ( '' != $top_area_content ) :
-      ?>
-      <div class="site-top-content">
-        <?php echo $top_area_content; ?>
-      </div><!-- .site-top-content -->
-      <?php endif; ?>
-
-      <div class="site-branding">
-        <a href="<?php site_url(); ?>" class="site-logo-link" ><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo.png" alt="Yogabed" /></a>
-        <h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-        <h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
-      </div><!-- .site-branding -->
+    <div class="container">
+      <div class="row">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="fa fa-bars"></span>
+        </button>
+        <div id="brand" class="col-md-3">
+          <a href="<?php site_url(); ?>" class="site-logo-link" ><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo.png" alt="Yogabed" /></a>
+          <h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+          <h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
+        </div><!-- .site-branding -->
 
       <?php if ( has_nav_menu( 'primary' ) ) : ?>
-        <nav id="site-navigation" class="main-navigation" role="navigation">
-          <button class="menu-toggle"><?php _e( 'Menu', 'goran' ); ?></button>
-          <?php
-            wp_nav_menu( array(
-              'theme_location'  => 'primary',
-              'container_class' => 'menu-primary',
-              'menu_class'      => 'clear',
-            ) );
-          ?>
-        </nav><!-- #site-navigation -->
+        <div id="navigation" class="col-md-9 collapse navbar-collapse">
+          <nav id="nav-main">
+            <?php
+              wp_nav_menu( array(
+                'theme_location'  => 'primary',
+                'container_class' => 'menu-primary',
+                'menu_class'      => 'clear',
+              ) );
+            ?>
+          </nav><!-- #site-navigation -->
+        </div>
       <?php endif; ?>
+      </div>
     </div>
   </header><!-- #masthead -->
 

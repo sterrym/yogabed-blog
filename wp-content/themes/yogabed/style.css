@@ -5184,20 +5184,20 @@ tbody.collapse.in {
     overflow-y: visible;
   }
   /* line 84, ../../../../../../../../../.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_navbar.scss */
-  .navbar-fixed-top .navbar-collapse, .navbar-static-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
+  .navbar-fixed-top .navbar-collapse, header#masthead .navbar-collapse, .navbar-static-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
     padding-left: 0;
     padding-right: 0;
   }
 }
 
 /* line 93, ../../../../../../../../../.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_navbar.scss */
-.navbar-fixed-top .navbar-collapse,
+.navbar-fixed-top .navbar-collapse, header#masthead .navbar-collapse,
 .navbar-fixed-bottom .navbar-collapse {
   max-height: 340px;
 }
 @media (max-device-width: 480px) and (orientation: landscape) {
   /* line 93, ../../../../../../../../../.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_navbar.scss */
-  .navbar-fixed-top .navbar-collapse,
+  .navbar-fixed-top .navbar-collapse, header#masthead .navbar-collapse,
   .navbar-fixed-bottom .navbar-collapse {
     max-height: 200px;
   }
@@ -5235,7 +5235,7 @@ tbody.collapse.in {
 }
 
 /* line 140, ../../../../../../../../../.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_navbar.scss */
-.navbar-fixed-top,
+.navbar-fixed-top, header#masthead,
 .navbar-fixed-bottom {
   position: fixed;
   right: 0;
@@ -5244,14 +5244,14 @@ tbody.collapse.in {
 }
 @media (min-width: 768px) {
   /* line 140, ../../../../../../../../../.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_navbar.scss */
-  .navbar-fixed-top,
+  .navbar-fixed-top, header#masthead,
   .navbar-fixed-bottom {
     border-radius: 0;
   }
 }
 
 /* line 151, ../../../../../../../../../.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_navbar.scss */
-.navbar-fixed-top {
+.navbar-fixed-top, header#masthead {
   top: 0;
   border-width: 0 0 1px;
 }
@@ -8650,43 +8650,45 @@ a {
 /* line 49, ../sass/style.css.scss */
 header#masthead {
   color: #FFF;
-  background: rgba(77, 78, 83, 0.6);
+  background: rgba(77, 78, 83, 0.8);
   font-size: 13px;
   box-shadow: 0px 16px 16px -16px rgba(0, 0, 0, 0.43);
   position: relative !important;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 1030;
-  -webkit-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
-  border: 0;
 }
-/* line 62, ../sass/style.css.scss */
+/* line 15, ../../../../../../../../../.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
+header#masthead:before, header#masthead:after {
+  content: " ";
+  display: table;
+}
+/* line 19, ../../../../../../../../../.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
+header#masthead:after {
+  clear: both;
+}
+/* line 57, ../sass/style.css.scss */
 header#masthead .site-branding {
   height: 69px;
 }
-/* line 63, ../sass/style.css.scss */
+/* line 58, ../sass/style.css.scss */
 header#masthead .site-title, header#masthead .site-description {
   position: absolute;
   clip: rect(1px, 1px, 1px, 1px);
 }
-/* line 65, ../sass/style.css.scss */
+/* line 60, ../sass/style.css.scss */
 header#masthead nav#site-navigation {
   margin: 24px 0 0 0;
   float: right;
 }
-/* line 68, ../sass/style.css.scss */
+/* line 63, ../sass/style.css.scss */
 header#masthead nav#site-navigation ul {
   text-align: left;
 }
-/* line 70, ../sass/style.css.scss */
+/* line 65, ../sass/style.css.scss */
 header#masthead nav#site-navigation ul > li {
   display: inline-block;
   margin-right: 32px;
   list-style: none;
 }
-/* line 72, ../sass/style.css.scss */
+/* line 67, ../sass/style.css.scss */
 header#masthead nav#site-navigation ul > li a {
   color: #FFF;
   font-weight: 500;
@@ -8696,7 +8698,7 @@ header#masthead nav#site-navigation ul > li a {
   text-transform: uppercase;
   border: 0;
 }
-/* line 75, ../sass/style.css.scss */
+/* line 70, ../sass/style.css.scss */
 header#masthead nav#site-navigation ul > li.current_page_item a,
 header#masthead nav#site-navigation ul > li a:hover,
 header#masthead nav#site-navigation ul > li a:active {
@@ -8705,28 +8707,78 @@ header#masthead nav#site-navigation ul > li a:active {
   color: #e6e7e8;
   padding-bottom: 7px;
 }
-/* line 79, ../sass/style.css.scss */
+/* line 74, ../sass/style.css.scss */
 header#masthead .menu-toggle {
   background: transparent;
 }
-/* line 80, ../sass/style.css.scss */
+/* line 75, ../sass/style.css.scss */
 header#masthead .site-branding {
   width: 264px;
   padding-right: 24px;
   float: left;
 }
-/* line 81, ../sass/style.css.scss */
+/* line 76, ../sass/style.css.scss */
 header#masthead .site-logo {
   margin: 0 !important;
 }
+/* line 79, ../sass/style.css.scss */
+header#masthead .tag {
+  color: #f58d76;
+  text-transform: uppercase;
+  width: 175px;
+}
+/* line 82, ../sass/style.css.scss */
+header#masthead .tag span {
+  display: block;
+  text-align: right;
+}
+/* line 86, ../sass/style.css.scss */
+header#masthead .row {
+  margin-bottom: 0;
+}
+/* line 87, ../sass/style.css.scss */
+header#masthead .nav {
+  margin-top: 4px;
+}
+/* line 89, ../sass/style.css.scss */
+header#masthead .nav > li {
+  display: block;
+}
+/* line 91, ../sass/style.css.scss */
+header#masthead .nav > li a {
+  color: #FFF;
+  font-weight: 500;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 4px;
+  text-transform: uppercase;
+}
+/* line 94, ../sass/style.css.scss */
+header#masthead .nav > li.on a,
+header#masthead .nav > li a:hover,
+header#masthead .nav > li a:active {
+  background: transparent;
+  border-bottom: 3px solid #f58d76;
+  color: #e6e7e8;
+  padding-bottom: 7px;
+}
+/* line 98, ../sass/style.css.scss */
+header#masthead #nav-global a {
+  text-transform: none;
+}
+/* line 101, ../sass/style.css.scss */
+header#masthead .navbar-toggle {
+  top: 12px;
+  z-index: 2;
+}
 
 @media screen and (min-width: 1020px) {
-  /* line 86, ../sass/style.css.scss */
+  /* line 115, ../sass/style.css.scss */
   header#masthead nav#site-navigation {
     float: left;
   }
 
-  /* line 90, ../sass/style.css.scss */
+  /* line 119, ../sass/style.css.scss */
   .main-navigation {
     width: 680px;
   }
@@ -8734,7 +8786,7 @@ header#masthead .site-logo {
 /* ------------------
    POSTS
    -------------------- */
-/* line 98, ../sass/style.css.scss */
+/* line 127, ../sass/style.css.scss */
 .more-link {
   margin-bottom: 0;
   font-weight: normal;
@@ -8755,31 +8807,31 @@ header#masthead .site-logo {
   display: block;
   margin: auto;
 }
-/* line 107, ../sass/style.css.scss */
+/* line 136, ../sass/style.css.scss */
 .more-link:after, .more-link span {
   display: none;
 }
-/* line 108, ../sass/style.css.scss */
+/* line 137, ../sass/style.css.scss */
 .more-link:hover {
   background: #f58d76;
   color: white;
 }
 
-/* line 111, ../sass/style.css.scss */
+/* line 140, ../sass/style.css.scss */
 .home .post .entry-header {
   text-align: center;
 }
-/* line 112, ../sass/style.css.scss */
+/* line 141, ../sass/style.css.scss */
 .home .post .entry-meta {
   border: 0;
   margin: 0;
 }
-/* line 113, ../sass/style.css.scss */
+/* line 142, ../sass/style.css.scss */
 .home .post h1.entry-title {
   font-size: 22px;
 }
 
-/* line 118, ../sass/style.css.scss */
+/* line 147, ../sass/style.css.scss */
 #content .post .tags-links a {
   color: #afafaf;
   border: 1px solid;
@@ -8789,28 +8841,28 @@ header#masthead .site-logo {
   font-size: 13px;
   text-transform: uppercase;
 }
-/* line 120, ../sass/style.css.scss */
+/* line 149, ../sass/style.css.scss */
 #content .post .post-thumbnail {
   width: 100%;
   margin-left: 0;
 }
-/* line 122, ../sass/style.css.scss */
+/* line 151, ../sass/style.css.scss */
 #content .post .post-thumbnail img {
   max-width: 100%;
 }
 
-/* line 126, ../sass/style.css.scss */
+/* line 155, ../sass/style.css.scss */
 #secondary aside.widget {
   padding: 0;
 }
-/* line 128, ../sass/style.css.scss */
+/* line 157, ../sass/style.css.scss */
 #secondary aside.widget > iframe, #secondary aside.widget > ul {
   padding: 10px;
   border: 1px solid;
   border-top: 0;
   margin: 0;
 }
-/* line 129, ../sass/style.css.scss */
+/* line 158, ../sass/style.css.scss */
 #secondary aside.widget h1.widget-title {
   display: block;
   background: url("https://yogabed.files.wordpress.com/2014/11/heading-background.png") no-repeat left top 100%;
@@ -8822,7 +8874,7 @@ header#masthead .site-logo {
   margin-bottom: 0;
 }
 
-/* line 140, ../sass/style.css.scss */
+/* line 169, ../sass/style.css.scss */
 #twitter-widget-0 {
   padding: 0 !important;
   margin-bottom: 10px !important;
@@ -8831,42 +8883,42 @@ header#masthead .site-logo {
 /* ----------------
    Footer
    ---------------- */
-/* line 148, ../sass/style.css.scss */
+/* line 177, ../sass/style.css.scss */
 #tertiary.footer-widget-area {
   background-color: #e6e7e8;
   color: #4d4e53;
   font-size: 13px;
   padding: 0;
 }
-/* line 153, ../sass/style.css.scss */
+/* line 182, ../sass/style.css.scss */
 #tertiary.footer-widget-area .row {
   margin-bottom: 0;
 }
-/* line 154, ../sass/style.css.scss */
+/* line 183, ../sass/style.css.scss */
 #tertiary.footer-widget-area a {
   color: #4d4e53;
   text-transform: none;
   font-weight: normal;
 }
-/* line 155, ../sass/style.css.scss */
+/* line 184, ../sass/style.css.scss */
 #tertiary.footer-widget-area a:hover {
   color: #000;
   font-weight: 500;
 }
-/* line 156, ../sass/style.css.scss */
+/* line 185, ../sass/style.css.scss */
 #tertiary.footer-widget-area .brand {
   margin-bottom: 32px;
 }
-/* line 157, ../sass/style.css.scss */
+/* line 186, ../sass/style.css.scss */
 #tertiary.footer-widget-area .menu > li {
   padding: 0;
   border: 0;
 }
-/* line 159, ../sass/style.css.scss */
+/* line 188, ../sass/style.css.scss */
 #tertiary.footer-widget-area .menu > li > a {
   padding: 2px 0;
 }
-/* line 163, ../sass/style.css.scss */
+/* line 192, ../sass/style.css.scss */
 #tertiary.footer-widget-area .legal {
   background: #4d4e53;
   color: #FFF;
@@ -8875,19 +8927,19 @@ header#masthead .site-logo {
   padding-bottom: 18px;
   padding-top: 18px;
 }
-/* line 170, ../sass/style.css.scss */
+/* line 199, ../sass/style.css.scss */
 #tertiary.footer-widget-area .legal a {
   color: #FFF;
 }
-/* line 172, ../sass/style.css.scss */
+/* line 201, ../sass/style.css.scss */
 #tertiary.footer-widget-area .customer-service {
   font-size: 20px;
 }
-/* line 173, ../sass/style.css.scss */
+/* line 202, ../sass/style.css.scss */
 #tertiary.footer-widget-area .link {
   padding-top: 12px;
 }
-/* line 176, ../sass/style.css.scss */
+/* line 205, ../sass/style.css.scss */
 #tertiary.footer-widget-area .return-to-top {
   border-radius: 3px;
   border: 2px solid #FFF;
@@ -8898,16 +8950,16 @@ header#masthead .site-logo {
   text-align: center;
 }
 
-/* line 186, ../sass/style.css.scss */
+/* line 215, ../sass/style.css.scss */
 .site-info {
   display: none;
 }
 
-/* line 187, ../sass/style.css.scss */
+/* line 216, ../sass/style.css.scss */
 .site-footer {
   background: #4d4e53;
 }
-/* line 189, ../sass/style.css.scss */
+/* line 218, ../sass/style.css.scss */
 .site-footer .footer-navigation {
   float: left;
   margin-right: 0;
@@ -8918,16 +8970,16 @@ header#masthead .site-logo {
   padding-bottom: 18px;
   padding-top: 18px;
 }
-/* line 192, ../sass/style.css.scss */
+/* line 221, ../sass/style.css.scss */
 .site-footer .footer-navigation ul {
   text-align: left;
 }
-/* line 194, ../sass/style.css.scss */
+/* line 223, ../sass/style.css.scss */
 .site-footer .footer-navigation ul a {
   color: white;
 }
 
-/* line 200, ../sass/style.css.scss */
+/* line 229, ../sass/style.css.scss */
 .widget-area .instagram-pics {
   list-style: none;
 }
@@ -8935,7 +8987,7 @@ header#masthead .site-logo {
 /*----------
   Widths
   ----------*/
-/* line 219, ../sass/style.css.scss */
+/* line 248, ../sass/style.css.scss */
 .content-wrapper,
 .featured-page-wrapper,
 .footer-widget-wrapper,
@@ -8955,7 +9007,7 @@ header#masthead .site-logo {
   padding-right: 10px;
 }
 @media (min-width: 768px) {
-  /* line 219, ../sass/style.css.scss */
+  /* line 248, ../sass/style.css.scss */
   .content-wrapper,
   .featured-page-wrapper,
   .footer-widget-wrapper,
@@ -8973,7 +9025,7 @@ header#masthead .site-logo {
   }
 }
 @media (min-width: 992px) {
-  /* line 219, ../sass/style.css.scss */
+  /* line 248, ../sass/style.css.scss */
   .content-wrapper,
   .featured-page-wrapper,
   .footer-widget-wrapper,
@@ -8991,7 +9043,7 @@ header#masthead .site-logo {
   }
 }
 @media (min-width: 1200px) {
-  /* line 219, ../sass/style.css.scss */
+  /* line 248, ../sass/style.css.scss */
   .content-wrapper,
   .featured-page-wrapper,
   .footer-widget-wrapper,
@@ -9009,7 +9061,7 @@ header#masthead .site-logo {
   }
 }
 
-/* line 241, ../sass/style.css.scss */
+/* line 270, ../sass/style.css.scss */
 .site-branding,
 .has-footer-navigation .site-info,
 body[class*="alternate-sidebar"].sidebar-left .content-area,

@@ -794,7 +794,7 @@ header#masthead .site-logo {
   padding-left: 10px;
   padding-right: 10px;
 }
-@media (min-width: 1200px) {
+@media (min-width: 768px) {
   /* line 213, ../sass/style.css.scss */
   .content-wrapper,
   .featured-page-wrapper,
@@ -809,7 +809,7 @@ header#masthead .site-logo {
   .secondary-navigation,
   .search-wrapper
   .search-form {
-    width: 1200px;
+    width: 740px;
   }
 }
 @media (min-width: 992px) {
@@ -830,7 +830,7 @@ header#masthead .site-logo {
     width: 960px;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   /* line 213, ../sass/style.css.scss */
   .content-wrapper,
   .featured-page-wrapper,
@@ -845,7 +845,7 @@ header#masthead .site-logo {
   .secondary-navigation,
   .search-wrapper
   .search-form {
-    width: 740px;
+    width: 1200px;
   }
 }
 

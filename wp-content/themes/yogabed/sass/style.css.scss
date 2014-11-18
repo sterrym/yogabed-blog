@@ -215,15 +215,15 @@ header#masthead {
   margin-left: auto;
   padding-left: 10px;
   padding-right: 10px;
-  
-  @media (min-width: 1200px) {
-    width: 1200px;
+
+  @media (min-width: 768px) {
+    width: 740px;
   }
   @media (min-width: 992px) {
     width: 960px;
   }
-  @media (min-width: 768px) {
-    width: 740px;
+  @media (min-width: 1200px) {
+    width: 1200px;
   }
 }
 

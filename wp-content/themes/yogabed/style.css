@@ -376,8 +376,8 @@ th {
 }
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url("../fonts/bootstrap/glyphicons-halflings-regular.eot");
-  src: url("../fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/bootstrap/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/bootstrap/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
+  src: url("css/fonts/bootstrap/glyphicons-halflings-regular.eot");
+  src: url("css/fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("css/fonts/bootstrap/glyphicons-halflings-regular.woff") format("woff"), url("css/fonts/bootstrap/glyphicons-halflings-regular.ttf") format("truetype"), url("css/fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
 }
 
 /* line 21, ../../../../../../../../../.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_glyphicons.scss */
@@ -9256,11 +9256,10 @@ body[class*="alternate-sidebar"].sidebar-left .widget-area,
   background: #4d4e53;
   color: #FFF;
   font-size: 12px;
-  margin-top: 16px;
   padding-bottom: 18px;
   padding-top: 18px;
 }
-/* line 375, ../sass/style.css.scss */
+/* line 374, ../sass/style.css.scss */
 .legal a {
   color: #FFF;
 }

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*!
 Theme Name: Yogabed
 Template: edin
@@ -5,6 +6,113 @@ Template: edin
 To compile, navigate to the yogabed theme directory and run `compass watch`. To minify for production run `compass compile -e production`
 Instructions taken from: http://www.aptivate.org/en/blog/2013/08/07/sass-bang-wallop/
 */
+/**
+ * @license
+ * MyFonts Webfont Build ID 2882659, 2014-09-12T16:11:21-0400
+ *
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are
+ * explicitly restricted from using the Licensed Webfonts(s).
+ *
+ * You may obtain a valid license at the URLs below.
+ *
+ * Webfont: Hurme Geometric Sans 4 Bold by Hurme Design
+ * URL: http://www.myfonts.com/fonts/hurme-design/hurme-geometric-sans-4/4-bold/
+ *
+ * Webfont: Hurme Geometric Sans 4 Bold Oblique by Hurme Design
+ * URL: http://www.myfonts.com/fonts/hurme-design/hurme-geometric-sans-4/4-bold-oblique/
+ *
+ * Webfont: Hurme Geometric Sans 4 Hairline by Hurme Design
+ * URL: http://www.myfonts.com/fonts/hurme-design/hurme-geometric-sans-4/4-hairline/
+ *
+ * Webfont: Hurme Geometric Sans 4 Black Oblique by Hurme Design
+ * URL: http://www.myfonts.com/fonts/hurme-design/hurme-geometric-sans-4/4-black-oblique/
+ *
+ * Webfont: Hurme Geometric Sans 4 Light by Hurme Design
+ * URL: http://www.myfonts.com/fonts/hurme-design/hurme-geometric-sans-4/4-light/
+ *
+ * Webfont: Hurme Geometric Sans 4 Hairline Oblique by Hurme Design
+ * URL: http://www.myfonts.com/fonts/hurme-design/hurme-geometric-sans-4/4-hairline-oblique/
+ *
+ * Webfont: Hurme Geometric Sans 4 by Hurme Design
+ * URL: http://www.myfonts.com/fonts/hurme-design/hurme-geometric-sans-4/4-regular/
+ *
+ * Webfont: Hurme Geometric Sans 4 Oblique by Hurme Design
+ * URL: http://www.myfonts.com/fonts/hurme-design/hurme-geometric-sans-4/4-oblique/
+ *
+ * Webfont: Hurme Geometric Sans 4 Light Oblique by Hurme Design
+ * URL: http://www.myfonts.com/fonts/hurme-design/hurme-geometric-sans-4/4-light-oblique/
+ *
+ * Webfont: Hurme Geometric Sans 4 SemiBold by Hurme Design
+ * URL: http://www.myfonts.com/fonts/hurme-design/hurme-geometric-sans-4/4-semi-bold/
+ *
+ * Webfont: Hurme Geometric Sans 4 Thin Oblique by Hurme Design
+ * URL: http://www.myfonts.com/fonts/hurme-design/hurme-geometric-sans-4/4-thin-oblique/
+ *
+ * Webfont: Hurme Geometric Sans 4 SemiBold Oblique by Hurme Design
+ * URL: http://www.myfonts.com/fonts/hurme-design/hurme-geometric-sans-4/4-semi-bold-oblique/
+ *
+ * Webfont: Hurme Geometric Sans 4 Thin by Hurme Design
+ * URL: http://www.myfonts.com/fonts/hurme-design/hurme-geometric-sans-4/4-thin/
+ *
+ * Webfont: Hurme Geometric Sans 4 Black by Hurme Design
+ * URL: http://www.myfonts.com/fonts/hurme-design/hurme-geometric-sans-4/4-black/
+ *
+ *
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2882659
+ * Licensed pageviews: 10,000
+ * Webfonts copyright: Copyright (c) 2012 by Toni Hurme. All rights reserved.
+ *
+ * © 2014 MyFonts Inc
+*/
+@font-face {
+  font-family: 'HurmeGeometricSans4';
+  font-weight: 400;
+  font-style: normal;
+  src: url('/css/fonts/webfonts/2BFC63_6_0.eot');
+  src: url('/css/fonts/webfonts/2BFC63_6_0.eot?#iefix') format("embedded-opentype"), url('/css/fonts/webfonts/2BFC63_6_0.woff') format("woff"), url('/css/fonts/webfonts/2BFC63_6_0.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: 'HurmeGeometricSans4';
+  font-weight: 400;
+  font-style: italic;
+  src: url('/css/fonts/webfonts/2BFC63_7_0.eot');
+  src: url('/css/fonts/webfonts/2BFC63_7_0.eot?#iefix') format("embedded-opentype"), url('/css/fonts/webfonts/2BFC63_7_0.woff') format("woff"), url('/css/fonts/webfonts/2BFC63_7_0.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: 'HurmeGeometricSans4';
+  font-weight: 500;
+  font-style: normal;
+  src: url('/css/fonts/webfonts/2BFC63_9_0.eot');
+  src: url('/css/fonts/webfonts/2BFC63_9_0.eot?#iefix') format("embedded-opentype"), url('/css/fonts/webfonts/2BFC63_9_0.woff') format("woff"), url('/css/fonts/webfonts/2BFC63_9_0.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: 'HurmeGeometricSans4';
+  font-weight: 500;
+  font-style: italic;
+  src: url('/css/fonts/webfonts/2BFC63_B_0.eot');
+  src: url('/css/fonts/webfonts/2BFC63_B_0.eot?#iefix') format("embedded-opentype"), url('/css/fonts/webfonts/2BFC63_B_0.woff') format("woff"), url('/css/fonts/webfonts/2BFC63_B_0.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: 'HurmeGeometricSans4';
+  font-weight: 700;
+  font-style: normal;
+  src: url('/css/fonts/webfonts/2BFC63_0_0.eot');
+  src: url('/css/fonts/webfonts/2BFC63_0_0.eot?#iefix') format("embedded-opentype"), url('/css/fonts/webfonts/2BFC63_0_0.woff') format("woff"), url('/css/fonts/webfonts/2BFC63_0_0.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: 'HurmeGeometricSans4';
+  font-weight: 700;
+  font-style: italic;
+  src: url('/css/fonts/webfonts/2BFC63_1_0.eot');
+  src: url('/css/fonts/webfonts/2BFC63_1_0.eot?#iefix') format("embedded-opentype"), url('/css/fonts/webfonts/2BFC63_1_0.woff') format("woff"), url('/css/fonts/webfonts/2BFC63_1_0.ttf') format("truetype");
+}
+
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /* line 9, ../../../../../../../../../.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_normalize.scss */
 html {
@@ -8633,7 +8741,7 @@ button.close {
     margin: 0 0 0 8px;
   }
 }
-/* line 39, ../sass/style.css.scss */
+/* line 40, ../sass/style.css.scss */
 body {
   font-family: "HurmeGeometricSans4", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
@@ -8642,17 +8750,17 @@ body {
   background-color: white;
 }
 
-/* line 46, ../sass/style.css.scss */
+/* line 47, ../sass/style.css.scss */
 a {
   color: #f58d76;
 }
 
-/* line 48, ../sass/style.css.scss */
+/* line 49, ../sass/style.css.scss */
 .admin-bar #masthead {
   margin-top: 32px;
 }
 
-/* line 50, ../sass/style.css.scss */
+/* line 51, ../sass/style.css.scss */
 #masthead {
   color: #FFF;
   background: rgba(77, 78, 83, 0.8);
@@ -8669,27 +8777,27 @@ a {
 #masthead:after {
   clear: both;
 }
-/* line 58, ../sass/style.css.scss */
+/* line 59, ../sass/style.css.scss */
 #masthead .site-branding {
   height: 69px;
 }
-/* line 59, ../sass/style.css.scss */
+/* line 60, ../sass/style.css.scss */
 #masthead .site-title, #masthead .site-description {
   position: absolute;
   clip: rect(1px, 1px, 1px, 1px);
 }
-/* line 61, ../sass/style.css.scss */
+/* line 62, ../sass/style.css.scss */
 #masthead #menu-navigation {
   text-align: left;
   margin-top: 4px;
 }
-/* line 65, ../sass/style.css.scss */
+/* line 66, ../sass/style.css.scss */
 #masthead #menu-navigation > li {
   display: block;
   padding: 0;
   border: 0;
 }
-/* line 67, ../sass/style.css.scss */
+/* line 68, ../sass/style.css.scss */
 #masthead #menu-navigation > li a {
   color: #FFF;
   font-weight: 500;
@@ -8698,7 +8806,7 @@ a {
   padding: 10px 4px;
   text-transform: uppercase;
 }
-/* line 70, ../sass/style.css.scss */
+/* line 71, ../sass/style.css.scss */
 #masthead #menu-navigation > li.on a,
 #masthead #menu-navigation > li a:hover,
 #masthead #menu-navigation > li a:active {
@@ -8707,48 +8815,48 @@ a {
   color: #e6e7e8;
   padding-bottom: 7px;
 }
-/* line 73, ../sass/style.css.scss */
+/* line 74, ../sass/style.css.scss */
 #masthead .menu-toggle {
   background: transparent;
 }
-/* line 74, ../sass/style.css.scss */
+/* line 75, ../sass/style.css.scss */
 #masthead .site-branding {
   width: 264px;
   padding-right: 24px;
   float: left;
 }
-/* line 75, ../sass/style.css.scss */
+/* line 76, ../sass/style.css.scss */
 #masthead .site-logo {
   margin: 0 !important;
 }
-/* line 78, ../sass/style.css.scss */
+/* line 79, ../sass/style.css.scss */
 #masthead .tag {
   color: #f58d76;
   text-transform: uppercase;
   width: 175px;
 }
-/* line 81, ../sass/style.css.scss */
+/* line 82, ../sass/style.css.scss */
 #masthead .tag span {
   display: block;
   text-align: right;
 }
-/* line 85, ../sass/style.css.scss */
+/* line 86, ../sass/style.css.scss */
 #masthead .row {
   margin-bottom: 0;
 }
-/* line 86, ../sass/style.css.scss */
+/* line 87, ../sass/style.css.scss */
 #masthead .navbar-toggle {
   top: 12px;
   z-index: 2;
 }
 
 @media screen and (min-width: 1020px) {
-  /* line 100, ../sass/style.css.scss */
+  /* line 101, ../sass/style.css.scss */
   header#masthead nav#site-navigation {
     float: left;
   }
 
-  /* line 104, ../sass/style.css.scss */
+  /* line 105, ../sass/style.css.scss */
   .main-navigation {
     width: 680px;
   }
@@ -8756,7 +8864,7 @@ a {
 /* ------------------
    POSTS
    -------------------- */
-/* line 112, ../sass/style.css.scss */
+/* line 113, ../sass/style.css.scss */
 .more-link {
   margin-bottom: 0;
   font-weight: normal;
@@ -8777,35 +8885,35 @@ a {
   display: block;
   margin: auto;
 }
-/* line 121, ../sass/style.css.scss */
+/* line 122, ../sass/style.css.scss */
 .more-link:after, .more-link span {
   display: none;
 }
-/* line 122, ../sass/style.css.scss */
+/* line 123, ../sass/style.css.scss */
 .more-link:hover {
   background: #f58d76;
   color: white;
 }
 
-/* line 125, ../sass/style.css.scss */
+/* line 126, ../sass/style.css.scss */
 .home .post .entry-header {
   text-align: center;
 }
-/* line 126, ../sass/style.css.scss */
+/* line 127, ../sass/style.css.scss */
 .home .post .entry-meta {
   border: 0;
   margin: 0;
 }
-/* line 127, ../sass/style.css.scss */
+/* line 128, ../sass/style.css.scss */
 .home .post h1.entry-title {
   font-size: 22px;
 }
 
-/* line 130, ../sass/style.css.scss */
+/* line 131, ../sass/style.css.scss */
 #content {
   margin-top: 69px;
 }
-/* line 134, ../sass/style.css.scss */
+/* line 135, ../sass/style.css.scss */
 #content .post .tags-links a {
   color: #afafaf;
   border: 1px solid;
@@ -8815,28 +8923,28 @@ a {
   font-size: 13px;
   text-transform: uppercase;
 }
-/* line 136, ../sass/style.css.scss */
+/* line 137, ../sass/style.css.scss */
 #content .post .post-thumbnail {
   width: 100%;
   margin-left: 0;
 }
-/* line 138, ../sass/style.css.scss */
+/* line 139, ../sass/style.css.scss */
 #content .post .post-thumbnail img {
   max-width: 100%;
 }
 
-/* line 143, ../sass/style.css.scss */
+/* line 144, ../sass/style.css.scss */
 #secondary aside.widget {
   padding: 0;
 }
-/* line 145, ../sass/style.css.scss */
+/* line 146, ../sass/style.css.scss */
 #secondary aside.widget > iframe, #secondary aside.widget > ul {
   padding: 10px;
   border: 1px solid;
   border-top: 0;
   margin: 0 auto;
 }
-/* line 146, ../sass/style.css.scss */
+/* line 147, ../sass/style.css.scss */
 #secondary aside.widget h1.widget-title {
   display: block;
   background: #231f20 url("https://yogabed.files.wordpress.com/2014/11/heading-background.png") no-repeat left top 100%;
@@ -8848,7 +8956,7 @@ a {
   margin-bottom: 0;
 }
 
-/* line 157, ../sass/style.css.scss */
+/* line 158, ../sass/style.css.scss */
 #twitter-widget-0 {
   padding: 0 !important;
   margin-bottom: 10px !important;
@@ -8857,50 +8965,50 @@ a {
 /* ----------------
    Footer
    ---------------- */
-/* line 165, ../sass/style.css.scss */
+/* line 166, ../sass/style.css.scss */
 #tertiary.footer-widget-area {
   background-color: #e6e7e8;
   color: #4d4e53;
   font-size: 13px;
   padding: 0;
 }
-/* line 170, ../sass/style.css.scss */
+/* line 171, ../sass/style.css.scss */
 #tertiary.footer-widget-area .row {
   margin-bottom: 0;
 }
-/* line 171, ../sass/style.css.scss */
+/* line 172, ../sass/style.css.scss */
 #tertiary.footer-widget-area a {
   color: #4d4e53;
   text-transform: none;
   font-weight: normal;
 }
-/* line 172, ../sass/style.css.scss */
+/* line 173, ../sass/style.css.scss */
 #tertiary.footer-widget-area a:hover {
   color: #000;
   font-weight: 500;
 }
-/* line 173, ../sass/style.css.scss */
+/* line 174, ../sass/style.css.scss */
 #tertiary.footer-widget-area .brand {
   margin-bottom: 32px;
 }
-/* line 174, ../sass/style.css.scss */
+/* line 175, ../sass/style.css.scss */
 #tertiary.footer-widget-area .menu > li {
   padding: 0;
   border: 0;
 }
-/* line 176, ../sass/style.css.scss */
+/* line 177, ../sass/style.css.scss */
 #tertiary.footer-widget-area .menu > li > a {
   padding: 2px 0;
 }
-/* line 180, ../sass/style.css.scss */
+/* line 181, ../sass/style.css.scss */
 #tertiary.footer-widget-area .customer-service {
   font-size: 20px;
 }
-/* line 181, ../sass/style.css.scss */
+/* line 182, ../sass/style.css.scss */
 #tertiary.footer-widget-area .link {
   padding-top: 12px;
 }
-/* line 184, ../sass/style.css.scss */
+/* line 185, ../sass/style.css.scss */
 #tertiary.footer-widget-area .return-to-top {
   border-radius: 3px;
   border: 2px solid #FFF;
@@ -8911,16 +9019,16 @@ a {
   text-align: center;
 }
 
-/* line 194, ../sass/style.css.scss */
+/* line 195, ../sass/style.css.scss */
 .site-info {
   display: none;
 }
 
-/* line 195, ../sass/style.css.scss */
+/* line 196, ../sass/style.css.scss */
 .site-footer {
   background: #4d4e53;
 }
-/* line 197, ../sass/style.css.scss */
+/* line 198, ../sass/style.css.scss */
 .site-footer .footer-navigation {
   float: left;
   margin-right: 0;
@@ -8931,17 +9039,17 @@ a {
   padding-bottom: 18px;
   padding-top: 18px;
 }
-/* line 200, ../sass/style.css.scss */
+/* line 201, ../sass/style.css.scss */
 .site-footer .footer-navigation ul {
   text-align: left;
 }
-/* line 202, ../sass/style.css.scss */
+/* line 203, ../sass/style.css.scss */
 .site-footer .footer-navigation ul a {
   color: white;
   border: 0;
 }
 
-/* line 208, ../sass/style.css.scss */
+/* line 209, ../sass/style.css.scss */
 .widget-area .instagram-pics {
   list-style: none;
 }
@@ -8949,7 +9057,7 @@ a {
 /*----------
   Widths
   ----------*/
-/* line 227, ../sass/style.css.scss */
+/* line 228, ../sass/style.css.scss */
 .content-wrapper,
 .featured-page-wrapper,
 .footer-widget-wrapper,
@@ -8969,7 +9077,7 @@ a {
   padding-right: 10px;
 }
 @media (min-width: 768px) {
-  /* line 227, ../sass/style.css.scss */
+  /* line 228, ../sass/style.css.scss */
   .content-wrapper,
   .featured-page-wrapper,
   .footer-widget-wrapper,
@@ -8987,7 +9095,7 @@ a {
   }
 }
 @media (min-width: 992px) {
-  /* line 227, ../sass/style.css.scss */
+  /* line 228, ../sass/style.css.scss */
   .content-wrapper,
   .featured-page-wrapper,
   .footer-widget-wrapper,
@@ -9005,7 +9113,7 @@ a {
   }
 }
 @media (min-width: 1200px) {
-  /* line 227, ../sass/style.css.scss */
+  /* line 228, ../sass/style.css.scss */
   .content-wrapper,
   .featured-page-wrapper,
   .footer-widget-wrapper,
@@ -9023,7 +9131,7 @@ a {
   }
 }
 
-/* line 249, ../sass/style.css.scss */
+/* line 250, ../sass/style.css.scss */
 .site-branding,
 .has-footer-navigation .site-info,
 body[class*="alternate-sidebar"].sidebar-left .content-area,
@@ -9034,13 +9142,13 @@ body[class*="alternate-sidebar"].sidebar-left .widget-area,
 }
 
 @media (min-width: 768px) {
-  /* line 253, ../sass/style.css.scss */
+  /* line 254, ../sass/style.css.scss */
   #primary {
     width: 100%;
   }
 }
 @media (min-width: 992px) {
-  /* line 253, ../sass/style.css.scss */
+  /* line 254, ../sass/style.css.scss */
   #primary {
     width: 70%;
     margin-right: 5%;
@@ -9048,25 +9156,25 @@ body[class*="alternate-sidebar"].sidebar-left .widget-area,
 }
 
 @media (min-width: 768px) {
-  /* line 262, ../sass/style.css.scss */
+  /* line 263, ../sass/style.css.scss */
   #secondary {
     width: 100%;
   }
 }
 @media (min-width: 992px) {
-  /* line 262, ../sass/style.css.scss */
+  /* line 263, ../sass/style.css.scss */
   #secondary {
     width: 25%;
   }
 }
 
-/* line 271, ../sass/style.css.scss */
+/* line 272, ../sass/style.css.scss */
 #nav-main {
   float: left;
   width: 70%;
 }
 
-/* line 272, ../sass/style.css.scss */
+/* line 273, ../sass/style.css.scss */
 #nav-global {
   float: right;
   width: 30%;
@@ -9076,11 +9184,11 @@ body[class*="alternate-sidebar"].sidebar-left .widget-area,
 }
 
 @media (min-width: 480px) {
-  /* line 277, ../sass/style.css.scss */
+  /* line 278, ../sass/style.css.scss */
   #brand a {
     display: inline-block;
   }
-  /* line 278, ../sass/style.css.scss */
+  /* line 279, ../sass/style.css.scss */
   #brand .tag {
     display: inline-block;
     float: none;
@@ -9091,86 +9199,86 @@ body[class*="alternate-sidebar"].sidebar-left .widget-area,
   }
 }
 @media (min-width: 768px) {
-  /* line 283, ../sass/style.css.scss */
+  /* line 284, ../sass/style.css.scss */
   body {
     padding-top: 116px;
   }
 
-  /* line 286, ../sass/style.css.scss */
+  /* line 287, ../sass/style.css.scss */
   #masthead ul#menu-navigation > li {
     display: inline-block;
   }
-  /* line 288, ../sass/style.css.scss */
+  /* line 289, ../sass/style.css.scss */
   #masthead ul#menu-navigation > li a {
     padding: 13px 8px;
   }
-  /* line 291, ../sass/style.css.scss */
+  /* line 292, ../sass/style.css.scss */
   #masthead ul#menu-navigation > li.on a,
   #masthead ul#menu-navigation > li a:hover,
   #masthead ul#menu-navigation > li a:active {
     padding-bottom: 10px;
   }
 
-  /* line 295, ../sass/style.css.scss */
+  /* line 296, ../sass/style.css.scss */
   #nav-main {
     width: 75%;
   }
 
-  /* line 296, ../sass/style.css.scss */
+  /* line 297, ../sass/style.css.scss */
   #nav-global {
     width: 25%;
   }
 }
 @media (min-width: 992px) {
-  /* line 299, ../sass/style.css.scss */
+  /* line 300, ../sass/style.css.scss */
   body {
     padding-top: 0;
   }
 
-  /* line 300, ../sass/style.css.scss */
+  /* line 301, ../sass/style.css.scss */
   #brand {
     text-align: left;
     width: 25%;
   }
 
-  /* line 301, ../sass/style.css.scss */
+  /* line 302, ../sass/style.css.scss */
   #navigation {
     width: 75%;
   }
 
-  /* line 303, ../sass/style.css.scss */
+  /* line 304, ../sass/style.css.scss */
   #masthead ul#menu-navigation {
     margin-top: 25px;
   }
-  /* line 306, ../sass/style.css.scss */
+  /* line 307, ../sass/style.css.scss */
   #masthead ul#menu-navigation > li a {
     padding: 13px 7px;
   }
-  /* line 309, ../sass/style.css.scss */
+  /* line 310, ../sass/style.css.scss */
   #masthead ul#menu-navigation > li.on a,
   #masthead ul#menu-navigation > li a:hover,
   #masthead ul#menu-navigation > li a:active {
     padding-bottom: 10px;
   }
-  /* line 312, ../sass/style.css.scss */
+  /* line 313, ../sass/style.css.scss */
   #masthead #nav-global {
     margin-top: 3px;
   }
-  /* line 314, ../sass/style.css.scss */
+  /* line 315, ../sass/style.css.scss */
   #masthead #nav-global ul#menu-navigation {
     margin-top: 15px;
   }
-  /* line 315, ../sass/style.css.scss */
+  /* line 316, ../sass/style.css.scss */
   #masthead #nav-global a {
     padding: 0;
   }
-  /* line 317, ../sass/style.css.scss */
+  /* line 318, ../sass/style.css.scss */
   #masthead #nav-global a:hover {
     border: 0;
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
-  /* line 325, ../sass/style.css.scss */
+  /* line 326, ../sass/style.css.scss */
   #nav-global .tag {
     font-size: 10px;
     margin: 10px 0;
@@ -9178,69 +9286,69 @@ body[class*="alternate-sidebar"].sidebar-left .widget-area,
   }
 }
 @media (min-width: 1200px) {
-  /* line 329, ../sass/style.css.scss */
+  /* line 330, ../sass/style.css.scss */
   #brand {
     width: 22%;
   }
 
-  /* line 330, ../sass/style.css.scss */
+  /* line 331, ../sass/style.css.scss */
   #navigation {
     width: 78%;
   }
 
-  /* line 332, ../sass/style.css.scss */
+  /* line 333, ../sass/style.css.scss */
   #nav-main {
     width: 65%;
   }
 
-  /* line 333, ../sass/style.css.scss */
+  /* line 334, ../sass/style.css.scss */
   #nav-global {
     width: 35%;
   }
 }
-/* line 336, ../sass/style.css.scss */
+/* line 337, ../sass/style.css.scss */
 .masthead {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 0;
 }
 
-/* line 343, ../sass/style.css.scss */
+/* line 344, ../sass/style.css.scss */
 #footer {
   background-color: #e6e7e8;
   color: #4d4e53;
   font-size: 13px;
 }
-/* line 347, ../sass/style.css.scss */
+/* line 348, ../sass/style.css.scss */
 #footer .row {
   margin-bottom: 0;
 }
-/* line 348, ../sass/style.css.scss */
+/* line 349, ../sass/style.css.scss */
 #footer a {
   color: #4d4e53;
 }
-/* line 349, ../sass/style.css.scss */
+/* line 350, ../sass/style.css.scss */
 #footer a:hover {
   color: #000;
   font-weight: 500;
 }
-/* line 350, ../sass/style.css.scss */
+/* line 351, ../sass/style.css.scss */
 #footer .brand {
   margin-bottom: 32px;
 }
-/* line 351, ../sass/style.css.scss */
+/* line 352, ../sass/style.css.scss */
 #footer .nav > li > a, #footer #masthead #menu-navigation > li > a, #masthead #footer #menu-navigation > li > a {
   padding: 2px 0;
 }
-/* line 354, ../sass/style.css.scss */
+/* line 355, ../sass/style.css.scss */
 #footer .customer-service {
   font-size: 20px;
 }
-/* line 355, ../sass/style.css.scss */
+/* line 356, ../sass/style.css.scss */
 #footer .link {
   padding-top: 12px;
 }
-/* line 358, ../sass/style.css.scss */
+/* line 359, ../sass/style.css.scss */
 #footer .return-to-top {
   border-radius: 3px;
   border: 2px solid #FFF;
@@ -9251,7 +9359,7 @@ body[class*="alternate-sidebar"].sidebar-left .widget-area,
   text-align: center;
 }
 
-/* line 367, ../sass/style.css.scss */
+/* line 368, ../sass/style.css.scss */
 .legal {
   background: #4d4e53;
   color: #FFF;
@@ -9259,7 +9367,7 @@ body[class*="alternate-sidebar"].sidebar-left .widget-area,
   padding-bottom: 18px;
   padding-top: 18px;
 }
-/* line 373, ../sass/style.css.scss */
+/* line 374, ../sass/style.css.scss */
 .legal a {
   color: #FFF;
 }

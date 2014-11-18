@@ -362,3 +362,9 @@ body[class*="alternate-sidebar"].sidebar-left .widget-area,
   padding-top:18px;
   a { color:#FFF; }
 }
+
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+  @extend .btn;
+  @extend .btn-primary;
+  @extend .btn-lg;
+}

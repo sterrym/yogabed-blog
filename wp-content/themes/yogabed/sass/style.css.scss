@@ -5,8 +5,6 @@ Template: edin
 To compile, navigate to the yogabed theme directory and run `compass watch`. To minify for production run `compass compile -e production`
 Instructions taken from: http://www.aptivate.org/en/blog/2013/08/07/sass-bang-wallop/
 */
-@import "goran";
-
 $brand-primary: #f58d76;
 $brand-secondary: #4d4e53;
 $brand-primary-light: #f1a693;
@@ -32,6 +30,11 @@ $font-family-sans-serif:  "HurmeGeometricSans4", "Helvetica Neue", Helvetica, Ar
 $font-family-base:        $font-family-sans-serif;
 
 $border-radius-small: 3px;
+
+@import "bootstrap-compass";
+@import "bootstrap-variables";
+@import "bootstrap";
+@import "goran";
 
 body {
   font-family: $font-family-base;
@@ -182,7 +185,7 @@ header#masthead {
 .site-footer {
   background: $brand-secondary;
   .footer-navigation { 
-    float: left; margin-left: 72px; margin-right: 0; font-size: 12px;
+    float: left; margin-right: 0; font-size: 12px;
     ul { 
       text-align: left; 
       a { color: white; }

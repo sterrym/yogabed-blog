@@ -52,15 +52,12 @@ a { color: $brand-primary; }
   color:#FFF;
   background:rgba($brand-secondary, 0.8); font-size:$font-size-small;
   box-shadow: 0px 16px 16px -16px rgba(0,0,0,0.43);
+  border: 0;
   position: relative !important;
 
   .site-branding { height: 69px; }
   .site-title, .site-description { position: absolute; clip: rect(1px, 1px, 1px, 1px); }
 
-  #nav-main { 
-    margin: 24px 0 0 0;
-    float: right;
-  }
   #menu-navigation {
     @extend .nav;
     text-align: left;

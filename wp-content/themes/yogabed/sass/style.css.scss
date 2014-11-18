@@ -5,38 +5,12 @@ Template: edin
 To compile, navigate to the yogabed theme directory and run `compass watch`. To minify for production run `compass compile -e production`
 Instructions taken from: http://www.aptivate.org/en/blog/2013/08/07/sass-bang-wallop/
 */
-// $brand-primary: #f58d76;
-// $brand-secondary: #4d4e53;
-// $brand-primary-light: #f1a693;
-// $gray-darker:            #231f20;
-// $gray-dark:              #343741;
-// $gray:                   #555a6a;
-// $gray-light:             #afafaf;
-// $gray-lighter:           #e6e7e8;
-// $gray-lightest:          #ebeaea;
-
-// $font-size-base:          14px;
-// $font-size-large:         ceil(($font-size-base * 1.2857)); // ~18px
-// $font-size-small:         ceil(($font-size-base * 0.9285)); // ~13px
-// $font-size-xs:            ceil(($font-size-base * 0.8571)); // ~12px
-// $font-size-h1:            ceil(($font-size-base * 2.8571)); // ~40px
-// $font-size-h2:            ceil(($font-size-base * 2.4285)); // ~34px
-// $font-size-h3:            ceil(($font-size-base * 1.4285)); // ~20px
-// $font-size-h4:            ceil(($font-size-base * 1.2857)); // ~18px
-// $font-size-h5:            $font-size-base;
-// $font-size-h6:            ceil(($font-size-base * 0.9285)); // ~13px
-
-// $font-family-sans-serif:  "HurmeGeometricSans4", "Helvetica Neue", Helvetica, Arial, sans-serif;
-// $font-family-base:        $font-family-sans-serif;
-
-// $border-radius-small: 3px;
-
 @import "bootstrap-compass";
 @import "variables";
 @import "fonts";
 @import "font-awesome";
 @import "bootstrap";
-@import "goran";
+// @import "goran";
 
 body {
   font-family: $font-family-base;
@@ -74,10 +48,6 @@ a { color: $brand-primary; }
     }
   }
   .menu-toggle { background:transparent; }
-  .site-branding { width: 264px; padding-right:24px; float:left; }
-  .site-logo { margin: 0 !important; }
-
-
   .tag {
     color:$brand-primary;
     text-transform:uppercase;
@@ -88,24 +58,6 @@ a { color: $brand-primary; }
   .row { margin-bottom:0; }
   .navbar-toggle {
     top:12px; z-index:2;
-  }
-  // top:0;
-  // right: 0;
-  // left: 0; 
-  // z-index: 1030; 
-  // -webkit-transform: translate3d(0, 0, 0); 
-  // transform: translate3d(0, 0, 0);
-  // border: 0;
-}
-
-@media screen and (min-width: 1020px) {
-  header#masthead { 
-    nav#site-navigation { 
-      float:left;
-    }
-  }
-  .main-navigation {
-    width: 680px;
   }
 }
 
@@ -148,7 +100,7 @@ a { color: $brand-primary; }
   > iframe, > ul { padding: 10px; border: 1px solid; border-top: 0; margin: 0 auto; }
   h1.widget-title { 
     display: block;
-    background: #231F20 url('https://yogabed.files.wordpress.com/2014/11/heading-background.png') no-repeat left top 100%;
+    background: #231F20 url('/wp-content/themes/yogabed/images/heading-background.png') no-repeat left top 100%;
     line-height: 44px;
     font-weight: normal;
     text-align: center;

@@ -21,7 +21,7 @@
 <body <?php body_class(); ?>>
 <div id="page" class="hfeed site">
   <a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'goran' ); ?></a>
-  
+
   <header id="masthead" class="site-header" role="banner">
     <div class="container">
       <div class="row">
@@ -33,6 +33,10 @@
           <a href="<?php site_url(); ?>" class="site-logo-link" ><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo.png" alt="Yogabed" /></a>
           <h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
           <h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
+          <div class="tag navbar-text hidden-md hidden-lg">
+            <span>Inspired by yoga.<br>
+            Designed for comfort.</span>
+          </div>
         </div><!-- .site-branding -->
 
       <?php if ( has_nav_menu( 'primary' ) ) : ?>
@@ -46,6 +50,12 @@
               ) );
             ?>
           </nav><!-- #site-navigation -->
+          <nav id="nav-global">
+            <div class="tag navbar-text hidden-sm hidden-xs">
+              <span>Inspired by yoga.<br>
+              Designed for comfort.</span>
+            </div>
+          </nav>
         </div>
       <?php endif; ?>
       </div>

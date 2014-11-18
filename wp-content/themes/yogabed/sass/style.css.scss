@@ -63,10 +63,11 @@ header#masthead {
     ul#menu-navigation {
       @extend .nav;
       text-align: left;
+      margin-top:4px;
       > li {
-        display:inline-block; margin-right:32px; list-style:none;
-        a { color:#FFF; font-weight:500; text-decoration:none; display:inline-block; padding:10px 4px; text-transform:uppercase; border:0; }
-        &.current_page_item a,
+        display:block;
+        a { color:#FFF; font-weight:500; text-decoration:none; display:inline-block; padding:10px 4px; text-transform:uppercase; }
+        &.on a,
         a:hover,
         a:active { background:transparent; border-bottom:3px solid $brand-primary; color:$gray-lighter; padding-bottom:7px; }
       }
@@ -85,20 +86,6 @@ header#masthead {
     img {}
   }
   .row { margin-bottom:0; }
-  .nav {
-    margin-top:4px;
-    > li {
-      display:block;
-      a { color:#FFF; font-weight:500; text-decoration:none; display:inline-block; padding:10px 4px; text-transform:uppercase; }
-      &.on a,
-      a:hover,
-      a:active { background:transparent; border-bottom:3px solid $brand-primary; color:$gray-lighter; padding-bottom:7px; }
-    }
-  }
-  #nav-global {
-    a { text-transform:none; }
-
-  }
   .navbar-toggle {
     top:12px; z-index:2;
   }
@@ -190,15 +177,6 @@ header#masthead {
       padding: 2px 0;
     }
   }
-  .legal {
-    background:$brand-secondary;
-    color:#FFF;
-    font-size:$font-size-xs;
-    margin-top:16px;
-    padding-bottom:18px;
-    padding-top:18px;
-    a { color:#FFF; }
-  }
   .customer-service { font-size:$font-size-h3; }
   .link {
     padding-top:12px;
@@ -217,7 +195,7 @@ header#masthead {
 .site-footer {
   background: $brand-secondary;
   .footer-navigation { 
-    float: left; margin-right: 0; font-size: 12px;background: #4d4e53; color: #FFF; font-size: 12px; padding-bottom: 18px; padding-top: 18px;
+    float: left; margin-right: 0; font-size: 12px;background: #4d4e53; color: #FFF; font-size:$font-size-xs; padding-bottom: 18px; padding-top: 18px;
 
     ul { 
       text-align: left; 
@@ -270,4 +248,123 @@ body[class*="alternate-sidebar"].sidebar-left .content-area,
 body[class*="alternate-sidebar"].sidebar-left .widget-area,
 .sidebar-right .widget-area{
   margin: 0;
+}
+
+
+@media (min-width: $screen-sm-min) {
+  body { padding-top:116px; }
+  #masthead {
+    ul#menu-navigation {
+      > li {
+        display:inline-block;
+        a { padding:13px 8px; }
+        &.on a,
+        a:hover,
+        a:active { padding-bottom:10px; }
+      }
+    }
+  }
+  #nav-main { width:75%; }
+  #nav-global { width:25%; }
+}
+@media (min-width: $screen-md-min) {
+  body { padding-top:0; }
+  #brand { text-align:left; width:25%; }
+  #navigation { width:75%; }
+  #masthead {
+    ul#menu-navigation {
+      margin-top:25px;
+      > li {
+        a { padding:13px 7px; }
+        &.on a,
+        a:hover,
+        a:active { padding-bottom:10px; }
+      }
+    }
+    #nav-global {
+      margin-top: 3px;
+      ul#menu-navigation { margin-top: 15px; }
+      a { 
+        padding: 0;
+        &:hover { border: 0; }
+      }
+    }
+  }
+}
+
+@media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+  #nav-global {
+    .tag { font-size: 10px; margin: 10px 0; width: 100px; }
+  }
+}
+@media (min-width: $screen-lg-min) {
+  #brand { width:22%; }
+  #navigation { width:78%; }
+  
+  #nav-main { width:65%; }
+  #nav-global { width:35%; }
+}
+
+.masthead {
+  // max-width:$container-stretch-desktop;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:0;
+}
+
+#footer {
+  background-color:$gray-lighter;
+  color:$brand-secondary;
+  font-size:$font-size-small;
+  .row { margin-bottom:0; }
+  a { color:$brand-secondary; }
+  a:hover { color:#000; font-weight:500; }
+  .brand { margin-bottom:32px; }
+  .nav > li > a {
+    padding: 2px 0;
+  }
+  .legal {
+    background:$brand-secondary;
+    color:#FFF;
+    font-size:$font-size-xs;
+    margin-top:16px;
+    padding-bottom:18px;
+    padding-top:18px;
+    a { color:#FFF; }
+  }
+  .customer-service { font-size:$font-size-h3; }
+  .link {
+    padding-top:12px;
+  }
+  .return-to-top {
+    border-radius: $border-radius-small;
+    border:2px solid #FFF;
+    display: inline-block;
+    width:40px; height:40px;
+    padding-top: 8px;
+    text-align:center;
+  }
+}
+
+.shadow-bottom {
+  box-shadow: 0px 16px 16px -16px rgba(0,0,0,0.43);
+  position:relative;
+  z-index:2;
+}
+
+// Brand-colored borders
+.brand-border {
+  border:1px solid $brand-secondary;
+}
+.brand-border-top {
+  border-top:1px solid $brand-secondary;
+}
+.brand-border-right {
+  border-right:1px solid $brand-secondary;
+}
+.brand-border-bottom {
+  border-bottom:1px solid $brand-secondary;
+}
+.brand-border-left {
+  border-left:1px solid $brand-secondary;
 }

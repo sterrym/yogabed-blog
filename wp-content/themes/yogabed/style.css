@@ -8681,14 +8681,13 @@ header#masthead nav#nav-main {
 /* line 63, ../sass/style.css.scss */
 header#masthead nav#nav-main ul#menu-navigation {
   text-align: left;
+  margin-top: 4px;
 }
-/* line 66, ../sass/style.css.scss */
+/* line 67, ../sass/style.css.scss */
 header#masthead nav#nav-main ul#menu-navigation > li {
-  display: inline-block;
-  margin-right: 32px;
-  list-style: none;
+  display: block;
 }
-/* line 68, ../sass/style.css.scss */
+/* line 69, ../sass/style.css.scss */
 header#masthead nav#nav-main ul#menu-navigation > li a {
   color: #FFF;
   font-weight: 500;
@@ -8696,10 +8695,9 @@ header#masthead nav#nav-main ul#menu-navigation > li a {
   display: inline-block;
   padding: 10px 4px;
   text-transform: uppercase;
-  border: 0;
 }
-/* line 71, ../sass/style.css.scss */
-header#masthead nav#nav-main ul#menu-navigation > li.current_page_item a,
+/* line 72, ../sass/style.css.scss */
+header#masthead nav#nav-main ul#menu-navigation > li.on a,
 header#masthead nav#nav-main ul#menu-navigation > li a:hover,
 header#masthead nav#nav-main ul#menu-navigation > li a:active {
   background: transparent;
@@ -8707,80 +8705,48 @@ header#masthead nav#nav-main ul#menu-navigation > li a:active {
   color: #e6e7e8;
   padding-bottom: 7px;
 }
-/* line 75, ../sass/style.css.scss */
+/* line 76, ../sass/style.css.scss */
 header#masthead .menu-toggle {
   background: transparent;
 }
-/* line 76, ../sass/style.css.scss */
+/* line 77, ../sass/style.css.scss */
 header#masthead .site-branding {
   width: 264px;
   padding-right: 24px;
   float: left;
 }
-/* line 77, ../sass/style.css.scss */
+/* line 78, ../sass/style.css.scss */
 header#masthead .site-logo {
   margin: 0 !important;
 }
-/* line 80, ../sass/style.css.scss */
+/* line 81, ../sass/style.css.scss */
 header#masthead .tag {
   color: #f58d76;
   text-transform: uppercase;
   width: 175px;
 }
-/* line 83, ../sass/style.css.scss */
+/* line 84, ../sass/style.css.scss */
 header#masthead .tag span {
   display: block;
   text-align: right;
 }
-/* line 87, ../sass/style.css.scss */
+/* line 88, ../sass/style.css.scss */
 header#masthead .row {
   margin-bottom: 0;
 }
-/* line 88, ../sass/style.css.scss */
-header#masthead .nav, header#masthead nav#nav-main ul#menu-navigation {
-  margin-top: 4px;
-}
-/* line 90, ../sass/style.css.scss */
-header#masthead .nav > li, header#masthead nav#nav-main ul#menu-navigation > li {
-  display: block;
-}
-/* line 92, ../sass/style.css.scss */
-header#masthead .nav > li a, header#masthead nav#nav-main ul#menu-navigation > li a {
-  color: #FFF;
-  font-weight: 500;
-  text-decoration: none;
-  display: inline-block;
-  padding: 10px 4px;
-  text-transform: uppercase;
-}
-/* line 95, ../sass/style.css.scss */
-header#masthead .nav > li.on a, header#masthead nav#nav-main ul#menu-navigation > li.on a,
-header#masthead .nav > li a:hover,
-header#masthead nav#nav-main ul#menu-navigation > li a:hover,
-header#masthead .nav > li a:active,
-header#masthead nav#nav-main ul#menu-navigation > li a:active {
-  background: transparent;
-  border-bottom: 3px solid #f58d76;
-  color: #e6e7e8;
-  padding-bottom: 7px;
-}
-/* line 99, ../sass/style.css.scss */
-header#masthead #nav-global a {
-  text-transform: none;
-}
-/* line 102, ../sass/style.css.scss */
+/* line 89, ../sass/style.css.scss */
 header#masthead .navbar-toggle {
   top: 12px;
   z-index: 2;
 }
 
 @media screen and (min-width: 1020px) {
-  /* line 116, ../sass/style.css.scss */
+  /* line 103, ../sass/style.css.scss */
   header#masthead nav#site-navigation {
     float: left;
   }
 
-  /* line 120, ../sass/style.css.scss */
+  /* line 107, ../sass/style.css.scss */
   .main-navigation {
     width: 680px;
   }
@@ -8788,7 +8754,7 @@ header#masthead .navbar-toggle {
 /* ------------------
    POSTS
    -------------------- */
-/* line 128, ../sass/style.css.scss */
+/* line 115, ../sass/style.css.scss */
 .more-link {
   margin-bottom: 0;
   font-weight: normal;
@@ -8809,31 +8775,31 @@ header#masthead .navbar-toggle {
   display: block;
   margin: auto;
 }
-/* line 137, ../sass/style.css.scss */
+/* line 124, ../sass/style.css.scss */
 .more-link:after, .more-link span {
   display: none;
 }
-/* line 138, ../sass/style.css.scss */
+/* line 125, ../sass/style.css.scss */
 .more-link:hover {
   background: #f58d76;
   color: white;
 }
 
-/* line 141, ../sass/style.css.scss */
+/* line 128, ../sass/style.css.scss */
 .home .post .entry-header {
   text-align: center;
 }
-/* line 142, ../sass/style.css.scss */
+/* line 129, ../sass/style.css.scss */
 .home .post .entry-meta {
   border: 0;
   margin: 0;
 }
-/* line 143, ../sass/style.css.scss */
+/* line 130, ../sass/style.css.scss */
 .home .post h1.entry-title {
   font-size: 22px;
 }
 
-/* line 148, ../sass/style.css.scss */
+/* line 135, ../sass/style.css.scss */
 #content .post .tags-links a {
   color: #afafaf;
   border: 1px solid;
@@ -8843,28 +8809,28 @@ header#masthead .navbar-toggle {
   font-size: 13px;
   text-transform: uppercase;
 }
-/* line 150, ../sass/style.css.scss */
+/* line 137, ../sass/style.css.scss */
 #content .post .post-thumbnail {
   width: 100%;
   margin-left: 0;
 }
-/* line 152, ../sass/style.css.scss */
+/* line 139, ../sass/style.css.scss */
 #content .post .post-thumbnail img {
   max-width: 100%;
 }
 
-/* line 156, ../sass/style.css.scss */
+/* line 143, ../sass/style.css.scss */
 #secondary aside.widget {
   padding: 0;
 }
-/* line 158, ../sass/style.css.scss */
+/* line 145, ../sass/style.css.scss */
 #secondary aside.widget > iframe, #secondary aside.widget > ul {
   padding: 10px;
   border: 1px solid;
   border-top: 0;
   margin: 0;
 }
-/* line 159, ../sass/style.css.scss */
+/* line 146, ../sass/style.css.scss */
 #secondary aside.widget h1.widget-title {
   display: block;
   background: url("https://yogabed.files.wordpress.com/2014/11/heading-background.png") no-repeat left top 100%;
@@ -8876,7 +8842,7 @@ header#masthead .navbar-toggle {
   margin-bottom: 0;
 }
 
-/* line 170, ../sass/style.css.scss */
+/* line 157, ../sass/style.css.scss */
 #twitter-widget-0 {
   padding: 0 !important;
   margin-bottom: 10px !important;
@@ -8885,63 +8851,50 @@ header#masthead .navbar-toggle {
 /* ----------------
    Footer
    ---------------- */
-/* line 178, ../sass/style.css.scss */
+/* line 165, ../sass/style.css.scss */
 #tertiary.footer-widget-area {
   background-color: #e6e7e8;
   color: #4d4e53;
   font-size: 13px;
   padding: 0;
 }
-/* line 183, ../sass/style.css.scss */
+/* line 170, ../sass/style.css.scss */
 #tertiary.footer-widget-area .row {
   margin-bottom: 0;
 }
-/* line 184, ../sass/style.css.scss */
+/* line 171, ../sass/style.css.scss */
 #tertiary.footer-widget-area a {
   color: #4d4e53;
   text-transform: none;
   font-weight: normal;
 }
-/* line 185, ../sass/style.css.scss */
+/* line 172, ../sass/style.css.scss */
 #tertiary.footer-widget-area a:hover {
   color: #000;
   font-weight: 500;
 }
-/* line 186, ../sass/style.css.scss */
+/* line 173, ../sass/style.css.scss */
 #tertiary.footer-widget-area .brand {
   margin-bottom: 32px;
 }
-/* line 187, ../sass/style.css.scss */
+/* line 174, ../sass/style.css.scss */
 #tertiary.footer-widget-area .menu > li {
   padding: 0;
   border: 0;
 }
-/* line 189, ../sass/style.css.scss */
+/* line 176, ../sass/style.css.scss */
 #tertiary.footer-widget-area .menu > li > a {
   padding: 2px 0;
 }
-/* line 193, ../sass/style.css.scss */
-#tertiary.footer-widget-area .legal {
-  background: #4d4e53;
-  color: #FFF;
-  font-size: 12px;
-  margin-top: 16px;
-  padding-bottom: 18px;
-  padding-top: 18px;
-}
-/* line 200, ../sass/style.css.scss */
-#tertiary.footer-widget-area .legal a {
-  color: #FFF;
-}
-/* line 202, ../sass/style.css.scss */
+/* line 180, ../sass/style.css.scss */
 #tertiary.footer-widget-area .customer-service {
   font-size: 20px;
 }
-/* line 203, ../sass/style.css.scss */
+/* line 181, ../sass/style.css.scss */
 #tertiary.footer-widget-area .link {
   padding-top: 12px;
 }
-/* line 206, ../sass/style.css.scss */
+/* line 184, ../sass/style.css.scss */
 #tertiary.footer-widget-area .return-to-top {
   border-radius: 3px;
   border: 2px solid #FFF;
@@ -8952,16 +8905,16 @@ header#masthead .navbar-toggle {
   text-align: center;
 }
 
-/* line 216, ../sass/style.css.scss */
+/* line 194, ../sass/style.css.scss */
 .site-info {
   display: none;
 }
 
-/* line 217, ../sass/style.css.scss */
+/* line 195, ../sass/style.css.scss */
 .site-footer {
   background: #4d4e53;
 }
-/* line 219, ../sass/style.css.scss */
+/* line 197, ../sass/style.css.scss */
 .site-footer .footer-navigation {
   float: left;
   margin-right: 0;
@@ -8972,16 +8925,16 @@ header#masthead .navbar-toggle {
   padding-bottom: 18px;
   padding-top: 18px;
 }
-/* line 222, ../sass/style.css.scss */
+/* line 200, ../sass/style.css.scss */
 .site-footer .footer-navigation ul {
   text-align: left;
 }
-/* line 224, ../sass/style.css.scss */
+/* line 202, ../sass/style.css.scss */
 .site-footer .footer-navigation ul a {
   color: white;
 }
 
-/* line 230, ../sass/style.css.scss */
+/* line 208, ../sass/style.css.scss */
 .widget-area .instagram-pics {
   list-style: none;
 }
@@ -8989,7 +8942,7 @@ header#masthead .navbar-toggle {
 /*----------
   Widths
   ----------*/
-/* line 249, ../sass/style.css.scss */
+/* line 227, ../sass/style.css.scss */
 .content-wrapper,
 .featured-page-wrapper,
 .footer-widget-wrapper,
@@ -9009,7 +8962,7 @@ header#masthead .navbar-toggle {
   padding-right: 10px;
 }
 @media (min-width: 768px) {
-  /* line 249, ../sass/style.css.scss */
+  /* line 227, ../sass/style.css.scss */
   .content-wrapper,
   .featured-page-wrapper,
   .footer-widget-wrapper,
@@ -9027,7 +8980,7 @@ header#masthead .navbar-toggle {
   }
 }
 @media (min-width: 992px) {
-  /* line 249, ../sass/style.css.scss */
+  /* line 227, ../sass/style.css.scss */
   .content-wrapper,
   .featured-page-wrapper,
   .footer-widget-wrapper,
@@ -9045,7 +8998,7 @@ header#masthead .navbar-toggle {
   }
 }
 @media (min-width: 1200px) {
-  /* line 249, ../sass/style.css.scss */
+  /* line 227, ../sass/style.css.scss */
   .content-wrapper,
   .featured-page-wrapper,
   .footer-widget-wrapper,
@@ -9063,7 +9016,7 @@ header#masthead .navbar-toggle {
   }
 }
 
-/* line 271, ../sass/style.css.scss */
+/* line 249, ../sass/style.css.scss */
 .site-branding,
 .has-footer-navigation .site-info,
 body[class*="alternate-sidebar"].sidebar-left .content-area,
@@ -9071,4 +9024,210 @@ body[class*="alternate-sidebar"].sidebar-left .content-area,
 body[class*="alternate-sidebar"].sidebar-left .widget-area,
 .sidebar-right .widget-area {
   margin: 0;
+}
+
+@media (min-width: 768px) {
+  /* line 255, ../sass/style.css.scss */
+  body {
+    padding-top: 116px;
+  }
+
+  /* line 258, ../sass/style.css.scss */
+  #masthead ul#menu-navigation > li {
+    display: inline-block;
+  }
+  /* line 260, ../sass/style.css.scss */
+  #masthead ul#menu-navigation > li a {
+    padding: 13px 8px;
+  }
+  /* line 263, ../sass/style.css.scss */
+  #masthead ul#menu-navigation > li.on a,
+  #masthead ul#menu-navigation > li a:hover,
+  #masthead ul#menu-navigation > li a:active {
+    padding-bottom: 10px;
+  }
+
+  /* line 267, ../sass/style.css.scss */
+  #nav-main {
+    width: 75%;
+  }
+
+  /* line 268, ../sass/style.css.scss */
+  #nav-global {
+    width: 25%;
+  }
+}
+@media (min-width: 992px) {
+  /* line 271, ../sass/style.css.scss */
+  body {
+    padding-top: 0;
+  }
+
+  /* line 272, ../sass/style.css.scss */
+  #brand {
+    text-align: left;
+    width: 25%;
+  }
+
+  /* line 273, ../sass/style.css.scss */
+  #navigation {
+    width: 75%;
+  }
+
+  /* line 275, ../sass/style.css.scss */
+  #masthead ul#menu-navigation {
+    margin-top: 25px;
+  }
+  /* line 278, ../sass/style.css.scss */
+  #masthead ul#menu-navigation > li a {
+    padding: 13px 7px;
+  }
+  /* line 281, ../sass/style.css.scss */
+  #masthead ul#menu-navigation > li.on a,
+  #masthead ul#menu-navigation > li a:hover,
+  #masthead ul#menu-navigation > li a:active {
+    padding-bottom: 10px;
+  }
+  /* line 284, ../sass/style.css.scss */
+  #masthead #nav-global {
+    margin-top: 3px;
+  }
+  /* line 286, ../sass/style.css.scss */
+  #masthead #nav-global ul#menu-navigation {
+    margin-top: 15px;
+  }
+  /* line 287, ../sass/style.css.scss */
+  #masthead #nav-global a {
+    padding: 0;
+  }
+  /* line 289, ../sass/style.css.scss */
+  #masthead #nav-global a:hover {
+    border: 0;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 297, ../sass/style.css.scss */
+  #nav-global .tag {
+    font-size: 10px;
+    margin: 10px 0;
+    width: 100px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 301, ../sass/style.css.scss */
+  #brand {
+    width: 22%;
+  }
+
+  /* line 302, ../sass/style.css.scss */
+  #navigation {
+    width: 78%;
+  }
+
+  /* line 304, ../sass/style.css.scss */
+  #nav-main {
+    width: 65%;
+  }
+
+  /* line 305, ../sass/style.css.scss */
+  #nav-global {
+    width: 35%;
+  }
+}
+/* line 308, ../sass/style.css.scss */
+.masthead {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+
+/* line 315, ../sass/style.css.scss */
+#footer {
+  background-color: #e6e7e8;
+  color: #4d4e53;
+  font-size: 13px;
+}
+/* line 319, ../sass/style.css.scss */
+#footer .row {
+  margin-bottom: 0;
+}
+/* line 320, ../sass/style.css.scss */
+#footer a {
+  color: #4d4e53;
+}
+/* line 321, ../sass/style.css.scss */
+#footer a:hover {
+  color: #000;
+  font-weight: 500;
+}
+/* line 322, ../sass/style.css.scss */
+#footer .brand {
+  margin-bottom: 32px;
+}
+/* line 323, ../sass/style.css.scss */
+#footer .nav > li > a, #footer header#masthead nav#nav-main ul#menu-navigation > li > a, header#masthead nav#nav-main #footer ul#menu-navigation > li > a {
+  padding: 2px 0;
+}
+/* line 326, ../sass/style.css.scss */
+#footer .legal {
+  background: #4d4e53;
+  color: #FFF;
+  font-size: 12px;
+  margin-top: 16px;
+  padding-bottom: 18px;
+  padding-top: 18px;
+}
+/* line 333, ../sass/style.css.scss */
+#footer .legal a {
+  color: #FFF;
+}
+/* line 335, ../sass/style.css.scss */
+#footer .customer-service {
+  font-size: 20px;
+}
+/* line 336, ../sass/style.css.scss */
+#footer .link {
+  padding-top: 12px;
+}
+/* line 339, ../sass/style.css.scss */
+#footer .return-to-top {
+  border-radius: 3px;
+  border: 2px solid #FFF;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  padding-top: 8px;
+  text-align: center;
+}
+
+/* line 349, ../sass/style.css.scss */
+.shadow-bottom {
+  box-shadow: 0px 16px 16px -16px rgba(0, 0, 0, 0.43);
+  position: relative;
+  z-index: 2;
+}
+
+/* line 356, ../sass/style.css.scss */
+.brand-border {
+  border: 1px solid #4d4e53;
+}
+
+/* line 359, ../sass/style.css.scss */
+.brand-border-top {
+  border-top: 1px solid #4d4e53;
+}
+
+/* line 362, ../sass/style.css.scss */
+.brand-border-right {
+  border-right: 1px solid #4d4e53;
+}
+
+/* line 365, ../sass/style.css.scss */
+.brand-border-bottom {
+  border-bottom: 1px solid #4d4e53;
+}
+
+/* line 368, ../sass/style.css.scss */
+.brand-border-left {
+  border-left: 1px solid #4d4e53;
 }

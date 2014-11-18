@@ -46,7 +46,7 @@ body {
 }
 a { color: $brand-primary; }
 
-header#masthead { 
+#masthead { 
   @extend .navbar-fixed-top;
   @include clearfix();
   color:#FFF;
@@ -57,10 +57,10 @@ header#masthead {
   .site-branding { height: 69px; }
   .site-title, .site-description { position: absolute; clip: rect(1px, 1px, 1px, 1px); }
 
-  nav#nav-main { 
+  #nav-main { 
     margin: 24px 0 0 0;
     float: right;
-    ul#menu-navigation {
+    #menu-navigation {
       @extend .nav;
       text-align: left;
       margin-top:4px;

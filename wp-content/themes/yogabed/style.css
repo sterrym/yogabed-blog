@@ -4907,61 +4907,61 @@ tbody.collapse.in {
 }
 
 /* line 9, ../../../../../../../../../.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_navs.scss */
-.nav, header#masthead nav#nav-main ul#menu-navigation {
+.nav, #masthead #nav-main #menu-navigation {
   margin-bottom: 0;
   padding-left: 0;
   list-style: none;
 }
 /* line 15, ../../../../../../../../../.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
-.nav:before, header#masthead nav#nav-main ul#menu-navigation:before, .nav:after, header#masthead nav#nav-main ul#menu-navigation:after {
+.nav:before, #masthead #nav-main #menu-navigation:before, .nav:after, #masthead #nav-main #menu-navigation:after {
   content: " ";
   display: table;
 }
 /* line 19, ../../../../../../../../../.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
-.nav:after, header#masthead nav#nav-main ul#menu-navigation:after {
+.nav:after, #masthead #nav-main #menu-navigation:after {
   clear: both;
 }
 /* line 15, ../../../../../../../../../.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_navs.scss */
-.nav > li, header#masthead nav#nav-main ul#menu-navigation > li {
+.nav > li, #masthead #nav-main #menu-navigation > li {
   position: relative;
   display: block;
 }
 /* line 19, ../../../../../../../../../.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_navs.scss */
-.nav > li > a, header#masthead nav#nav-main ul#menu-navigation > li > a {
+.nav > li > a, #masthead #nav-main #menu-navigation > li > a {
   position: relative;
   display: block;
   padding: 10px 15px;
 }
 /* line 24, ../../../../../../../../../.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_navs.scss */
-.nav > li > a:hover, header#masthead nav#nav-main ul#menu-navigation > li > a:hover, .nav > li > a:focus, header#masthead nav#nav-main ul#menu-navigation > li > a:focus {
+.nav > li > a:hover, #masthead #nav-main #menu-navigation > li > a:hover, .nav > li > a:focus, #masthead #nav-main #menu-navigation > li > a:focus {
   text-decoration: none;
   background-color: #e6e7e8;
 }
 /* line 31, ../../../../../../../../../.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_navs.scss */
-.nav > li.disabled > a, header#masthead nav#nav-main ul#menu-navigation > li.disabled > a {
+.nav > li.disabled > a, #masthead #nav-main #menu-navigation > li.disabled > a {
   color: #afafaf;
 }
 /* line 35, ../../../../../../../../../.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_navs.scss */
-.nav > li.disabled > a:hover, header#masthead nav#nav-main ul#menu-navigation > li.disabled > a:hover, .nav > li.disabled > a:focus, header#masthead nav#nav-main ul#menu-navigation > li.disabled > a:focus {
+.nav > li.disabled > a:hover, #masthead #nav-main #menu-navigation > li.disabled > a:hover, .nav > li.disabled > a:focus, #masthead #nav-main #menu-navigation > li.disabled > a:focus {
   color: #afafaf;
   text-decoration: none;
   background-color: transparent;
   cursor: not-allowed;
 }
 /* line 48, ../../../../../../../../../.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_navs.scss */
-.nav .open > a, header#masthead nav#nav-main ul#menu-navigation .open > a, .nav .open > a:hover, header#masthead nav#nav-main ul#menu-navigation .open > a:hover, .nav .open > a:focus, header#masthead nav#nav-main ul#menu-navigation .open > a:focus {
+.nav .open > a, #masthead #nav-main #menu-navigation .open > a, .nav .open > a:hover, #masthead #nav-main #menu-navigation .open > a:hover, .nav .open > a:focus, #masthead #nav-main #menu-navigation .open > a:focus {
   background-color: #e6e7e8;
   border-color: #f58d76;
 }
 /* line 59, ../../../../../../../../../.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_navs.scss */
-.nav .nav-divider, header#masthead nav#nav-main ul#menu-navigation .nav-divider {
+.nav .nav-divider, #masthead #nav-main #menu-navigation .nav-divider {
   height: 1px;
   margin: 9px 0;
   overflow: hidden;
   background-color: #e5e5e5;
 }
 /* line 66, ../../../../../../../../../.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_navs.scss */
-.nav > li > a > img, header#masthead nav#nav-main ul#menu-navigation > li > a > img {
+.nav > li > a > img, #masthead #nav-main #menu-navigation > li > a > img {
   max-width: none;
 }
 
@@ -5184,20 +5184,20 @@ tbody.collapse.in {
     overflow-y: visible;
   }
   /* line 84, ../../../../../../../../../.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_navbar.scss */
-  .navbar-fixed-top .navbar-collapse, header#masthead .navbar-collapse, .navbar-static-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
+  .navbar-fixed-top .navbar-collapse, #masthead .navbar-collapse, .navbar-static-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
     padding-left: 0;
     padding-right: 0;
   }
 }
 
 /* line 93, ../../../../../../../../../.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_navbar.scss */
-.navbar-fixed-top .navbar-collapse, header#masthead .navbar-collapse,
+.navbar-fixed-top .navbar-collapse, #masthead .navbar-collapse,
 .navbar-fixed-bottom .navbar-collapse {
   max-height: 340px;
 }
 @media (max-device-width: 480px) and (orientation: landscape) {
   /* line 93, ../../../../../../../../../.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_navbar.scss */
-  .navbar-fixed-top .navbar-collapse, header#masthead .navbar-collapse,
+  .navbar-fixed-top .navbar-collapse, #masthead .navbar-collapse,
   .navbar-fixed-bottom .navbar-collapse {
     max-height: 200px;
   }
@@ -5235,7 +5235,7 @@ tbody.collapse.in {
 }
 
 /* line 140, ../../../../../../../../../.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_navbar.scss */
-.navbar-fixed-top, header#masthead,
+.navbar-fixed-top, #masthead,
 .navbar-fixed-bottom {
   position: fixed;
   right: 0;
@@ -5244,14 +5244,14 @@ tbody.collapse.in {
 }
 @media (min-width: 768px) {
   /* line 140, ../../../../../../../../../.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_navbar.scss */
-  .navbar-fixed-top, header#masthead,
+  .navbar-fixed-top, #masthead,
   .navbar-fixed-bottom {
     border-radius: 0;
   }
 }
 
 /* line 151, ../../../../../../../../../.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_navbar.scss */
-.navbar-fixed-top, header#masthead {
+.navbar-fixed-top, #masthead {
   top: 0;
   border-width: 0 0 1px;
 }
@@ -8648,7 +8648,7 @@ a {
 }
 
 /* line 49, ../sass/style.css.scss */
-header#masthead {
+#masthead {
   color: #FFF;
   background: rgba(77, 78, 83, 0.8);
   font-size: 13px;
@@ -8656,39 +8656,39 @@ header#masthead {
   position: relative !important;
 }
 /* line 15, ../../../../../../../../../.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
-header#masthead:before, header#masthead:after {
+#masthead:before, #masthead:after {
   content: " ";
   display: table;
 }
 /* line 19, ../../../../../../../../../.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
-header#masthead:after {
+#masthead:after {
   clear: both;
 }
 /* line 57, ../sass/style.css.scss */
-header#masthead .site-branding {
+#masthead .site-branding {
   height: 69px;
 }
 /* line 58, ../sass/style.css.scss */
-header#masthead .site-title, header#masthead .site-description {
+#masthead .site-title, #masthead .site-description {
   position: absolute;
   clip: rect(1px, 1px, 1px, 1px);
 }
 /* line 60, ../sass/style.css.scss */
-header#masthead nav#nav-main {
+#masthead #nav-main {
   margin: 24px 0 0 0;
   float: right;
 }
 /* line 63, ../sass/style.css.scss */
-header#masthead nav#nav-main ul#menu-navigation {
+#masthead #nav-main #menu-navigation {
   text-align: left;
   margin-top: 4px;
 }
 /* line 67, ../sass/style.css.scss */
-header#masthead nav#nav-main ul#menu-navigation > li {
+#masthead #nav-main #menu-navigation > li {
   display: block;
 }
 /* line 69, ../sass/style.css.scss */
-header#masthead nav#nav-main ul#menu-navigation > li a {
+#masthead #nav-main #menu-navigation > li a {
   color: #FFF;
   font-weight: 500;
   text-decoration: none;
@@ -8697,45 +8697,45 @@ header#masthead nav#nav-main ul#menu-navigation > li a {
   text-transform: uppercase;
 }
 /* line 72, ../sass/style.css.scss */
-header#masthead nav#nav-main ul#menu-navigation > li.on a,
-header#masthead nav#nav-main ul#menu-navigation > li a:hover,
-header#masthead nav#nav-main ul#menu-navigation > li a:active {
+#masthead #nav-main #menu-navigation > li.on a,
+#masthead #nav-main #menu-navigation > li a:hover,
+#masthead #nav-main #menu-navigation > li a:active {
   background: transparent;
   border-bottom: 3px solid #f58d76;
   color: #e6e7e8;
   padding-bottom: 7px;
 }
 /* line 76, ../sass/style.css.scss */
-header#masthead .menu-toggle {
+#masthead .menu-toggle {
   background: transparent;
 }
 /* line 77, ../sass/style.css.scss */
-header#masthead .site-branding {
+#masthead .site-branding {
   width: 264px;
   padding-right: 24px;
   float: left;
 }
 /* line 78, ../sass/style.css.scss */
-header#masthead .site-logo {
+#masthead .site-logo {
   margin: 0 !important;
 }
 /* line 81, ../sass/style.css.scss */
-header#masthead .tag {
+#masthead .tag {
   color: #f58d76;
   text-transform: uppercase;
   width: 175px;
 }
 /* line 84, ../sass/style.css.scss */
-header#masthead .tag span {
+#masthead .tag span {
   display: block;
   text-align: right;
 }
 /* line 88, ../sass/style.css.scss */
-header#masthead .row {
+#masthead .row {
   margin-bottom: 0;
 }
 /* line 89, ../sass/style.css.scss */
-header#masthead .navbar-toggle {
+#masthead .navbar-toggle {
   top: 12px;
   z-index: 2;
 }
@@ -9165,7 +9165,7 @@ body[class*="alternate-sidebar"].sidebar-left .widget-area,
   margin-bottom: 32px;
 }
 /* line 323, ../sass/style.css.scss */
-#footer .nav > li > a, #footer header#masthead nav#nav-main ul#menu-navigation > li > a, header#masthead nav#nav-main #footer ul#menu-navigation > li > a {
+#footer .nav > li > a, #footer #masthead #nav-main #menu-navigation > li > a, #masthead #nav-main #footer #menu-navigation > li > a {
   padding: 2px 0;
 }
 /* line 326, ../sass/style.css.scss */

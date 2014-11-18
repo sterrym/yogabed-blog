@@ -119,7 +119,7 @@ header#masthead {
 
 #secondary aside.widget {
   padding: 0;
-  > iframe, > div { padding: 10px; border: 1px solid; border-top: 0; margin: 0; }
+  > iframe, > ul { padding: 10px; border: 1px solid; border-top: 0; margin: 0; }
   h1.widget-title { 
     display: block;
     background: url('https://yogabed.files.wordpress.com/2014/11/heading-background.png') no-repeat left top 100%;
@@ -188,3 +188,5 @@ header#masthead {
   }
 
 }
+
+.widget-area .instagram-pics { list-style: none; }

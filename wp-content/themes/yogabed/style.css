@@ -640,7 +640,7 @@ header#masthead .site-logo {
   padding: 0;
 }
 /* line 122, ../sass/style.css.scss */
-#secondary aside.widget > iframe, #secondary aside.widget > div {
+#secondary aside.widget > iframe, #secondary aside.widget > ul {
   padding: 10px;
   border: 1px solid;
   border-top: 0;
@@ -756,4 +756,9 @@ header#masthead .site-logo {
 /* line 186, ../sass/style.css.scss */
 .site-footer .footer-navigation ul a {
   color: white;
+}
+
+/* line 192, ../sass/style.css.scss */
+.widget-area .instagram-pics {
+  list-style: none;
 }

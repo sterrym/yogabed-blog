@@ -269,6 +269,10 @@ body[class*="alternate-sidebar"].sidebar-left .widget-area,
   }
 }
 
+#nav-main { float:left; width:70%; }
+#nav-global { float:right; width:30%; padding-right: 10px; /* odd layout bug to need the padding */ text-align:right; }
+
+
 @media (min-width: $screen-xs-min) {
   #brand {
     a { display: inline-block; }

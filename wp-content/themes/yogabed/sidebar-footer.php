@@ -8,7 +8,7 @@
 
 <?php if ( is_active_sidebar( 'sidebar-2' ) || is_active_sidebar( 'sidebar-3' ) || is_active_sidebar( 'sidebar-4' ) ) : ?>
 
-  <div id="tertiary" class="footer-widget-area" role="complementary">
+  <div id="tertiary" class="footer-widget-area container" role="complementary">
     <div class="footer-widget-wrapper clear row">
       <div class="brand">
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/yogabed-logomark.svg" alt="Yogabed" />

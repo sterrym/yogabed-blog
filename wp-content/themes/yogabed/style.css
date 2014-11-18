@@ -4907,61 +4907,61 @@ tbody.collapse.in {
 }
 
 /* line 9, ../../../../../../../../../.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_navs.scss */
-.nav, #masthead #nav-main #menu-navigation {
+.nav, #masthead #menu-navigation {
   margin-bottom: 0;
   padding-left: 0;
   list-style: none;
 }
 /* line 15, ../../../../../../../../../.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
-.nav:before, #masthead #nav-main #menu-navigation:before, .nav:after, #masthead #nav-main #menu-navigation:after {
+.nav:before, #masthead #menu-navigation:before, .nav:after, #masthead #menu-navigation:after {
   content: " ";
   display: table;
 }
 /* line 19, ../../../../../../../../../.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
-.nav:after, #masthead #nav-main #menu-navigation:after {
+.nav:after, #masthead #menu-navigation:after {
   clear: both;
 }
 /* line 15, ../../../../../../../../../.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_navs.scss */
-.nav > li, #masthead #nav-main #menu-navigation > li {
+.nav > li, #masthead #menu-navigation > li {
   position: relative;
   display: block;
 }
 /* line 19, ../../../../../../../../../.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_navs.scss */
-.nav > li > a, #masthead #nav-main #menu-navigation > li > a {
+.nav > li > a, #masthead #menu-navigation > li > a {
   position: relative;
   display: block;
   padding: 10px 15px;
 }
 /* line 24, ../../../../../../../../../.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_navs.scss */
-.nav > li > a:hover, #masthead #nav-main #menu-navigation > li > a:hover, .nav > li > a:focus, #masthead #nav-main #menu-navigation > li > a:focus {
+.nav > li > a:hover, #masthead #menu-navigation > li > a:hover, .nav > li > a:focus, #masthead #menu-navigation > li > a:focus {
   text-decoration: none;
   background-color: #e6e7e8;
 }
 /* line 31, ../../../../../../../../../.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_navs.scss */
-.nav > li.disabled > a, #masthead #nav-main #menu-navigation > li.disabled > a {
+.nav > li.disabled > a, #masthead #menu-navigation > li.disabled > a {
   color: #afafaf;
 }
 /* line 35, ../../../../../../../../../.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_navs.scss */
-.nav > li.disabled > a:hover, #masthead #nav-main #menu-navigation > li.disabled > a:hover, .nav > li.disabled > a:focus, #masthead #nav-main #menu-navigation > li.disabled > a:focus {
+.nav > li.disabled > a:hover, #masthead #menu-navigation > li.disabled > a:hover, .nav > li.disabled > a:focus, #masthead #menu-navigation > li.disabled > a:focus {
   color: #afafaf;
   text-decoration: none;
   background-color: transparent;
   cursor: not-allowed;
 }
 /* line 48, ../../../../../../../../../.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_navs.scss */
-.nav .open > a, #masthead #nav-main #menu-navigation .open > a, .nav .open > a:hover, #masthead #nav-main #menu-navigation .open > a:hover, .nav .open > a:focus, #masthead #nav-main #menu-navigation .open > a:focus {
+.nav .open > a, #masthead #menu-navigation .open > a, .nav .open > a:hover, #masthead #menu-navigation .open > a:hover, .nav .open > a:focus, #masthead #menu-navigation .open > a:focus {
   background-color: #e6e7e8;
   border-color: #f58d76;
 }
 /* line 59, ../../../../../../../../../.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_navs.scss */
-.nav .nav-divider, #masthead #nav-main #menu-navigation .nav-divider {
+.nav .nav-divider, #masthead #menu-navigation .nav-divider {
   height: 1px;
   margin: 9px 0;
   overflow: hidden;
   background-color: #e5e5e5;
 }
 /* line 66, ../../../../../../../../../.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_navs.scss */
-.nav > li > a > img, #masthead #nav-main #menu-navigation > li > a > img {
+.nav > li > a > img, #masthead #menu-navigation > li > a > img {
   max-width: none;
 }
 
@@ -8678,17 +8678,17 @@ a {
   margin: 24px 0 0 0;
   float: right;
 }
-/* line 63, ../sass/style.css.scss */
-#masthead #nav-main #menu-navigation {
+/* line 64, ../sass/style.css.scss */
+#masthead #menu-navigation {
   text-align: left;
   margin-top: 4px;
 }
-/* line 67, ../sass/style.css.scss */
-#masthead #nav-main #menu-navigation > li {
+/* line 68, ../sass/style.css.scss */
+#masthead #menu-navigation > li {
   display: block;
 }
-/* line 69, ../sass/style.css.scss */
-#masthead #nav-main #menu-navigation > li a {
+/* line 70, ../sass/style.css.scss */
+#masthead #menu-navigation > li a {
   color: #FFF;
   font-weight: 500;
   text-decoration: none;
@@ -8696,10 +8696,10 @@ a {
   padding: 10px 4px;
   text-transform: uppercase;
 }
-/* line 72, ../sass/style.css.scss */
-#masthead #nav-main #menu-navigation > li.on a,
-#masthead #nav-main #menu-navigation > li a:hover,
-#masthead #nav-main #menu-navigation > li a:active {
+/* line 73, ../sass/style.css.scss */
+#masthead #menu-navigation > li.on a,
+#masthead #menu-navigation > li a:hover,
+#masthead #menu-navigation > li a:active {
   background: transparent;
   border-bottom: 3px solid #f58d76;
   color: #e6e7e8;
@@ -9165,7 +9165,7 @@ body[class*="alternate-sidebar"].sidebar-left .widget-area,
   margin-bottom: 32px;
 }
 /* line 323, ../sass/style.css.scss */
-#footer .nav > li > a, #footer #masthead #nav-main #menu-navigation > li > a, #masthead #nav-main #footer #menu-navigation > li > a {
+#footer .nav > li > a, #footer #masthead #menu-navigation > li > a, #masthead #footer #menu-navigation > li > a {
   padding: 2px 0;
 }
 /* line 326, ../sass/style.css.scss */

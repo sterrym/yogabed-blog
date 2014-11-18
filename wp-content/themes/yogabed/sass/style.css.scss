@@ -60,17 +60,17 @@ a { color: $brand-primary; }
   #nav-main { 
     margin: 24px 0 0 0;
     float: right;
-    #menu-navigation {
-      @extend .nav;
-      text-align: left;
-      margin-top:4px;
-      > li {
-        display:block;
-        a { color:#FFF; font-weight:500; text-decoration:none; display:inline-block; padding:10px 4px; text-transform:uppercase; }
-        &.on a,
-        a:hover,
-        a:active { background:transparent; border-bottom:3px solid $brand-primary; color:$gray-lighter; padding-bottom:7px; }
-      }
+  }
+  #menu-navigation {
+    @extend .nav;
+    text-align: left;
+    margin-top:4px;
+    > li {
+      display:block;
+      a { color:#FFF; font-weight:500; text-decoration:none; display:inline-block; padding:10px 4px; text-transform:uppercase; }
+      &.on a,
+      a:hover,
+      a:active { background:transparent; border-bottom:3px solid $brand-primary; color:$gray-lighter; padding-bottom:7px; }
     }
   }
   .menu-toggle { background:transparent; }

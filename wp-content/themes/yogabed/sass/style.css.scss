@@ -5,31 +5,31 @@ Template: edin
 To compile, navigate to the yogabed theme directory and run `compass watch`. To minify for production run `compass compile -e production`
 Instructions taken from: http://www.aptivate.org/en/blog/2013/08/07/sass-bang-wallop/
 */
-$brand-primary: #f58d76;
-$brand-secondary: #4d4e53;
-$brand-primary-light: #f1a693;
-$gray-darker:            #231f20;
-$gray-dark:              #343741;
-$gray:                   #555a6a;
-$gray-light:             #afafaf;
-$gray-lighter:           #e6e7e8;
-$gray-lightest:          #ebeaea;
+// $brand-primary: #f58d76;
+// $brand-secondary: #4d4e53;
+// $brand-primary-light: #f1a693;
+// $gray-darker:            #231f20;
+// $gray-dark:              #343741;
+// $gray:                   #555a6a;
+// $gray-light:             #afafaf;
+// $gray-lighter:           #e6e7e8;
+// $gray-lightest:          #ebeaea;
 
-$font-size-base:          14px;
-$font-size-large:         ceil(($font-size-base * 1.2857)); // ~18px
-$font-size-small:         ceil(($font-size-base * 0.9285)); // ~13px
-$font-size-xs:            ceil(($font-size-base * 0.8571)); // ~12px
-$font-size-h1:            ceil(($font-size-base * 2.8571)); // ~40px
-$font-size-h2:            ceil(($font-size-base * 2.4285)); // ~34px
-$font-size-h3:            ceil(($font-size-base * 1.4285)); // ~20px
-$font-size-h4:            ceil(($font-size-base * 1.2857)); // ~18px
-$font-size-h5:            $font-size-base;
-$font-size-h6:            ceil(($font-size-base * 0.9285)); // ~13px
+// $font-size-base:          14px;
+// $font-size-large:         ceil(($font-size-base * 1.2857)); // ~18px
+// $font-size-small:         ceil(($font-size-base * 0.9285)); // ~13px
+// $font-size-xs:            ceil(($font-size-base * 0.8571)); // ~12px
+// $font-size-h1:            ceil(($font-size-base * 2.8571)); // ~40px
+// $font-size-h2:            ceil(($font-size-base * 2.4285)); // ~34px
+// $font-size-h3:            ceil(($font-size-base * 1.4285)); // ~20px
+// $font-size-h4:            ceil(($font-size-base * 1.2857)); // ~18px
+// $font-size-h5:            $font-size-base;
+// $font-size-h6:            ceil(($font-size-base * 0.9285)); // ~13px
 
-$font-family-sans-serif:  "HurmeGeometricSans4", "Helvetica Neue", Helvetica, Arial, sans-serif;
-$font-family-base:        $font-family-sans-serif;
+// $font-family-sans-serif:  "HurmeGeometricSans4", "Helvetica Neue", Helvetica, Arial, sans-serif;
+// $font-family-base:        $font-family-sans-serif;
 
-$border-radius-small: 3px;
+// $border-radius-small: 3px;
 
 @import "bootstrap-compass";
 @import "variables";
@@ -369,6 +369,10 @@ body[class*="alternate-sidebar"].sidebar-left .widget-area,
   a { color:#FFF; }
 }
 
+/*--------------------
+  General
+  ---------------------*/
+
 button, input[type="button"], input[type="reset"], input[type="submit"] {
   @extend .btn;
   @extend .btn-primary;
@@ -377,4 +381,4 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
 }
 
 .entry-title a:hover, .entry-title a:focus, .entry-title a:active { color: $brand-primary; text-decoration: none; }
-.entry-content a:not([class^="button"]):hover, .entry-content a:not([class^="button"]):focus, .entry-content a:not([class^="button"]):active, .page-content a:not([class^="button"]):hover, .page-content a:not([class^="button"]):focus, .page-content a:not([class^="button"]):active { border-bottom: 0; }
+.entry-content a:not([class^="button"]):hover, .entry-content a:not([class^="button"]):focus, .entry-content a:not([class^="button"]):active, .page-content a:not([class^="button"]):hover, .page-content a:not([class^="button"]):focus, .page-content a:not([class^="button"]):active { border-bottom: 0; text-decoration: none; }

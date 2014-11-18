@@ -8834,7 +8834,7 @@ a {
   padding: 10px;
   border: 1px solid;
   border-top: 0;
-  margin: 0;
+  margin: 0 auto;
 }
 /* line 147, ../sass/style.css.scss */
 #secondary aside.widget h1.widget-title {

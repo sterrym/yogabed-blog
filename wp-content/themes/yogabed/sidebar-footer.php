@@ -8,30 +8,32 @@
 
 <?php if ( is_active_sidebar( 'sidebar-2' ) || is_active_sidebar( 'sidebar-3' ) || is_active_sidebar( 'sidebar-4' ) ) : ?>
 
-  <div id="tertiary" class="footer-widget-area container" role="complementary">
-    <div class="footer-widget-wrapper clear row">
+  <div id="tertiary" class="footer-widget-area" role="complementary">
+    <div class="footer-widget-wrapper clear">
       <div class="brand">
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/yogabed-logomark.svg" alt="Yogabed" />
       </div>
-      <div class="col-xs-5 col-sm-4">
-        <div class="row">
-          <?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
-            <div class="footer-widget col-sm-6">
-              <?php dynamic_sidebar( 'sidebar-2' ); ?>
-            </div><!-- .footer-widget -->
-          <?php endif; ?>
+      <div class="row">
+        <div class="col-xs-5 col-sm-4">
+          <div class="row">
+            <?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
+              <div class="footer-widget col-sm-6">
+                <?php dynamic_sidebar( 'sidebar-2' ); ?>
+              </div><!-- .footer-widget -->
+            <?php endif; ?>
 
-          <?php if ( is_active_sidebar( 'sidebar-3' ) ) : ?>
-            <div class="footer-widget col-sm-6">
-              <?php dynamic_sidebar( 'sidebar-3' ); ?>
-            </div><!-- .footer-widget -->
-          <?php endif; ?>
+            <?php if ( is_active_sidebar( 'sidebar-3' ) ) : ?>
+              <div class="footer-widget col-sm-6">
+                <?php dynamic_sidebar( 'sidebar-3' ); ?>
+              </div><!-- .footer-widget -->
+            <?php endif; ?>
 
-          <?php if ( is_active_sidebar( 'sidebar-4' ) ) : ?>
-            <div class="footer-widget">
-              <?php dynamic_sidebar( 'sidebar-4' ); ?>
-            </div><!-- .footer-widget -->
-          <?php endif; ?>
+            <?php if ( is_active_sidebar( 'sidebar-4' ) ) : ?>
+              <div class="footer-widget">
+                <?php dynamic_sidebar( 'sidebar-4' ); ?>
+              </div><!-- .footer-widget -->
+            <?php endif; ?>
+          </div>
         </div>
       </div>
       <div class="col-sm-offset-5 col-sm-3 col-xs-7" style="text-align:right">

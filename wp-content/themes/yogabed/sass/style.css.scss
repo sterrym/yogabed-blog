@@ -183,30 +183,17 @@ a { color: $brand-primary; }
   .link {
     padding-top:12px;
   }
-  .return-to-top {
-    border-radius: $border-radius-small;
-    border:2px solid #FFF;
-    display: inline-block;
-    width:40px; height:40px;
-    padding-top: 8px;
-    text-align:center;
-  }
 }
 
+.return-to-top {
+  border-radius: $border-radius-small;
+  border:2px solid #FFF;
+  display: inline-block;
+  width:40px; height:40px;
+  padding-top: 8px;
+  text-align:center;
+}
 .site-info { display: none; }
-.site-footer {
-  background: $brand-secondary;
-  .footer-navigation { 
-    float: left; margin-right: 0; font-size: 12px;background: #4d4e53; color: #FFF; font-size:$font-size-xs; padding-bottom: 18px; padding-top: 18px;
-
-    ul { 
-      text-align: left; 
-      a { color: white; border: 0; }
-    }
-  }
-
-}
-
 .widget-area .instagram-pics { list-style: none; }
 
 

@@ -62,18 +62,17 @@
 // @import must be at top of file, otherwise CSS will not work
 // @import url("//hello.myfonts.net/count/2bfc63");
 // Regular
-$fonts-dir: "../css/fonts/";
-$relative-assets: true;
-@font-face {font-family: 'HurmeGeometricSans4';font-weight:400;font-style:normal;src: '../css/fonts/webfonts/2BFC63_6_0.eot';src: '../css/fonts/webfonts/2BFC63_6_0.eot?#iefix' format('embedded-opentype'),'../css/fonts/webfonts/2BFC63_6_0.woff' format('woff'),'../css/fonts/webfonts/2BFC63_6_0.ttf' format('truetype');}
-@font-face {font-family: 'HurmeGeometricSans4';font-weight:400;font-style:italic;src: '../css/fonts/webfonts/2BFC63_7_0.eot';src: '../css/fonts/webfonts/2BFC63_7_0.eot?#iefix' format('embedded-opentype'),'../css/fonts/webfonts/2BFC63_7_0.woff' format('woff'),'../css/fonts/webfonts/2BFC63_7_0.ttf' format('truetype');}
+$fonts-dir: "../css/fonts/webfonts/";
+@font-face {font-family: 'HurmeGeometricSans4';font-weight:400;font-style:normal;src: url($fonts-dir + '2BFC63_6_0.eot');src: url($fonts-dir + '2BFC63_6_0.eot?#iefix') format('embedded-opentype'),url($fonts-dir + '2BFC63_6_0.woff') format('woff'),url($fonts-dir + '2BFC63_6_0.ttf') format('truetype');}
+@font-face {font-family: 'HurmeGeometricSans4';font-weight:400;font-style:italic;src: url($fonts-dir + '2BFC63_7_0.eot');src: url($fonts-dir + '2BFC63_7_0.eot?#iefix') format('embedded-opentype'),url($fonts-dir + '2BFC63_7_0.woff') format('woff'),url($fonts-dir + '2BFC63_7_0.ttf') format('truetype');}
 // Semibold
-@font-face {font-family: 'HurmeGeometricSans4';font-weight:500;font-style:normal;src: '../css/fonts/webfonts/2BFC63_9_0.eot';src: '../css/fonts/webfonts/2BFC63_9_0.eot?#iefix' format('embedded-opentype'),'../css/fonts/webfonts/2BFC63_9_0.woff' format('woff'),'../css/fonts/webfonts/2BFC63_9_0.ttf' format('truetype');}
-@font-face {font-family: 'HurmeGeometricSans4';font-weight:500;font-style:italic;src: '../css/fonts/webfonts/2BFC63_B_0.eot';src: '../css/fonts/webfonts/2BFC63_B_0.eot?#iefix' format('embedded-opentype'),'../css/fonts/webfonts/2BFC63_B_0.woff' format('woff'),'../css/fonts/webfonts/2BFC63_B_0.ttf' format('truetype');}
+@font-face {font-family: 'HurmeGeometricSans4';font-weight:500;font-style:normal;src: url($fonts-dir + '2BFC63_9_0.eot');src: url($fonts-dir + '2BFC63_9_0.eot?#iefix') format('embedded-opentype'),url($fonts-dir + '2BFC63_9_0.woff') format('woff'),url($fonts-dir + '2BFC63_9_0.ttf') format('truetype');}
+@font-face {font-family: 'HurmeGeometricSans4';font-weight:500;font-style:italic;src: url($fonts-dir + '2BFC63_B_0.eot');src: url($fonts-dir + '2BFC63_B_0.eot?#iefix') format('embedded-opentype'),url($fonts-dir + '2BFC63_B_0.woff') format('woff'),url($fonts-dir + '2BFC63_B_0.ttf') format('truetype');}
 // Bold
-@font-face {font-family: 'HurmeGeometricSans4';font-weight:700;font-style:normal;src: '../css/fonts/webfonts/2BFC63_0_0.eot';src: '../css/fonts/webfonts/2BFC63_0_0.eot?#iefix' format('embedded-opentype'),'../css/fonts/webfonts/2BFC63_0_0.woff' format('woff'),'../css/fonts/webfonts/2BFC63_0_0.ttf' format('truetype');}
-@font-face {font-family: 'HurmeGeometricSans4';font-weight:700;font-style:italic;src: '../css/fonts/webfonts/2BFC63_1_0.eot';src: '../css/fonts/webfonts/2BFC63_1_0.eot?#iefix' format('embedded-opentype'),'../css/fonts/webfonts/2BFC63_1_0.woff' format('woff'),'../css/fonts/webfonts/2BFC63_1_0.ttf' format('truetype');}
+@font-face {font-family: 'HurmeGeometricSans4';font-weight:700;font-style:normal;src: url($fonts-dir + '2BFC63_0_0.eot');src: url($fonts-dir + '2BFC63_0_0.eot?#iefix') format('embedded-opentype'),url($fonts-dir + '2BFC63_0_0.woff') format('woff'),url($fonts-dir + '2BFC63_0_0.ttf') format('truetype');}
+@font-face {font-family: 'HurmeGeometricSans4';font-weight:700;font-style:italic;src: url($fonts-dir + '2BFC63_1_0.eot');src: url($fonts-dir + '2BFC63_1_0.eot?#iefix') format('embedded-opentype'),url($fonts-dir + '2BFC63_1_0.woff') format('woff'),url('webfonts/2BFC63_1_0.ttf') format('truetype');}
 // Black
-// @font-face {font-family: 'HurmeGeometricSans4';font-weight:900;font-style:normal;src: '../css/fonts/webfonts/2BFC63_D_0.eot');src: font-url('webfonts/2BFC63_D_0.eot?#iefix') format('embedded-opentype'),font-url('webfonts/2BFC63_D_0.woff') format('woff'),font-url('webfonts/2BFC63_D_0.ttf') format('truetype');}
+// @font-face {font-family: 'HurmeGeometricSans4';font-weight:900;font-style:normal;src: url('webfonts/2BFC63_D_0.eot');src: font-url('webfonts/2BFC63_D_0.eot?#iefix') format('embedded-opentype'),font-url('webfonts/2BFC63_D_0.woff') format('woff'),font-url('webfonts/2BFC63_D_0.ttf') format('truetype');}
 // @font-face {font-family: 'HurmeGeometricSans4';font-weight:900;font-style:italic;src: font-url('webfonts/2BFC63_3_0.eot');src: font-url('webfonts/2BFC63_3_0.eot?#iefix') format('embedded-opentype'),font-url('webfonts/2BFC63_3_0.woff') format('woff'),font-url('webfonts/2BFC63_3_0.ttf') format('truetype');}
 // Light
 // @font-face {font-family: 'HurmeGeometricSans4';font-weight:300;font-style:normal;src: font-url('webfonts/2BFC63_4_0.eot');src: font-url('webfonts/2BFC63_4_0.eot?#iefix') format('embedded-opentype'),font-url('webfonts/2BFC63_4_0.woff') format('woff'),font-url('webfonts/2BFC63_4_0.ttf') format('truetype');}

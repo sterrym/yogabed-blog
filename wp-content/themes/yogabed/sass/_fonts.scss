@@ -62,7 +62,7 @@
 // @import must be at top of file, otherwise CSS will not work
 // @import url("//hello.myfonts.net/count/2bfc63");
 // Regular
-$fonts-dir: "../css/fonts/webfonts/";
+$fonts-dir: "css/fonts/webfonts/";
 @font-face {font-family: 'HurmeGeometricSans4';font-weight:400;font-style:normal;src: url($fonts-dir + '2BFC63_6_0.eot');src: url($fonts-dir + '2BFC63_6_0.eot?#iefix') format('embedded-opentype'),url($fonts-dir + '2BFC63_6_0.woff') format('woff'),url($fonts-dir + '2BFC63_6_0.ttf') format('truetype');}
 @font-face {font-family: 'HurmeGeometricSans4';font-weight:400;font-style:italic;src: url($fonts-dir + '2BFC63_7_0.eot');src: url($fonts-dir + '2BFC63_7_0.eot?#iefix') format('embedded-opentype'),url($fonts-dir + '2BFC63_7_0.woff') format('woff'),url($fonts-dir + '2BFC63_7_0.ttf') format('truetype');}
 // Semibold

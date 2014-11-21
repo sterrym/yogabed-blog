@@ -20,5 +20,5 @@ function enqueue_conversant_javascript() {
     $conversant_promo_id = 2;
   }
 
-  wp_localize_script( 'conversant', 'conversant_promo_id', $promo_id );
+  wp_localize_script( 'conversant', 'conversant_promo_id', $conversant_promo_id );
 }

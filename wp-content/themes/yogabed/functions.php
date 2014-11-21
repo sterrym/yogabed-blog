@@ -12,14 +12,13 @@ function enqueue_bootstrap_javascript() {
 
 add_action( 'wp_enqueue_scripts', 'enqueue_conversant_javascript' );
 function enqueue_conversant_javascript() {
-  wp_register_script( 'conversant', get_stylesheet_directory_uri().'/javascripts/conversant.js' );
+  wp_enqueue_script( 'conversant', get_stylesheet_directory_uri().'/javascripts/conversant.js' );
 
   // Set conversant promo_id
   $promo_id = 3;
   if (is_home()) {
     $promo_id = 2;
   }
-  
+
   wp_localize_script( 'conversant', 'promo_id', $promo_id );
-  wp_enqueue_script( 'conversant');
 }

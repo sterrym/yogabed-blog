@@ -15,10 +15,10 @@ function enqueue_conversant_javascript() {
   wp_enqueue_script( 'conversant', get_stylesheet_directory_uri().'/javascripts/conversant.js' );
 
   // Set conversant promo_id
-  $promo_id = 3;
+  $conversant_promo_id = 3;
   if (is_home()) {
-    $promo_id = 2;
+    $conversant_promo_id = 2;
   }
 
-  wp_localize_script( 'conversant', 'promo_id', $promo_id );
+  wp_localize_script( 'conversant', 'conversant_promo_id', $promo_id );
 }

@@ -1,5 +1,5 @@
 var MasterTmsUdo = {         
-  "promo_id": promo_id,
+  "promo_id": conversant_promo_id,
   "user_id": "123456abc",
   "department": "Mattresses",
   "category": "Mattress Details", 

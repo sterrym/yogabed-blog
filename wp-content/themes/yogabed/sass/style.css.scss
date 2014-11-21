@@ -97,7 +97,7 @@ a { color: $brand-primary; }
 
 #secondary aside.widget {
   padding: 0;
-  > iframe, > ul { padding: 10px; border: 1px solid; border-top: 0; margin: 0 auto; }
+  > ul { padding: 10px; border: 1px solid; border-top: 0; margin: 0 auto; }
   h1.widget-title { 
     display: block;
     background: #231F20 url('/wp-content/themes/yogabed/images/heading-background.png') no-repeat left top 100%;

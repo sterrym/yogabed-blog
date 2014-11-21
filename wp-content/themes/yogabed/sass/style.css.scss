@@ -6,9 +6,9 @@ To compile, navigate to the yogabed theme directory and run `compass watch`.
 To minify for production run `compass compile -e production`
 Instructions taken from: http://www.aptivate.org/en/blog/2013/08/07/sass-bang-wallop/
 */
+@import "fonts";
 @import "bootstrap-compass";
 @import "variables";
-@import "fonts";
 @import "font-awesome";
 @import "bootstrap";
 

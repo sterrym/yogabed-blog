@@ -109,10 +109,14 @@ a { color: $brand-primary; }
     margin-bottom: 0;
   }
 }
-#twitter-widget-0 {
-  padding:10px !important;
+aside#twitter_timeline-2 {
+  padding: 0px 10px 10px 10px !important;
   margin-bottom:10px !important;
-  border: 1px solid !important;
+  border-left: 1px solid !important;
+  border-right: 1px solid !important;
+  border-bottom: 1px solid !important;
+
+  h1 { margin-left: -10px; margin-right: -10px; }
 }
 
 /* ----------------

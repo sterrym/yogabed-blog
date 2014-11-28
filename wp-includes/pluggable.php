@@ -453,21 +453,7 @@ function wp_mail( $to, $subject, $message, $headers = '', $attachments = array()
 	}
 
 	// Set to use PHP's mail()
-  // $phpmailer->IsMail();
-
-  // Over ride and set to use SMTP. Set enviromental variables.
-  $phpmailer->IsSMTP();
-  $phpmailer->SMTPAuth = true; // enable SMTP authentication
-  $phpmailer->Port = 587; //25; // set the SMTP server port
-
-  $phpmailer->Host = 'smtp.mandrillapp.com'; // SMTP server
-  $phpmailer->Username = $_ENV["MANDRILL_USERNAME"]; // SMTP server username
-  $phpmailer->Password = $_ENV["MANDRILL_API_KEY"]; // SMTP server password
-
-  $phpmailer->From = $bloginfo = get_bloginfo( 'admin_email', 'raw' );
-  $phpmailer->FromName = $bloginfo = get_bloginfo( 'name', 'raw' );
-  $phpmailer->Sender = $bloginfo = get_bloginfo( 'admin_email', 'raw' );
-  //$phpmailer->AddReplyTo($bloginfo = get_bloginfo( 'admin_email', 'raw' );, $bloginfo = get_bloginfo( 'name', 'raw' ););
+	$phpmailer->IsMail();
 
 	// Set Content-Type and charset
 	// If we don't have a content-type from the input headers
@@ -683,7 +669,10 @@ function wp_validate_auth_cookie($cookie = '', $scheme = '') {
 	$pass_frag = substr($user->user_pass, 8, 4);
 
 	$key = wp_hash( $username . '|' . $pass_frag . '|' . $expiration . '|' . $token, $scheme );
-	$hash = hash_hmac( 'sha256', $username . '|' . $expiration . '|' . $token, $key );
+
+	// If ext/hash is not present, compat.php's hash_hmac() does not support sha256.
+	$algo = function_exists( 'hash' ) ? 'sha256' : 'sha1';
+	$hash = hash_hmac( $algo, $username . '|' . $expiration . '|' . $token, $key );
 
 	if ( ! hash_equals( $hash, $hmac ) ) {
 		/**
@@ -748,7 +737,10 @@ function wp_generate_auth_cookie( $user_id, $expiration, $scheme = 'auth', $toke
 	$pass_frag = substr($user->user_pass, 8, 4);
 
 	$key = wp_hash( $user->user_login . '|' . $pass_frag . '|' . $expiration . '|' . $token, $scheme );
-	$hash = hash_hmac( 'sha256', $user->user_login . '|' . $expiration . '|' . $token, $key );
+
+	// If ext/hash is not present, compat.php's hash_hmac() does not support sha256.
+	$algo = function_exists( 'hash' ) ? 'sha256' : 'sha1';
+	$hash = hash_hmac( $algo, $user->user_login . '|' . $expiration . '|' . $token, $key );
 
 	$cookie = $user->user_login . '|' . $expiration . '|' . $token . '|' . $hash;
 
@@ -1947,7 +1939,7 @@ function wp_check_password($password, $hash, $user_id = '') {
 
 	// If the hash is still md5...
 	if ( strlen($hash) <= 32 ) {
-		$check = ( $hash == md5($password) );
+		$check = hash_equals( $hash, md5( $password ) );
 		if ( $check && $user_id ) {
 			// Rehash using new hash.
 			wp_set_password($password, $user_id);

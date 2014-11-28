@@ -2,40 +2,15 @@
 Theme Name: Yogabed
 Template: edin
 
-To compile, navigate to the yogabed theme directory and run `compass watch`. To minify for production run `compass compile -e production`
+To compile, navigate to the yogabed theme directory and run `compass watch`. 
+To minify for production run `compass compile -e production`
 Instructions taken from: http://www.aptivate.org/en/blog/2013/08/07/sass-bang-wallop/
 */
-$brand-primary: #f58d76;
-$brand-secondary: #4d4e53;
-$brand-primary-light: #f1a693;
-$gray-darker:            #231f20;
-$gray-dark:              #343741;
-$gray:                   #555a6a;
-$gray-light:             #afafaf;
-$gray-lighter:           #e6e7e8;
-$gray-lightest:          #ebeaea;
-
-$font-size-base:          14px;
-$font-size-large:         ceil(($font-size-base * 1.2857)); // ~18px
-$font-size-small:         ceil(($font-size-base * 0.9285)); // ~13px
-$font-size-xs:            ceil(($font-size-base * 0.8571)); // ~12px
-$font-size-h1:            ceil(($font-size-base * 2.8571)); // ~40px
-$font-size-h2:            ceil(($font-size-base * 2.4285)); // ~34px
-$font-size-h3:            ceil(($font-size-base * 1.4285)); // ~20px
-$font-size-h4:            ceil(($font-size-base * 1.2857)); // ~18px
-$font-size-h5:            $font-size-base;
-$font-size-h6:            ceil(($font-size-base * 0.9285)); // ~13px
-
-$font-family-sans-serif:  "HurmeGeometricSans4", "Helvetica Neue", Helvetica, Arial, sans-serif;
-$font-family-base:        $font-family-sans-serif;
-
-$border-radius-small: 3px;
-
-@import "variables";
+@import "fonts";
 @import "bootstrap-compass";
-@import "bootstrap-variables";
+@import "variables";
+@import "font-awesome";
 @import "bootstrap";
-@import "goran";
 
 body {
   font-family: $font-family-base;
@@ -56,8 +31,9 @@ a { color: $brand-primary; }
   box-shadow: 0px 16px 16px -16px rgba(0,0,0,0.43);
   border: 0;
 
-  .site-branding { height: 69px; }
+  #brand { text-align:center; }
   .site-title, .site-description { position: absolute; clip: rect(1px, 1px, 1px, 1px); }
+  #nav-main .menu-primary { display: block; /* override edin menu toggle style */ background: transparent; padding: 0; }
 
   #menu-navigation {
     @extend .nav;
@@ -72,10 +48,6 @@ a { color: $brand-primary; }
     }
   }
   .menu-toggle { background:transparent; }
-  .site-branding { width: 264px; padding-right:24px; float:left; }
-  .site-logo { margin: 0 !important; }
-
-
   .tag {
     color:$brand-primary;
     text-transform:uppercase;
@@ -86,24 +58,6 @@ a { color: $brand-primary; }
   .row { margin-bottom:0; }
   .navbar-toggle {
     top:12px; z-index:2;
-  }
-  // top:0;
-  // right: 0;
-  // left: 0; 
-  // z-index: 1030; 
-  // -webkit-transform: translate3d(0, 0, 0); 
-  // transform: translate3d(0, 0, 0);
-  // border: 0;
-}
-
-@media screen and (min-width: 1020px) {
-  header#masthead { 
-    nav#site-navigation { 
-      float:left;
-    }
-  }
-  .main-navigation {
-    width: 680px;
   }
 }
 
@@ -143,10 +97,10 @@ a { color: $brand-primary; }
 
 #secondary aside.widget {
   padding: 0;
-  > iframe, > ul { padding: 10px; border: 1px solid; border-top: 0; margin: 0 auto; }
+  > ul { padding: 10px; border: 1px solid; border-top: 0; margin: 0 auto; }
   h1.widget-title { 
     display: block;
-    background: #231F20 url('https://yogabed.files.wordpress.com/2014/11/heading-background.png') no-repeat left top 100%;
+    background: #231F20 url('/wp-content/themes/yogabed/images/heading-background.png') no-repeat left top 100%;
     line-height: 44px;
     font-weight: normal;
     text-align: center;
@@ -155,9 +109,14 @@ a { color: $brand-primary; }
     margin-bottom: 0;
   }
 }
-#twitter-widget-0 {
-  padding:0 !important;
+aside#twitter_timeline-2 {
+  padding: 0px 10px 10px 10px !important;
   margin-bottom:10px !important;
+  border-left: 1px solid !important;
+  border-right: 1px solid !important;
+  border-bottom: 1px solid !important;
+
+  h1 { margin-left: -10px; margin-right: -10px; }
 }
 
 /* ----------------
@@ -182,30 +141,17 @@ a { color: $brand-primary; }
   .link {
     padding-top:12px;
   }
-  .return-to-top {
-    border-radius: $border-radius-small;
-    border:2px solid #FFF;
-    display: inline-block;
-    width:40px; height:40px;
-    padding-top: 8px;
-    text-align:center;
-  }
 }
 
+.return-to-top {
+  border-radius: $border-radius-small;
+  border:2px solid #FFF;
+  display: inline-block;
+  width:40px; height:40px;
+  padding-top: 8px;
+  text-align:center;
+}
 .site-info { display: none; }
-.site-footer {
-  background: $brand-secondary;
-  .footer-navigation { 
-    float: left; margin-right: 0; font-size: 12px;background: #4d4e53; color: #FFF; font-size:$font-size-xs; padding-bottom: 18px; padding-top: 18px;
-
-    ul { 
-      text-align: left; 
-      a { color: white; border: 0; }
-    }
-  }
-
-}
-
 .widget-area .instagram-pics { list-style: none; }
 
 
@@ -269,6 +215,10 @@ body[class*="alternate-sidebar"].sidebar-left .widget-area,
   }
 }
 
+#nav-main { float:left; width:70%; }
+#nav-global { float:right; width:30%; padding-right: 10px; /* odd layout bug to need the padding */ text-align:right; }
+
+
 @media (min-width: $screen-xs-min) {
   #brand {
     a { display: inline-block; }
@@ -323,7 +273,10 @@ body[class*="alternate-sidebar"].sidebar-left .widget-area,
   }
 }
 @media (min-width: $screen-lg-min) {
-  #brand { width:22%; }
+  #brand { 
+    width:22%; 
+    a { float: left; }
+  }
   #navigation { width:78%; }
   
   #nav-main { width:65%; }
@@ -348,15 +301,6 @@ body[class*="alternate-sidebar"].sidebar-left .widget-area,
   .nav > li > a {
     padding: 2px 0;
   }
-  .legal {
-    background:$brand-secondary;
-    color:#FFF;
-    font-size:$font-size-xs;
-    margin-top:16px;
-    padding-bottom:18px;
-    padding-top:18px;
-    a { color:#FFF; }
-  }
   .customer-service { font-size:$font-size-h3; }
   .link {
     padding-top:12px;
@@ -370,26 +314,28 @@ body[class*="alternate-sidebar"].sidebar-left .widget-area,
     text-align:center;
   }
 }
-
-.shadow-bottom {
-  box-shadow: 0px 16px 16px -16px rgba(0,0,0,0.43);
-  position:relative;
-  z-index:2;
+.legal {
+  background:$brand-secondary;
+  color:#FFF;
+  font-size:$font-size-xs;
+  padding-bottom:18px;
+  padding-top:18px;
+  .link {
+    padding-top:12px;
+  }
+  a { color:#FFF; }
 }
 
-// Brand-colored borders
-.brand-border {
-  border:1px solid $brand-secondary;
+/*--------------------
+  General
+  ---------------------*/
+
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+  @extend .btn;
+  @extend .btn-primary;
+  @extend .btn-lg;
+  border-radius: 0;
 }
-.brand-border-top {
-  border-top:1px solid $brand-secondary;
-}
-.brand-border-right {
-  border-right:1px solid $brand-secondary;
-}
-.brand-border-bottom {
-  border-bottom:1px solid $brand-secondary;
-}
-.brand-border-left {
-  border-left:1px solid $brand-secondary;
-}
+
+.entry-title a:hover, .entry-title a:focus, .entry-title a:active { color: $brand-primary; text-decoration: none; }
+.entry-content a:not([class^="button"]):hover, .entry-content a:not([class^="button"]):focus, .entry-content a:not([class^="button"]):active, .page-content a:not([class^="button"]):hover, .page-content a:not([class^="button"]):focus, .page-content a:not([class^="button"]):active { border-bottom: 0; text-decoration: none; }

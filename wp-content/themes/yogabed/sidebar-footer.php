@@ -37,11 +37,11 @@
         </div>
         <div class="col-sm-offset-5 col-sm-3 col-xs-7" style="text-align:right">
           <p>
-            <span><a href="http://instagram.com/yogabed" target="_blank"><img alt="Social instagram" src="<?php echo get_stylesheet_directory_uri(); ?>/images/social-instagram.png"></a></span> &nbsp; 
+            <span><a href="http://instagram.com/yogabed" target="_blank"><img alt="Social instagram" src="<?php echo get_stylesheet_directory_uri(); ?>/images/social-instagram.png"></a></span> &nbsp;
             <span><a href="https://twitter.com/yogabedmattress" target="_blank"><img alt="Social twitter" src="<?php echo get_stylesheet_directory_uri(); ?>/images/social-twitter.png"></a></span>&nbsp;
             <span><a href="https://facebook.com/yogabedmattress" target="_blank"><img alt="Social facebook" src="<?php echo get_stylesheet_directory_uri(); ?>/images/social-facebook.png"></a></span>
           </p>
-          <p class="customer-service" style="font-size:20px;">Customer Service<br><a href="tel:+18009861656"><strong>1-800-986-1656</strong></a></p>
+          <p class="customer-service" style="font-size:20px;">Customer Service<br><a href="tel:+18443333709"><strong>1-844-333-3709</strong></a></p>
         </div>
       </div>
     </div><!-- .footer-widget-wrapper -->

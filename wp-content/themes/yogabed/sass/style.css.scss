@@ -2,7 +2,7 @@
 Theme Name: Yogabed
 Template: edin
 
-To compile, navigate to the yogabed theme directory and run `compass watch`. 
+To compile, navigate to the yogabed theme directory and run `compass watch`.
 To minify for production run `compass compile -e production`
 Instructions taken from: http://www.aptivate.org/en/blog/2013/08/07/sass-bang-wallop/
 */
@@ -23,7 +23,7 @@ a { color: $brand-primary; }
 
 .admin-bar #masthead { margin-top: 32px; }
 
-#masthead { 
+#masthead {
   @extend .navbar-fixed-top;
   @include clearfix();
   color:#FFF;
@@ -66,7 +66,7 @@ a { color: $brand-primary; }
    -------------------- */
 .more-link {
   margin-bottom: 0; font-weight: normal; text-align: center; vertical-align: middle; cursor: pointer; background-image: none; border: 1px solid transparent; white-space: nowrap; padding: 6px 12px; font-size: 14px; line-height: 1.428571429; -webkit-user-select: none;
-  
+
   color: white;
   background: $brand-primary-light;
   padding: 10px 16px;
@@ -88,7 +88,7 @@ a { color: $brand-primary; }
     .tags-links {
       a { color: $gray-light; border: 1px solid; display: inline-block; padding: 5px; font-weight: normal; font-size: $font-size-small; text-transform: uppercase; }
     }
-    .post-thumbnail { 
+    .post-thumbnail {
       width: 100%; margin-left: 0;
       img { max-width: 100%; }
     }
@@ -98,7 +98,7 @@ a { color: $brand-primary; }
 #secondary aside.widget {
   padding: 0;
   > ul { padding: 10px; border: 1px solid; border-top: 0; margin: 0 auto; }
-  h1.widget-title { 
+  h1.widget-title {
     display: block;
     background: #231F20 url('/wp-content/themes/yogabed/images/heading-background.png') no-repeat left top 100%;
     line-height: 44px;
@@ -259,7 +259,7 @@ body[class*="alternate-sidebar"].sidebar-left .widget-area,
     #nav-global {
       margin-top: 3px;
       ul#menu-navigation { margin-top: 15px; }
-      a { 
+      a {
         padding: 0;
         &:hover { border: 0; }
       }
@@ -273,12 +273,12 @@ body[class*="alternate-sidebar"].sidebar-left .widget-area,
   }
 }
 @media (min-width: $screen-lg-min) {
-  #brand { 
-    width:22%; 
+  #brand {
+    width:22%;
     a { float: left; }
   }
   #navigation { width:78%; }
-  
+
   #nav-main { width:65%; }
   #nav-global { width:35%; }
 }
@@ -339,3 +339,6 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
 
 .entry-title a:hover, .entry-title a:focus, .entry-title a:active { color: $brand-primary; text-decoration: none; }
 .entry-content a:not([class^="button"]):hover, .entry-content a:not([class^="button"]):focus, .entry-content a:not([class^="button"]):active, .page-content a:not([class^="button"]):hover, .page-content a:not([class^="button"]):focus, .page-content a:not([class^="button"]):active { border-bottom: 0; text-decoration: none; }
+
+// Hide HTML under comment box
+.form-allowed-tags { display:none; }
